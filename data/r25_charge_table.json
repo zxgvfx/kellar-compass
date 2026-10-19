@@ -1,0 +1,9521 @@
+{
+ "meta": {
+  "version": "1.1",
+  "snapshot": "jev-1.14-20261014",
+  "n_chars": 500,
+  "n_dims": 10,
+  "frames": [
+   "当前的情况呈现出『{c}』的特征。",
+   "这件事与『{c}』密切相关。",
+   "这里的『{c}』因素影响最大。"
+  ],
+  "probes_md5": "5dae5b9616bf",
+  "whitening_beta": 0.3885,
+  "whitening": "p_scale_whit = p_scale - beta*(p_valence-mean_valence)",
+  "source_old": "r23_results.jsonl",
+  "source_new": "r25_results.jsonl",
+  "freq_source": "MTSU Xiandai Hanyu Changyong Zibiao (Modern Chinese Corpus)"
+ },
+ "chars": {
+  "好": {
+   "pos": "adj",
+   "freq": 411866,
+   "source": "r23",
+   "norm": 0.526,
+   "vec": {
+    "p_valence": 0.433,
+    "p_scale": 0.069,
+    "p_rate": -0.092,
+    "p_time": -0.004,
+    "p_strength": 0.041,
+    "p_temp": -0.008,
+    "p_direction": -0.058,
+    "p_luminance": 0.16,
+    "p_transitivity": -0.037,
+    "p_weight": -0.209,
+    "p_scale_whit": -0.1
+   }
+  },
+  "坏": {
+   "pos": "adj",
+   "freq": 41723,
+   "source": "r23",
+   "norm": 0.51,
+   "vec": {
+    "p_valence": -0.485,
+    "p_scale": -0.06,
+    "p_rate": -0.035,
+    "p_time": -0.008,
+    "p_strength": 0.036,
+    "p_temp": -0.017,
+    "p_direction": 0.004,
+    "p_luminance": -0.0,
+    "p_transitivity": -0.04,
+    "p_weight": 0.128,
+    "p_scale_whit": 0.129
+   }
+  },
+  "大": {
+   "pos": "adj",
+   "freq": 1054064,
+   "source": "r23",
+   "norm": 0.592,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": 0.329,
+    "p_rate": -0.035,
+    "p_time": -0.016,
+    "p_strength": 0.278,
+    "p_temp": -0.007,
+    "p_direction": -0.063,
+    "p_luminance": 0.071,
+    "p_transitivity": -0.07,
+    "p_weight": 0.386,
+    "p_scale_whit": 0.32
+   }
+  },
+  "小": {
+   "pos": "adj",
+   "freq": 410987,
+   "source": "r23",
+   "norm": 0.719,
+   "vec": {
+    "p_valence": -0.014,
+    "p_scale": -0.586,
+    "p_rate": -0.07,
+    "p_time": -0.008,
+    "p_strength": -0.224,
+    "p_temp": -0.06,
+    "p_direction": -0.015,
+    "p_luminance": 0.055,
+    "p_transitivity": -0.022,
+    "p_weight": -0.334,
+    "p_scale_whit": -0.581
+   }
+  },
+  "快": {
+   "pos": "adj",
+   "freq": 116923,
+   "source": "r23",
+   "norm": 0.857,
+   "vec": {
+    "p_valence": 0.038,
+    "p_scale": 0.1,
+    "p_rate": 0.705,
+    "p_time": 0.051,
+    "p_strength": -0.079,
+    "p_temp": 0.255,
+    "p_direction": -0.063,
+    "p_luminance": 0.221,
+    "p_transitivity": -0.015,
+    "p_weight": -0.315,
+    "p_scale_whit": 0.085
+   }
+  },
+  "慢": {
+   "pos": "adj",
+   "freq": 42506,
+   "source": "r23",
+   "norm": 0.376,
+   "vec": {
+    "p_valence": -0.104,
+    "p_scale": -0.153,
+    "p_rate": -0.18,
+    "p_time": -0.031,
+    "p_strength": -0.121,
+    "p_temp": -0.05,
+    "p_direction": -0.085,
+    "p_luminance": 0.193,
+    "p_transitivity": -0.068,
+    "p_weight": 0.086,
+    "p_scale_whit": -0.113
+   }
+  },
+  "新": {
+   "pos": "adj",
+   "freq": 253921,
+   "source": "r23",
+   "norm": 0.552,
+   "vec": {
+    "p_valence": 0.028,
+    "p_scale": 0.0,
+    "p_rate": 0.192,
+    "p_time": 0.399,
+    "p_strength": -0.186,
+    "p_temp": -0.048,
+    "p_direction": -0.068,
+    "p_luminance": 0.008,
+    "p_transitivity": 0.01,
+    "p_weight": -0.257,
+    "p_scale_whit": -0.011
+   }
+  },
+  "旧": {
+   "pos": "adj",
+   "freq": 36291,
+   "source": "r23",
+   "norm": 0.613,
+   "vec": {
+    "p_valence": -0.09,
+    "p_scale": -0.021,
+    "p_rate": -0.14,
+    "p_time": -0.543,
+    "p_strength": 0.066,
+    "p_temp": -0.073,
+    "p_direction": -0.061,
+    "p_luminance": 0.031,
+    "p_transitivity": -0.052,
+    "p_weight": 0.188,
+    "p_scale_whit": 0.014
+   }
+  },
+  "强": {
+   "pos": "adj",
+   "freq": 146665,
+   "source": "r23",
+   "norm": 0.676,
+   "vec": {
+    "p_valence": 0.123,
+    "p_scale": 0.275,
+    "p_rate": 0.002,
+    "p_time": -0.014,
+    "p_strength": 0.413,
+    "p_temp": 0.273,
+    "p_direction": -0.003,
+    "p_luminance": 0.088,
+    "p_transitivity": 0.12,
+    "p_weight": 0.315,
+    "p_scale_whit": 0.227
+   }
+  },
+  "弱": {
+   "pos": "adj",
+   "freq": 29129,
+   "source": "r23",
+   "norm": 0.762,
+   "vec": {
+    "p_valence": -0.39,
+    "p_scale": -0.413,
+    "p_rate": -0.065,
+    "p_time": -0.021,
+    "p_strength": -0.442,
+    "p_temp": -0.053,
+    "p_direction": -0.05,
+    "p_luminance": 0.05,
+    "p_transitivity": -0.002,
+    "p_weight": -0.224,
+    "p_scale_whit": -0.261
+   }
+  },
+  "冷": {
+   "pos": "adj",
+   "freq": 53460,
+   "source": "r23",
+   "norm": 0.335,
+   "vec": {
+    "p_valence": -0.16,
+    "p_scale": -0.153,
+    "p_rate": -0.077,
+    "p_time": 0.007,
+    "p_strength": -0.129,
+    "p_temp": -0.095,
+    "p_direction": -0.078,
+    "p_luminance": 0.138,
+    "p_transitivity": -0.022,
+    "p_weight": -0.079,
+    "p_scale_whit": -0.091
+   }
+  },
+  "热": {
+   "pos": "adj",
+   "freq": 67051,
+   "source": "r23",
+   "norm": 0.622,
+   "vec": {
+    "p_valence": -0.009,
+    "p_scale": 0.125,
+    "p_rate": 0.16,
+    "p_time": 0.052,
+    "p_strength": -0.022,
+    "p_temp": 0.532,
+    "p_direction": -0.085,
+    "p_luminance": 0.223,
+    "p_transitivity": 0.03,
+    "p_weight": 0.036,
+    "p_scale_whit": 0.129
+   }
+  },
+  "真": {
+   "pos": "adj",
+   "freq": 198416,
+   "source": "r23",
+   "norm": 0.34,
+   "vec": {
+    "p_valence": 0.06,
+    "p_scale": 0.009,
+    "p_rate": -0.097,
+    "p_time": -0.018,
+    "p_strength": 0.268,
+    "p_temp": -0.022,
+    "p_direction": -0.053,
+    "p_luminance": 0.088,
+    "p_transitivity": -0.05,
+    "p_weight": 0.131,
+    "p_scale_whit": -0.015
+   }
+  },
+  "假": {
+   "pos": "adj",
+   "freq": 62691,
+   "source": "r23",
+   "norm": 0.465,
+   "vec": {
+    "p_valence": -0.339,
+    "p_scale": -0.01,
+    "p_rate": -0.072,
+    "p_time": -0.006,
+    "p_strength": -0.259,
+    "p_temp": -0.055,
+    "p_direction": -0.068,
+    "p_luminance": 0.013,
+    "p_transitivity": -0.025,
+    "p_weight": -0.145,
+    "p_scale_whit": 0.122
+   }
+  },
+  "乱": {
+   "pos": "adj",
+   "freq": 47474,
+   "source": "r23",
+   "norm": 0.83,
+   "vec": {
+    "p_valence": -0.444,
+    "p_scale": 0.019,
+    "p_rate": 0.353,
+    "p_time": 0.007,
+    "p_strength": -0.121,
+    "p_temp": 0.38,
+    "p_direction": -0.451,
+    "p_luminance": 0.005,
+    "p_transitivity": -0.04,
+    "p_weight": 0.055,
+    "p_scale_whit": 0.191
+   }
+  },
+  "整": {
+   "pos": "adj",
+   "freq": 100910,
+   "source": "r23",
+   "norm": 0.395,
+   "vec": {
+    "p_valence": 0.053,
+    "p_scale": -0.021,
+    "p_rate": -0.043,
+    "p_time": -0.016,
+    "p_strength": 0.229,
+    "p_temp": -0.052,
+    "p_direction": 0.199,
+    "p_luminance": -0.045,
+    "p_transitivity": 0.055,
+    "p_weight": 0.225,
+    "p_scale_whit": -0.042
+   }
+  },
+  "空": {
+   "pos": "adj",
+   "freq": 158539,
+   "source": "r23",
+   "norm": 0.617,
+   "vec": {
+    "p_valence": -0.055,
+    "p_scale": -0.131,
+    "p_rate": -0.083,
+    "p_time": -0.014,
+    "p_strength": -0.414,
+    "p_temp": -0.09,
+    "p_direction": -0.161,
+    "p_luminance": -0.059,
+    "p_transitivity": -0.033,
+    "p_weight": -0.379,
+    "p_scale_whit": -0.11
+   }
+  },
+  "满": {
+   "pos": "adj",
+   "freq": 96954,
+   "source": "r23",
+   "norm": 0.664,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": 0.25,
+    "p_rate": -0.078,
+    "p_time": -0.019,
+    "p_strength": 0.358,
+    "p_temp": 0.047,
+    "p_direction": 0.185,
+    "p_luminance": 0.058,
+    "p_transitivity": -0.073,
+    "p_weight": 0.445,
+    "p_scale_whit": 0.242
+   }
+  },
+  "松": {
+   "pos": "adj",
+   "freq": 37563,
+   "source": "r23",
+   "norm": 0.5,
+   "vec": {
+    "p_valence": 0.061,
+    "p_scale": -0.048,
+    "p_rate": -0.073,
+    "p_time": 0.006,
+    "p_strength": -0.187,
+    "p_temp": -0.01,
+    "p_direction": -0.405,
+    "p_luminance": 0.021,
+    "p_transitivity": -0.093,
+    "p_weight": -0.175,
+    "p_scale_whit": -0.072
+   }
+  },
+  "紧": {
+   "pos": "adj",
+   "freq": 72300,
+   "source": "r23",
+   "norm": 0.752,
+   "vec": {
+    "p_valence": -0.192,
+    "p_scale": 0.0,
+    "p_rate": 0.113,
+    "p_time": 0.009,
+    "p_strength": 0.344,
+    "p_temp": 0.333,
+    "p_direction": 0.365,
+    "p_luminance": 0.018,
+    "p_transitivity": -0.047,
+    "p_weight": 0.386,
+    "p_scale_whit": 0.075
+   }
+  },
+  "美": {
+   "pos": "adj",
+   "freq": 269452,
+   "source": "r23",
+   "norm": 0.483,
+   "vec": {
+    "p_valence": 0.375,
+    "p_scale": 0.005,
+    "p_rate": -0.123,
+    "p_time": 0.006,
+    "p_strength": -0.116,
+    "p_temp": 0.033,
+    "p_direction": -0.05,
+    "p_luminance": 0.068,
+    "p_transitivity": -0.04,
+    "p_weight": -0.234,
+    "p_scale_whit": -0.14
+   }
+  },
+  "丑": {
+   "pos": "adj",
+   "freq": 8067,
+   "source": "r23",
+   "norm": 0.497,
+   "vec": {
+    "p_valence": -0.477,
+    "p_scale": -0.02,
+    "p_rate": -0.095,
+    "p_time": -0.009,
+    "p_strength": -0.061,
+    "p_temp": -0.048,
+    "p_direction": -0.006,
+    "p_luminance": 0.046,
+    "p_transitivity": -0.02,
+    "p_weight": 0.041,
+    "p_scale_whit": 0.166
+   }
+  },
+  "淡": {
+   "pos": "adj",
+   "freq": 18779,
+   "source": "r23",
+   "norm": 0.66,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.318,
+    "p_rate": -0.112,
+    "p_time": -0.016,
+    "p_strength": -0.292,
+    "p_temp": -0.078,
+    "p_direction": -0.201,
+    "p_luminance": 0.14,
+    "p_transitivity": -0.03,
+    "p_weight": -0.412,
+    "p_scale_whit": -0.318
+   }
+  },
+  "浓": {
+   "pos": "adj",
+   "freq": 12016,
+   "source": "r23",
+   "norm": 0.791,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.2,
+    "p_rate": 0.002,
+    "p_time": -0.016,
+    "p_strength": 0.359,
+    "p_temp": 0.41,
+    "p_direction": 0.219,
+    "p_luminance": -0.074,
+    "p_transitivity": -0.028,
+    "p_weight": 0.483,
+    "p_scale_whit": 0.2
+   }
+  },
+  "脆": {
+   "pos": "adj",
+   "freq": 7336,
+   "source": "r23",
+   "norm": 0.749,
+   "vec": {
+    "p_valence": -0.227,
+    "p_scale": -0.048,
+    "p_rate": 0.348,
+    "p_time": 0.002,
+    "p_strength": -0.434,
+    "p_temp": -0.01,
+    "p_direction": -0.226,
+    "p_luminance": 0.076,
+    "p_transitivity": -0.127,
+    "p_weight": -0.352,
+    "p_scale_whit": 0.04
+   }
+  },
+  "坚": {
+   "pos": "adj",
+   "freq": 48749,
+   "source": "r23",
+   "norm": 0.683,
+   "vec": {
+    "p_valence": 0.043,
+    "p_scale": 0.009,
+    "p_rate": -0.125,
+    "p_time": -0.028,
+    "p_strength": 0.464,
+    "p_temp": 0.032,
+    "p_direction": 0.145,
+    "p_luminance": 0.028,
+    "p_transitivity": -0.068,
+    "p_weight": 0.453,
+    "p_scale_whit": -0.008
+   }
+  },
+  "虚": {
+   "pos": "adj",
+   "freq": 27076,
+   "source": "r23",
+   "norm": 0.683,
+   "vec": {
+    "p_valence": -0.175,
+    "p_scale": -0.133,
+    "p_rate": -0.058,
+    "p_time": -0.009,
+    "p_strength": -0.447,
+    "p_temp": -0.077,
+    "p_direction": -0.173,
+    "p_luminance": -0.132,
+    "p_transitivity": -0.05,
+    "p_weight": -0.399,
+    "p_scale_whit": -0.065
+   }
+  },
+  "实": {
+   "pos": "adj",
+   "freq": 368494,
+   "source": "r23",
+   "norm": 0.609,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.032,
+    "p_rate": -0.065,
+    "p_time": -0.021,
+    "p_strength": 0.424,
+    "p_temp": 0.015,
+    "p_direction": 0.025,
+    "p_luminance": 0.021,
+    "p_transitivity": -0.023,
+    "p_weight": 0.428,
+    "p_scale_whit": 0.027
+   }
+  },
+  "明": {
+   "pos": "adj",
+   "freq": 309873,
+   "source": "r23",
+   "norm": 0.501,
+   "vec": {
+    "p_valence": 0.1,
+    "p_scale": 0.035,
+    "p_rate": -0.035,
+    "p_time": -0.028,
+    "p_strength": 0.123,
+    "p_temp": 0.042,
+    "p_direction": -0.03,
+    "p_luminance": 0.43,
+    "p_transitivity": -0.028,
+    "p_weight": -0.185,
+    "p_scale_whit": -0.003
+   }
+  },
+  "暗": {
+   "pos": "adj",
+   "freq": 41881,
+   "source": "r23",
+   "norm": 0.609,
+   "vec": {
+    "p_valence": -0.37,
+    "p_scale": -0.09,
+    "p_rate": -0.082,
+    "p_time": -0.018,
+    "p_strength": -0.032,
+    "p_temp": -0.043,
+    "p_direction": -0.003,
+    "p_luminance": -0.182,
+    "p_transitivity": -0.025,
+    "p_weight": 0.426,
+    "p_scale_whit": 0.054
+   }
+  },
+  "清": {
+   "pos": "adj",
+   "freq": 127716,
+   "source": "r23",
+   "norm": 0.384,
+   "vec": {
+    "p_valence": 0.066,
+    "p_scale": -0.013,
+    "p_rate": -0.072,
+    "p_time": -0.019,
+    "p_strength": -0.072,
+    "p_temp": -0.065,
+    "p_direction": -0.055,
+    "p_luminance": 0.268,
+    "p_transitivity": -0.033,
+    "p_weight": -0.229,
+    "p_scale_whit": -0.039
+   }
+  },
+  "浊": {
+   "pos": "adj",
+   "freq": 1924,
+   "source": "r23",
+   "norm": 0.628,
+   "vec": {
+    "p_valence": -0.372,
+    "p_scale": -0.02,
+    "p_rate": -0.042,
+    "p_time": -0.003,
+    "p_strength": 0.064,
+    "p_temp": 0.052,
+    "p_direction": -0.005,
+    "p_luminance": -0.157,
+    "p_transitivity": -0.028,
+    "p_weight": 0.471,
+    "p_scale_whit": 0.125
+   }
+  },
+  "重": {
+   "pos": "adj",
+   "freq": 282843,
+   "source": "r23",
+   "norm": 0.648,
+   "vec": {
+    "p_valence": -0.074,
+    "p_scale": 0.204,
+    "p_rate": -0.038,
+    "p_time": -0.018,
+    "p_strength": 0.371,
+    "p_temp": 0.102,
+    "p_direction": 0.06,
+    "p_luminance": -0.015,
+    "p_transitivity": -0.0,
+    "p_weight": 0.468,
+    "p_scale_whit": 0.232
+   }
+  },
+  "轻": {
+   "pos": "adj",
+   "freq": 89852,
+   "source": "r23",
+   "norm": 0.789,
+   "vec": {
+    "p_valence": 0.083,
+    "p_scale": -0.5,
+    "p_rate": -0.03,
+    "p_time": 0.009,
+    "p_strength": -0.392,
+    "p_temp": -0.047,
+    "p_direction": -0.111,
+    "p_luminance": 0.11,
+    "p_transitivity": -0.047,
+    "p_weight": -0.427,
+    "p_scale_whit": -0.532
+   }
+  },
+  "厚": {
+   "pos": "adj",
+   "freq": 20624,
+   "source": "r23",
+   "norm": 0.704,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.204,
+    "p_rate": -0.087,
+    "p_time": -0.023,
+    "p_strength": 0.426,
+    "p_temp": 0.108,
+    "p_direction": 0.09,
+    "p_luminance": -0.06,
+    "p_transitivity": -0.07,
+    "p_weight": 0.485,
+    "p_scale_whit": 0.196
+   }
+  },
+  "薄": {
+   "pos": "adj",
+   "freq": 15150,
+   "source": "r23",
+   "norm": 0.812,
+   "vec": {
+    "p_valence": -0.114,
+    "p_scale": -0.47,
+    "p_rate": -0.057,
+    "p_time": -0.009,
+    "p_strength": -0.421,
+    "p_temp": -0.062,
+    "p_direction": -0.226,
+    "p_luminance": 0.031,
+    "p_transitivity": -0.057,
+    "p_weight": -0.432,
+    "p_scale_whit": -0.426
+   }
+  },
+  "攻": {
+   "pos": "verb",
+   "freq": 68747,
+   "source": "r23",
+   "norm": 0.767,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.054,
+    "p_rate": 0.057,
+    "p_time": 0.037,
+    "p_strength": 0.104,
+    "p_temp": 0.34,
+    "p_direction": 0.079,
+    "p_luminance": 0.13,
+    "p_transitivity": 0.653,
+    "p_weight": 0.061,
+    "p_scale_whit": 0.047
+   }
+  },
+  "守": {
+   "pos": "verb",
+   "freq": 44264,
+   "source": "r23",
+   "norm": 0.356,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": -0.015,
+    "p_rate": -0.132,
+    "p_time": -0.006,
+    "p_strength": 0.123,
+    "p_temp": -0.058,
+    "p_direction": 0.137,
+    "p_luminance": 0.07,
+    "p_transitivity": -0.197,
+    "p_weight": 0.168,
+    "p_scale_whit": -0.02
+   }
+  },
+  "推": {
+   "pos": "verb",
+   "freq": 80933,
+   "source": "r23",
+   "norm": 0.635,
+   "vec": {
+    "p_valence": -0.014,
+    "p_scale": 0.105,
+    "p_rate": 0.098,
+    "p_time": 0.026,
+    "p_strength": 0.016,
+    "p_temp": 0.022,
+    "p_direction": 0.032,
+    "p_luminance": 0.06,
+    "p_transitivity": 0.613,
+    "p_weight": -0.02,
+    "p_scale_whit": 0.111
+   }
+  },
+  "拉": {
+   "pos": "verb",
+   "freq": 134051,
+   "source": "r23",
+   "norm": 0.487,
+   "vec": {
+    "p_valence": -0.079,
+    "p_scale": -0.023,
+    "p_rate": 0.038,
+    "p_time": 0.019,
+    "p_strength": -0.047,
+    "p_temp": 0.033,
+    "p_direction": 0.207,
+    "p_luminance": 0.025,
+    "p_transitivity": 0.422,
+    "p_weight": 0.063,
+    "p_scale_whit": 0.007
+   }
+  },
+  "打": {
+   "pos": "verb",
+   "freq": 186146,
+   "source": "r23",
+   "norm": 0.826,
+   "vec": {
+    "p_valence": -0.102,
+    "p_scale": 0.01,
+    "p_rate": 0.29,
+    "p_time": 0.019,
+    "p_strength": 0.059,
+    "p_temp": 0.448,
+    "p_direction": 0.007,
+    "p_luminance": 0.096,
+    "p_transitivity": 0.583,
+    "p_weight": 0.183,
+    "p_scale_whit": 0.05
+   }
+  },
+  "防": {
+   "pos": "verb",
+   "freq": 74459,
+   "source": "r23",
+   "norm": 0.308,
+   "vec": {
+    "p_valence": -0.132,
+    "p_scale": 0.005,
+    "p_rate": -0.082,
+    "p_time": 0.004,
+    "p_strength": 0.111,
+    "p_temp": -0.047,
+    "p_direction": 0.082,
+    "p_luminance": 0.07,
+    "p_transitivity": -0.128,
+    "p_weight": 0.168,
+    "p_scale_whit": 0.057
+   }
+  },
+  "抗": {
+   "pos": "verb",
+   "freq": 47342,
+   "source": "r23",
+   "norm": 0.408,
+   "vec": {
+    "p_valence": -0.209,
+    "p_scale": 0.024,
+    "p_rate": -0.017,
+    "p_time": 0.016,
+    "p_strength": 0.101,
+    "p_temp": 0.262,
+    "p_direction": -0.015,
+    "p_luminance": -0.017,
+    "p_transitivity": 0.13,
+    "p_weight": 0.161,
+    "p_scale_whit": 0.105
+   }
+  },
+  "失": {
+   "pos": "verb",
+   "freq": 115346,
+   "source": "r23",
+   "norm": 0.716,
+   "vec": {
+    "p_valence": -0.457,
+    "p_scale": -0.225,
+    "p_rate": 0.035,
+    "p_time": 0.009,
+    "p_strength": -0.226,
+    "p_temp": -0.052,
+    "p_direction": -0.428,
+    "p_luminance": 0.001,
+    "p_transitivity": -0.097,
+    "p_weight": 0.073,
+    "p_scale_whit": -0.047
+   }
+  },
+  "得": {
+   "pos": "verb",
+   "freq": 630688,
+   "source": "r23",
+   "norm": 0.305,
+   "vec": {
+    "p_valence": 0.218,
+    "p_scale": 0.05,
+    "p_rate": -0.06,
+    "p_time": 0.009,
+    "p_strength": 0.144,
+    "p_temp": -0.022,
+    "p_direction": 0.099,
+    "p_luminance": 0.03,
+    "p_transitivity": -0.065,
+    "p_weight": -0.055,
+    "p_scale_whit": -0.034
+   }
+  },
+  "给": {
+   "pos": "verb",
+   "freq": 217815,
+   "source": "r23",
+   "norm": 0.35,
+   "vec": {
+    "p_valence": 0.098,
+    "p_scale": 0.015,
+    "p_rate": -0.04,
+    "p_time": 0.009,
+    "p_strength": -0.087,
+    "p_temp": 0.043,
+    "p_direction": -0.006,
+    "p_luminance": 0.048,
+    "p_transitivity": 0.28,
+    "p_weight": -0.144,
+    "p_scale_whit": -0.023
+   }
+  },
+  "拿": {
+   "pos": "verb",
+   "freq": 61798,
+   "source": "r23",
+   "norm": 0.339,
+   "vec": {
+    "p_valence": 0.035,
+    "p_scale": 0.005,
+    "p_rate": -0.02,
+    "p_time": 0.012,
+    "p_strength": 0.034,
+    "p_temp": -0.012,
+    "p_direction": 0.205,
+    "p_luminance": -0.0,
+    "p_transitivity": 0.263,
+    "p_weight": 0.011,
+    "p_scale_whit": -0.008
+   }
+  },
+  "增": {
+   "pos": "verb",
+   "freq": 93869,
+   "source": "r23",
+   "norm": 0.703,
+   "vec": {
+    "p_valence": 0.233,
+    "p_scale": 0.327,
+    "p_rate": 0.107,
+    "p_time": 0.094,
+    "p_strength": 0.079,
+    "p_temp": 0.018,
+    "p_direction": 0.17,
+    "p_luminance": 0.075,
+    "p_transitivity": 0.513,
+    "p_weight": 0.093,
+    "p_scale_whit": 0.236
+   }
+  },
+  "减": {
+   "pos": "verb",
+   "freq": 40011,
+   "source": "r23",
+   "norm": 0.666,
+   "vec": {
+    "p_valence": -0.234,
+    "p_scale": -0.488,
+    "p_rate": 0.032,
+    "p_time": 0.007,
+    "p_strength": -0.142,
+    "p_temp": -0.078,
+    "p_direction": -0.185,
+    "p_luminance": 0.133,
+    "p_transitivity": 0.253,
+    "p_weight": -0.087,
+    "p_scale_whit": -0.397
+   }
+  },
+  "涨": {
+   "pos": "verb",
+   "freq": 9089,
+   "source": "r23",
+   "norm": 0.722,
+   "vec": {
+    "p_valence": 0.3,
+    "p_scale": 0.33,
+    "p_rate": 0.205,
+    "p_time": 0.091,
+    "p_strength": -0.041,
+    "p_temp": 0.135,
+    "p_direction": 0.067,
+    "p_luminance": 0.163,
+    "p_transitivity": 0.46,
+    "p_weight": -0.099,
+    "p_scale_whit": 0.214
+   }
+  },
+  "跌": {
+   "pos": "verb",
+   "freq": 11967,
+   "source": "r23",
+   "norm": 0.931,
+   "vec": {
+    "p_valence": -0.46,
+    "p_scale": -0.548,
+    "p_rate": 0.287,
+    "p_time": 0.071,
+    "p_strength": -0.126,
+    "p_temp": -0.047,
+    "p_direction": -0.4,
+    "p_luminance": 0.22,
+    "p_transitivity": -0.038,
+    "p_weight": 0.201,
+    "p_scale_whit": -0.369
+   }
+  },
+  "升": {
+   "pos": "verb",
+   "freq": 41105,
+   "source": "r23",
+   "norm": 0.633,
+   "vec": {
+    "p_valence": 0.31,
+    "p_scale": 0.31,
+    "p_rate": 0.098,
+    "p_time": 0.059,
+    "p_strength": -0.017,
+    "p_temp": 0.083,
+    "p_direction": 0.019,
+    "p_luminance": 0.101,
+    "p_transitivity": 0.382,
+    "p_weight": -0.177,
+    "p_scale_whit": 0.19
+   }
+  },
+  "降": {
+   "pos": "verb",
+   "freq": 49306,
+   "source": "r23",
+   "norm": 0.75,
+   "vec": {
+    "p_valence": -0.307,
+    "p_scale": -0.605,
+    "p_rate": 0.137,
+    "p_time": 0.031,
+    "p_strength": -0.126,
+    "p_temp": -0.043,
+    "p_direction": -0.115,
+    "p_luminance": 0.046,
+    "p_transitivity": 0.147,
+    "p_weight": 0.168,
+    "p_scale_whit": -0.486
+   }
+  },
+  "进": {
+   "pos": "verb",
+   "freq": 412166,
+   "source": "r23",
+   "norm": 0.587,
+   "vec": {
+    "p_valence": 0.226,
+    "p_scale": 0.19,
+    "p_rate": 0.143,
+    "p_time": 0.051,
+    "p_strength": -0.006,
+    "p_temp": 0.037,
+    "p_direction": 0.254,
+    "p_luminance": 0.07,
+    "p_transitivity": 0.402,
+    "p_weight": -0.045,
+    "p_scale_whit": 0.102
+   }
+  },
+  "退": {
+   "pos": "verb",
+   "freq": 51272,
+   "source": "r23",
+   "norm": 0.539,
+   "vec": {
+    "p_valence": -0.28,
+    "p_scale": -0.406,
+    "p_rate": 0.017,
+    "p_time": 0.029,
+    "p_strength": -0.102,
+    "p_temp": -0.062,
+    "p_direction": -0.125,
+    "p_luminance": 0.091,
+    "p_transitivity": -0.09,
+    "p_weight": -0.0,
+    "p_scale_whit": -0.298
+   }
+  },
+  "开": {
+   "pos": "verb",
+   "freq": 377012,
+   "source": "r23",
+   "norm": 0.524,
+   "vec": {
+    "p_valence": 0.168,
+    "p_scale": 0.064,
+    "p_rate": 0.117,
+    "p_time": 0.042,
+    "p_strength": -0.007,
+    "p_temp": 0.137,
+    "p_direction": -0.27,
+    "p_luminance": 0.295,
+    "p_transitivity": 0.118,
+    "p_weight": -0.187,
+    "p_scale_whit": -0.002
+   }
+  },
+  "关": {
+   "pos": "verb",
+   "freq": 302473,
+   "source": "r23",
+   "norm": 0.191,
+   "vec": {
+    "p_valence": -0.035,
+    "p_scale": -0.008,
+    "p_rate": -0.042,
+    "p_time": -0.018,
+    "p_strength": 0.071,
+    "p_temp": -0.05,
+    "p_direction": 0.115,
+    "p_luminance": -0.029,
+    "p_transitivity": -0.09,
+    "p_weight": 0.056,
+    "p_scale_whit": 0.006
+   }
+  },
+  "收": {
+   "pos": "verb",
+   "freq": 120897,
+   "source": "r23",
+   "norm": 0.469,
+   "vec": {
+    "p_valence": -0.004,
+    "p_scale": -0.151,
+    "p_rate": 0.012,
+    "p_time": 0.016,
+    "p_strength": -0.032,
+    "p_temp": -0.055,
+    "p_direction": 0.38,
+    "p_luminance": -0.022,
+    "p_transitivity": -0.172,
+    "p_weight": 0.135,
+    "p_scale_whit": -0.15
+   }
+  },
+  "放": {
+   "pos": "verb",
+   "freq": 147600,
+   "source": "r23",
+   "norm": 0.65,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.067,
+    "p_rate": 0.078,
+    "p_time": 0.024,
+    "p_strength": -0.172,
+    "p_temp": 0.042,
+    "p_direction": -0.508,
+    "p_luminance": 0.013,
+    "p_transitivity": 0.287,
+    "p_weight": -0.199,
+    "p_scale_whit": 0.064
+   }
+  },
+  "生": {
+   "pos": "verb",
+   "freq": 682031,
+   "source": "r23",
+   "norm": 0.336,
+   "vec": {
+    "p_valence": 0.168,
+    "p_scale": 0.035,
+    "p_rate": -0.018,
+    "p_time": 0.036,
+    "p_strength": 0.098,
+    "p_temp": 0.247,
+    "p_direction": -0.013,
+    "p_luminance": 0.028,
+    "p_transitivity": 0.032,
+    "p_weight": 0.098,
+    "p_scale_whit": -0.03
+   }
+  },
+  "死": {
+   "pos": "verb",
+   "freq": 136194,
+   "source": "r23",
+   "norm": 0.706,
+   "vec": {
+    "p_valence": -0.477,
+    "p_scale": -0.063,
+    "p_rate": 0.087,
+    "p_time": -0.038,
+    "p_strength": 0.018,
+    "p_temp": 0.023,
+    "p_direction": -0.013,
+    "p_luminance": 0.058,
+    "p_transitivity": -0.013,
+    "p_weight": 0.503,
+    "p_scale_whit": 0.122
+   }
+  },
+  "胜": {
+   "pos": "verb",
+   "freq": 49565,
+   "source": "r23",
+   "norm": 0.56,
+   "vec": {
+    "p_valence": 0.443,
+    "p_scale": 0.122,
+    "p_rate": -0.07,
+    "p_time": 0.026,
+    "p_strength": 0.208,
+    "p_temp": 0.075,
+    "p_direction": 0.007,
+    "p_luminance": 0.21,
+    "p_transitivity": 0.045,
+    "p_weight": -0.039,
+    "p_scale_whit": -0.05
+   }
+  },
+  "败": {
+   "pos": "verb",
+   "freq": 39627,
+   "source": "r23",
+   "norm": 0.616,
+   "vec": {
+    "p_valence": -0.485,
+    "p_scale": -0.19,
+    "p_rate": -0.018,
+    "p_time": 0.021,
+    "p_strength": -0.082,
+    "p_temp": -0.015,
+    "p_direction": -0.116,
+    "p_luminance": 0.201,
+    "p_transitivity": -0.097,
+    "p_weight": 0.193,
+    "p_scale_whit": -0.001
+   }
+  },
+  "兴": {
+   "pos": "verb",
+   "freq": 76760,
+   "source": "r23",
+   "norm": 0.526,
+   "vec": {
+    "p_valence": 0.305,
+    "p_scale": 0.172,
+    "p_rate": 0.1,
+    "p_time": 0.031,
+    "p_strength": 0.116,
+    "p_temp": 0.317,
+    "p_direction": 0.079,
+    "p_luminance": 0.025,
+    "p_transitivity": 0.135,
+    "p_weight": -0.07,
+    "p_scale_whit": 0.054
+   }
+  },
+  "衰": {
+   "pos": "verb",
+   "freq": 10367,
+   "source": "r23",
+   "norm": 0.839,
+   "vec": {
+    "p_valence": -0.485,
+    "p_scale": -0.381,
+    "p_rate": -0.013,
+    "p_time": -0.008,
+    "p_strength": -0.291,
+    "p_temp": -0.043,
+    "p_direction": -0.4,
+    "p_luminance": 0.066,
+    "p_transitivity": -0.037,
+    "p_weight": 0.266,
+    "p_scale_whit": -0.193
+   }
+  },
+  "造": {
+   "pos": "verb",
+   "freq": 120496,
+   "source": "r23",
+   "norm": 0.536,
+   "vec": {
+    "p_valence": 0.025,
+    "p_scale": 0.014,
+    "p_rate": 0.05,
+    "p_time": 0.061,
+    "p_strength": 0.016,
+    "p_temp": -0.033,
+    "p_direction": 0.089,
+    "p_luminance": -0.055,
+    "p_transitivity": 0.495,
+    "p_weight": 0.153,
+    "p_scale_whit": 0.004
+   }
+  },
+  "破": {
+   "pos": "verb",
+   "freq": 67268,
+   "source": "r23",
+   "norm": 0.911,
+   "vec": {
+    "p_valence": -0.375,
+    "p_scale": -0.066,
+    "p_rate": 0.358,
+    "p_time": 0.039,
+    "p_strength": -0.282,
+    "p_temp": 0.122,
+    "p_direction": -0.546,
+    "p_luminance": 0.025,
+    "p_transitivity": 0.365,
+    "p_weight": 0.165,
+    "p_scale_whit": 0.079
+   }
+  },
+  "加": {
+   "pos": "verb",
+   "freq": 243648,
+   "source": "r23",
+   "norm": 0.576,
+   "vec": {
+    "p_valence": 0.128,
+    "p_scale": 0.272,
+    "p_rate": 0.098,
+    "p_time": 0.026,
+    "p_strength": 0.114,
+    "p_temp": 0.127,
+    "p_direction": 0.204,
+    "p_luminance": 0.008,
+    "p_transitivity": 0.387,
+    "p_weight": 0.101,
+    "p_scale_whit": 0.222
+   }
+  },
+  "水": {
+   "pos": "noun",
+   "freq": 198933,
+   "source": "r23",
+   "norm": 0.241,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.015,
+    "p_rate": -0.022,
+    "p_time": 0.009,
+    "p_strength": -0.167,
+    "p_temp": -0.042,
+    "p_direction": -0.08,
+    "p_luminance": 0.128,
+    "p_transitivity": -0.023,
+    "p_weight": 0.066,
+    "p_scale_whit": -0.017
+   }
+  },
+  "火": {
+   "pos": "noun",
+   "freq": 97760,
+   "source": "r23",
+   "norm": 0.911,
+   "vec": {
+    "p_valence": -0.025,
+    "p_scale": 0.04,
+    "p_rate": 0.403,
+    "p_time": 0.022,
+    "p_strength": 0.091,
+    "p_temp": 0.708,
+    "p_direction": -0.073,
+    "p_luminance": 0.381,
+    "p_transitivity": 0.038,
+    "p_weight": 0.053,
+    "p_scale_whit": 0.05
+   }
+  },
+  "风": {
+   "pos": "noun",
+   "freq": 121803,
+   "source": "r23",
+   "norm": 0.562,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.0,
+    "p_rate": 0.272,
+    "p_time": 0.016,
+    "p_strength": -0.211,
+    "p_temp": 0.017,
+    "p_direction": -0.193,
+    "p_luminance": 0.136,
+    "p_transitivity": -0.023,
+    "p_weight": -0.375,
+    "p_scale_whit": -0.0
+   }
+  },
+  "雷": {
+   "pos": "noun",
+   "freq": 55226,
+   "source": "r23",
+   "norm": 0.811,
+   "vec": {
+    "p_valence": -0.195,
+    "p_scale": 0.022,
+    "p_rate": 0.528,
+    "p_time": 0.032,
+    "p_strength": 0.076,
+    "p_temp": 0.44,
+    "p_direction": 0.014,
+    "p_luminance": 0.223,
+    "p_transitivity": 0.03,
+    "p_weight": 0.298,
+    "p_scale_whit": 0.098
+   }
+  },
+  "光": {
+   "pos": "noun",
+   "freq": 147639,
+   "source": "r23",
+   "norm": 0.632,
+   "vec": {
+    "p_valence": 0.205,
+    "p_scale": 0.015,
+    "p_rate": -0.032,
+    "p_time": 0.011,
+    "p_strength": -0.106,
+    "p_temp": 0.215,
+    "p_direction": -0.091,
+    "p_luminance": 0.415,
+    "p_transitivity": -0.023,
+    "p_weight": -0.344,
+    "p_scale_whit": -0.064
+   }
+  },
+  "影": {
+   "pos": "noun",
+   "freq": 108862,
+   "source": "r23",
+   "norm": 0.299,
+   "vec": {
+    "p_valence": -0.085,
+    "p_scale": -0.013,
+    "p_rate": -0.065,
+    "p_time": 0.009,
+    "p_strength": -0.081,
+    "p_temp": -0.06,
+    "p_direction": -0.016,
+    "p_luminance": -0.154,
+    "p_transitivity": -0.012,
+    "p_weight": 0.208,
+    "p_scale_whit": 0.02
+   }
+  },
+  "山": {
+   "pos": "noun",
+   "freq": 168142,
+   "source": "r23",
+   "norm": 0.559,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.117,
+    "p_rate": -0.11,
+    "p_time": -0.008,
+    "p_strength": 0.231,
+    "p_temp": -0.065,
+    "p_direction": -0.001,
+    "p_luminance": 0.205,
+    "p_transitivity": -0.083,
+    "p_weight": 0.425,
+    "p_scale_whit": 0.114
+   }
+  },
+  "石": {
+   "pos": "noun",
+   "freq": 102149,
+   "source": "r23",
+   "norm": 0.595,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": -0.025,
+    "p_rate": -0.113,
+    "p_time": -0.046,
+    "p_strength": 0.316,
+    "p_temp": -0.08,
+    "p_direction": -0.018,
+    "p_luminance": 0.038,
+    "p_transitivity": -0.055,
+    "p_weight": 0.476,
+    "p_scale_whit": -0.024
+   }
+  },
+  "冰": {
+   "pos": "noun",
+   "freq": 27201,
+   "source": "r23",
+   "norm": 0.344,
+   "vec": {
+    "p_valence": -0.074,
+    "p_scale": -0.055,
+    "p_rate": -0.048,
+    "p_time": 0.002,
+    "p_strength": 0.064,
+    "p_temp": -0.09,
+    "p_direction": -0.046,
+    "p_luminance": 0.22,
+    "p_transitivity": -0.042,
+    "p_weight": 0.208,
+    "p_scale_whit": -0.026
+   }
+  },
+  "云": {
+   "pos": "noun",
+   "freq": 54510,
+   "source": "r23",
+   "norm": 0.438,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.045,
+    "p_rate": -0.025,
+    "p_time": 0.019,
+    "p_strength": -0.221,
+    "p_temp": -0.067,
+    "p_direction": -0.055,
+    "p_luminance": 0.116,
+    "p_transitivity": -0.03,
+    "p_weight": -0.344,
+    "p_scale_whit": 0.042
+   }
+  },
+  "雨": {
+   "pos": "noun",
+   "freq": 35370,
+   "source": "r23",
+   "norm": 0.203,
+   "vec": {
+    "p_valence": -0.019,
+    "p_scale": -0.003,
+    "p_rate": 0.013,
+    "p_time": 0.034,
+    "p_strength": -0.051,
+    "p_temp": -0.038,
+    "p_direction": -0.02,
+    "p_luminance": 0.173,
+    "p_transitivity": -0.012,
+    "p_weight": 0.071,
+    "p_scale_whit": 0.004
+   }
+  },
+  "心": {
+   "pos": "noun",
+   "freq": 392228,
+   "source": "r23",
+   "norm": 0.4,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.01,
+    "p_rate": -0.065,
+    "p_time": 0.004,
+    "p_strength": -0.034,
+    "p_temp": 0.355,
+    "p_direction": -0.015,
+    "p_luminance": -0.025,
+    "p_transitivity": -0.02,
+    "p_weight": 0.165,
+    "p_scale_whit": 0.003
+   }
+  },
+  "手": {
+   "pos": "noun",
+   "freq": 280442,
+   "source": "r23",
+   "norm": 0.164,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": -0.001,
+    "p_rate": -0.023,
+    "p_time": 0.016,
+    "p_strength": -0.046,
+    "p_temp": -0.027,
+    "p_direction": -0.033,
+    "p_luminance": 0.146,
+    "p_transitivity": -0.025,
+    "p_weight": 0.001,
+    "p_scale_whit": -0.006
+   }
+  },
+  "口": {
+   "pos": "noun",
+   "freq": 191936,
+   "source": "r23",
+   "norm": 0.064,
+   "vec": {
+    "p_valence": -0.005,
+    "p_scale": -0.016,
+    "p_rate": -0.007,
+    "p_time": -0.013,
+    "p_strength": -0.034,
+    "p_temp": -0.033,
+    "p_direction": 0.01,
+    "p_luminance": 0.026,
+    "p_transitivity": -0.02,
+    "p_weight": -0.012,
+    "p_scale_whit": -0.014
+   }
+  },
+  "门": {
+   "pos": "noun",
+   "freq": 212769,
+   "source": "r23",
+   "norm": 0.216,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.011,
+    "p_rate": -0.052,
+    "p_time": -0.004,
+    "p_strength": -0.051,
+    "p_temp": -0.08,
+    "p_direction": -0.046,
+    "p_luminance": 0.105,
+    "p_transitivity": -0.147,
+    "p_weight": -0.007,
+    "p_scale_whit": -0.015
+   }
+  },
+  "路": {
+   "pos": "noun",
+   "freq": 141812,
+   "source": "r23",
+   "norm": 0.195,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.008,
+    "p_rate": -0.047,
+    "p_time": -0.014,
+    "p_strength": -0.021,
+    "p_temp": -0.072,
+    "p_direction": -0.056,
+    "p_luminance": 0.12,
+    "p_transitivity": -0.112,
+    "p_weight": 0.003,
+    "p_scale_whit": -0.009
+   }
+  },
+  "温": {
+   "pos": "noun",
+   "freq": 39312,
+   "source": "r23",
+   "norm": 0.348,
+   "vec": {
+    "p_valence": 0.038,
+    "p_scale": 0.01,
+    "p_rate": -0.012,
+    "p_time": -0.001,
+    "p_strength": -0.104,
+    "p_temp": 0.307,
+    "p_direction": -0.078,
+    "p_luminance": 0.041,
+    "p_transitivity": -0.005,
+    "p_weight": -0.084,
+    "p_scale_whit": -0.005
+   }
+  },
+  "速": {
+   "pos": "noun",
+   "freq": 65094,
+   "source": "r23",
+   "norm": 0.811,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": 0.062,
+    "p_rate": 0.703,
+    "p_time": 0.074,
+    "p_strength": -0.054,
+    "p_temp": 0.22,
+    "p_direction": -0.055,
+    "p_luminance": 0.168,
+    "p_transitivity": -0.003,
+    "p_weight": -0.267,
+    "p_scale_whit": 0.056
+   }
+  },
+  "车": {
+   "pos": "noun",
+   "freq": 118824,
+   "source": "r23",
+   "norm": 0.232,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.003,
+    "p_rate": -0.013,
+    "p_time": 0.006,
+    "p_strength": 0.019,
+    "p_temp": -0.07,
+    "p_direction": -0.031,
+    "p_luminance": 0.195,
+    "p_transitivity": -0.088,
+    "p_weight": 0.038,
+    "p_scale_whit": -0.003
+   }
+  },
+  "船": {
+   "pos": "noun",
+   "freq": 65883,
+   "source": "r23",
+   "norm": 0.271,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.018,
+    "p_rate": -0.065,
+    "p_time": 0.001,
+    "p_strength": -0.019,
+    "p_temp": -0.08,
+    "p_direction": -0.06,
+    "p_luminance": 0.22,
+    "p_transitivity": -0.08,
+    "p_weight": 0.061,
+    "p_scale_whit": -0.021
+   }
+  },
+  "钱": {
+   "pos": "noun",
+   "freq": 67304,
+   "source": "r23",
+   "norm": 0.372,
+   "vec": {
+    "p_valence": 0.048,
+    "p_scale": 0.007,
+    "p_rate": -0.037,
+    "p_time": 0.002,
+    "p_strength": 0.034,
+    "p_temp": -0.037,
+    "p_direction": -0.015,
+    "p_luminance": 0.293,
+    "p_transitivity": -0.077,
+    "p_weight": 0.2,
+    "p_scale_whit": -0.012
+   }
+  },
+  "金": {
+   "pos": "noun",
+   "freq": 167912,
+   "source": "r23",
+   "norm": 0.381,
+   "vec": {
+    "p_valence": 0.051,
+    "p_scale": 0.004,
+    "p_rate": -0.073,
+    "p_time": 0.011,
+    "p_strength": 0.168,
+    "p_temp": -0.035,
+    "p_direction": -0.025,
+    "p_luminance": 0.125,
+    "p_transitivity": -0.058,
+    "p_weight": 0.296,
+    "p_scale_whit": -0.016
+   }
+  },
+  "木": {
+   "pos": "noun",
+   "freq": 54433,
+   "source": "r23",
+   "norm": 0.176,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.009,
+    "p_rate": -0.078,
+    "p_time": -0.013,
+    "p_strength": 0.033,
+    "p_temp": -0.05,
+    "p_direction": -0.061,
+    "p_luminance": 0.04,
+    "p_transitivity": -0.093,
+    "p_weight": 0.083,
+    "p_scale_whit": 0.007
+   }
+  },
+  "土": {
+   "pos": "noun",
+   "freq": 79809,
+   "source": "r23",
+   "norm": 0.59,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.051,
+    "p_rate": -0.115,
+    "p_time": -0.033,
+    "p_strength": 0.291,
+    "p_temp": -0.052,
+    "p_direction": -0.021,
+    "p_luminance": 0.076,
+    "p_transitivity": -0.06,
+    "p_weight": 0.483,
+    "p_scale_whit": -0.053
+   }
+  },
+  "日": {
+   "pos": "noun",
+   "freq": 363763,
+   "source": "r23",
+   "norm": 0.456,
+   "vec": {
+    "p_valence": 0.08,
+    "p_scale": 0.025,
+    "p_rate": 0.058,
+    "p_time": 0.054,
+    "p_strength": 0.064,
+    "p_temp": 0.205,
+    "p_direction": -0.041,
+    "p_luminance": 0.375,
+    "p_transitivity": -0.07,
+    "p_weight": -0.035,
+    "p_scale_whit": -0.006
+   }
+  },
+  "月": {
+   "pos": "noun",
+   "freq": 240566,
+   "source": "r23",
+   "norm": 0.231,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.002,
+    "p_rate": -0.045,
+    "p_time": 0.016,
+    "p_strength": -0.087,
+    "p_temp": -0.045,
+    "p_direction": -0.036,
+    "p_luminance": 0.16,
+    "p_transitivity": -0.027,
+    "p_weight": -0.117,
+    "p_scale_whit": -0.003
+   }
+  },
+  "星": {
+   "pos": "noun",
+   "freq": 76320,
+   "source": "r23",
+   "norm": 0.24,
+   "vec": {
+    "p_valence": 0.035,
+    "p_scale": 0.015,
+    "p_rate": -0.008,
+    "p_time": 0.006,
+    "p_strength": -0.017,
+    "p_temp": -0.018,
+    "p_direction": -0.056,
+    "p_luminance": 0.17,
+    "p_transitivity": -0.05,
+    "p_weight": -0.145,
+    "p_scale_whit": 0.002
+   }
+  },
+  "天": {
+   "pos": "noun",
+   "freq": 419884,
+   "source": "r23",
+   "norm": 0.222,
+   "vec": {
+    "p_valence": 0.04,
+    "p_scale": 0.14,
+    "p_rate": -0.03,
+    "p_time": -0.016,
+    "p_strength": 0.098,
+    "p_temp": -0.008,
+    "p_direction": -0.038,
+    "p_luminance": 0.085,
+    "p_transitivity": -0.087,
+    "p_weight": 0.031,
+    "p_scale_whit": 0.125
+   }
+  },
+  "地": {
+   "pos": "noun",
+   "freq": 969349,
+   "source": "r23",
+   "norm": 0.561,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.125,
+    "p_rate": -0.113,
+    "p_time": -0.031,
+    "p_strength": 0.274,
+    "p_temp": -0.057,
+    "p_direction": -0.021,
+    "p_luminance": 0.04,
+    "p_transitivity": -0.107,
+    "p_weight": 0.44,
+    "p_scale_whit": -0.127
+   }
+  },
+  "海": {
+   "pos": "noun",
+   "freq": 209302,
+   "source": "r23",
+   "norm": 0.404,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.019,
+    "p_rate": -0.072,
+    "p_time": -0.004,
+    "p_strength": -0.057,
+    "p_temp": 0.0,
+    "p_direction": -0.081,
+    "p_luminance": 0.188,
+    "p_transitivity": -0.02,
+    "p_weight": 0.335,
+    "p_scale_whit": 0.016
+   }
+  },
+  "的": {
+   "pos": "f",
+   "freq": 7922684,
+   "source": "r25",
+   "norm": 0.23,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.005,
+    "p_rate": -0.068,
+    "p_time": -0.004,
+    "p_strength": -0.032,
+    "p_temp": -0.062,
+    "p_direction": 0.014,
+    "p_luminance": -0.117,
+    "p_transitivity": -0.023,
+    "p_weight": -0.17,
+    "p_scale_whit": 0.003
+   }
+  },
+  "一": {
+   "pos": "f",
+   "freq": 3050722,
+   "source": "r25",
+   "norm": 0.292,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.138,
+    "p_rate": -0.07,
+    "p_time": -0.003,
+    "p_strength": -0.004,
+    "p_temp": -0.067,
+    "p_direction": 0.05,
+    "p_luminance": -0.032,
+    "p_transitivity": -0.053,
+    "p_weight": -0.225,
+    "p_scale_whit": -0.141
+   }
+  },
+  "是": {
+   "pos": "f",
+   "freq": 2615490,
+   "source": "r25",
+   "norm": 0.229,
+   "vec": {
+    "p_valence": 0.06,
+    "p_scale": -0.006,
+    "p_rate": -0.057,
+    "p_time": -0.014,
+    "p_strength": 0.039,
+    "p_temp": -0.05,
+    "p_direction": -0.003,
+    "p_luminance": -0.059,
+    "p_transitivity": -0.022,
+    "p_weight": -0.194,
+    "p_scale_whit": -0.03
+   }
+  },
+  "不": {
+   "pos": "f",
+   "freq": 2237915,
+   "source": "r25",
+   "norm": 0.413,
+   "vec": {
+    "p_valence": -0.334,
+    "p_scale": -0.04,
+    "p_rate": -0.075,
+    "p_time": -0.008,
+    "p_strength": -0.151,
+    "p_temp": -0.06,
+    "p_direction": -0.088,
+    "p_luminance": -0.019,
+    "p_transitivity": -0.065,
+    "p_weight": -0.117,
+    "p_scale_whit": 0.09
+   }
+  },
+  "了": {
+   "pos": "f",
+   "freq": 2128528,
+   "source": "r25",
+   "norm": 0.244,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": -0.006,
+    "p_rate": 0.04,
+    "p_time": 0.149,
+    "p_strength": -0.101,
+    "p_temp": -0.043,
+    "p_direction": -0.016,
+    "p_luminance": -0.055,
+    "p_transitivity": 0.012,
+    "p_weight": -0.142,
+    "p_scale_whit": -0.006
+   }
+  },
+  "在": {
+   "pos": "f",
+   "freq": 2009181,
+   "source": "r25",
+   "norm": 0.199,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.008,
+    "p_rate": -0.09,
+    "p_time": 0.006,
+    "p_strength": -0.026,
+    "p_temp": -0.055,
+    "p_direction": 0.002,
+    "p_luminance": -0.11,
+    "p_transitivity": -0.083,
+    "p_weight": -0.094,
+    "p_scale_whit": -0.011
+   }
+  },
+  "人": {
+   "pos": "n",
+   "freq": 1867999,
+   "source": "r25",
+   "norm": 0.166,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.009,
+    "p_rate": -0.037,
+    "p_time": -0.013,
+    "p_strength": -0.056,
+    "p_temp": 0.1,
+    "p_direction": -0.035,
+    "p_luminance": 0.096,
+    "p_transitivity": -0.042,
+    "p_weight": 0.028,
+    "p_scale_whit": 0.008
+   }
+  },
+  "有": {
+   "pos": "v",
+   "freq": 1782004,
+   "source": "r25",
+   "norm": 0.228,
+   "vec": {
+    "p_valence": 0.098,
+    "p_scale": 0.032,
+    "p_rate": -0.088,
+    "p_time": -0.034,
+    "p_strength": 0.131,
+    "p_temp": -0.048,
+    "p_direction": -0.021,
+    "p_luminance": -0.072,
+    "p_transitivity": -0.085,
+    "p_weight": 0.006,
+    "p_scale_whit": -0.006
+   }
+  },
+  "我": {
+   "pos": "f",
+   "freq": 1690048,
+   "source": "r25",
+   "norm": 0.193,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.029,
+    "p_rate": -0.087,
+    "p_time": 0.024,
+    "p_strength": 0.018,
+    "p_temp": 0.105,
+    "p_direction": 0.082,
+    "p_luminance": 0.056,
+    "p_transitivity": -0.08,
+    "p_weight": -0.029,
+    "p_scale_whit": 0.026
+   }
+  },
+  "他": {
+   "pos": "f",
+   "freq": 1595761,
+   "source": "r25",
+   "norm": 0.191,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.017,
+    "p_rate": -0.058,
+    "p_time": 0.004,
+    "p_strength": -0.034,
+    "p_temp": -0.032,
+    "p_direction": 0.025,
+    "p_luminance": -0.137,
+    "p_transitivity": -0.04,
+    "p_weight": -0.099,
+    "p_scale_whit": 0.016
+   }
+  },
+  "这": {
+   "pos": "f",
+   "freq": 1552042,
+   "source": "r25",
+   "norm": 0.307,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.01,
+    "p_rate": -0.045,
+    "p_time": 0.017,
+    "p_strength": -0.079,
+    "p_temp": -0.047,
+    "p_direction": 0.044,
+    "p_luminance": -0.157,
+    "p_transitivity": -0.013,
+    "p_weight": -0.239,
+    "p_scale_whit": -0.013
+   }
+  },
+  "个": {
+   "pos": "f",
+   "freq": 1199580,
+   "source": "r25",
+   "norm": 0.28,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.113,
+    "p_rate": -0.058,
+    "p_time": -0.011,
+    "p_strength": -0.121,
+    "p_temp": -0.07,
+    "p_direction": 0.027,
+    "p_luminance": -0.104,
+    "p_transitivity": -0.043,
+    "p_weight": -0.172,
+    "p_scale_whit": -0.115
+   }
+  },
+  "们": {
+   "pos": "f",
+   "freq": 1169853,
+   "source": "r25",
+   "norm": 0.213,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.008,
+    "p_rate": -0.065,
+    "p_time": -0.003,
+    "p_strength": -0.037,
+    "p_temp": 0.015,
+    "p_direction": 0.082,
+    "p_luminance": -0.104,
+    "p_transitivity": -0.042,
+    "p_weight": -0.142,
+    "p_scale_whit": -0.01
+   }
+  },
+  "中": {
+   "pos": "n",
+   "freq": 1104541,
+   "source": "r25",
+   "norm": 0.11,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.01,
+    "p_rate": 0.063,
+    "p_time": -0.026,
+    "p_strength": -0.001,
+    "p_temp": 0.023,
+    "p_direction": -0.041,
+    "p_luminance": 0.006,
+    "p_transitivity": -0.07,
+    "p_weight": 0.001,
+    "p_scale_whit": -0.013
+   }
+  },
+  "来": {
+   "pos": "v",
+   "freq": 1079469,
+   "source": "r25",
+   "norm": 0.328,
+   "vec": {
+    "p_valence": 0.04,
+    "p_scale": 0.022,
+    "p_rate": 0.073,
+    "p_time": 0.109,
+    "p_strength": 0.024,
+    "p_temp": -0.003,
+    "p_direction": 0.25,
+    "p_luminance": -0.035,
+    "p_transitivity": -0.003,
+    "p_weight": -0.154,
+    "p_scale_whit": 0.006
+   }
+  },
+  "上": {
+   "pos": "n",
+   "freq": 1069575,
+   "source": "r25",
+   "norm": 0.349,
+   "vec": {
+    "p_valence": 0.086,
+    "p_scale": 0.24,
+    "p_rate": -0.037,
+    "p_time": 0.004,
+    "p_strength": 0.008,
+    "p_temp": -0.07,
+    "p_direction": -0.033,
+    "p_luminance": -0.029,
+    "p_transitivity": -0.053,
+    "p_weight": -0.214,
+    "p_scale_whit": 0.207
+   }
+  },
+  "为": {
+   "pos": "f",
+   "freq": 1039036,
+   "source": "r25",
+   "norm": 0.251,
+   "vec": {
+    "p_valence": 0.025,
+    "p_scale": 0.002,
+    "p_rate": -0.04,
+    "p_time": -0.004,
+    "p_strength": -0.029,
+    "p_temp": -0.035,
+    "p_direction": 0.055,
+    "p_luminance": -0.139,
+    "p_transitivity": 0.113,
+    "p_weight": -0.154,
+    "p_scale_whit": -0.008
+   }
+  },
+  "和": {
+   "pos": "f",
+   "freq": 1010465,
+   "source": "r25",
+   "norm": 0.375,
+   "vec": {
+    "p_valence": 0.196,
+    "p_scale": 0.002,
+    "p_rate": -0.077,
+    "p_time": -0.016,
+    "p_strength": -0.104,
+    "p_temp": 0.167,
+    "p_direction": 0.164,
+    "p_luminance": -0.054,
+    "p_transitivity": -0.077,
+    "p_weight": -0.149,
+    "p_scale_whit": -0.074
+   }
+  },
+  "国": {
+   "pos": "n",
+   "freq": 985350,
+   "source": "r25",
+   "norm": 0.278,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.037,
+    "p_rate": -0.058,
+    "p_time": -0.021,
+    "p_strength": 0.028,
+    "p_temp": -0.058,
+    "p_direction": -0.006,
+    "p_luminance": 0.003,
+    "p_transitivity": -0.075,
+    "p_weight": 0.25,
+    "p_scale_whit": 0.033
+   }
+  },
+  "到": {
+   "pos": "v",
+   "freq": 965035,
+   "source": "r25",
+   "norm": 0.237,
+   "vec": {
+    "p_valence": 0.026,
+    "p_scale": 0.0,
+    "p_rate": 0.055,
+    "p_time": 0.024,
+    "p_strength": -0.037,
+    "p_temp": -0.047,
+    "p_direction": 0.189,
+    "p_luminance": -0.067,
+    "p_transitivity": -0.013,
+    "p_weight": -0.089,
+    "p_scale_whit": -0.01
+   }
+  },
+  "以": {
+   "pos": "f",
+   "freq": 910627,
+   "source": "r25",
+   "norm": 0.237,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.003,
+    "p_rate": -0.05,
+    "p_time": -0.009,
+    "p_strength": -0.056,
+    "p_temp": -0.068,
+    "p_direction": 0.029,
+    "p_luminance": -0.134,
+    "p_transitivity": -0.037,
+    "p_weight": -0.16,
+    "p_scale_whit": -0.005
+   }
+  },
+  "说": {
+   "pos": "v",
+   "freq": 874977,
+   "source": "r25",
+   "norm": 0.369,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.002,
+    "p_rate": 0.008,
+    "p_time": 0.006,
+    "p_strength": -0.087,
+    "p_temp": 0.038,
+    "p_direction": -0.015,
+    "p_luminance": 0.061,
+    "p_transitivity": 0.235,
+    "p_weight": -0.26,
+    "p_scale_whit": -0.003
+   }
+  },
+  "时": {
+   "pos": "n",
+   "freq": 833532,
+   "source": "r25",
+   "norm": 0.246,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.004,
+    "p_rate": 0.178,
+    "p_time": 0.062,
+    "p_strength": -0.094,
+    "p_temp": -0.043,
+    "p_direction": -0.026,
+    "p_luminance": -0.019,
+    "p_transitivity": -0.082,
+    "p_weight": -0.08,
+    "p_scale_whit": 0.0
+   }
+  },
+  "要": {
+   "pos": "v",
+   "freq": 811011,
+   "source": "r25",
+   "norm": 0.142,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": 0.05,
+    "p_rate": -0.022,
+    "p_time": 0.001,
+    "p_strength": 0.098,
+    "p_temp": 0.027,
+    "p_direction": 0.065,
+    "p_luminance": -0.042,
+    "p_transitivity": -0.028,
+    "p_weight": -0.014,
+    "p_scale_whit": 0.05
+   }
+  },
+  "就": {
+   "pos": "f",
+   "freq": 771108,
+   "source": "r25",
+   "norm": 0.208,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": -0.021,
+    "p_rate": 0.023,
+    "p_time": -0.001,
+    "p_strength": 0.069,
+    "p_temp": -0.035,
+    "p_direction": 0.125,
+    "p_luminance": -0.057,
+    "p_transitivity": -0.062,
+    "p_weight": -0.114,
+    "p_scale_whit": -0.03
+   }
+  },
+  "出": {
+   "pos": "v",
+   "freq": 755256,
+   "source": "r25",
+   "norm": 0.522,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.067,
+    "p_rate": 0.103,
+    "p_time": 0.041,
+    "p_strength": -0.016,
+    "p_temp": -0.05,
+    "p_direction": -0.388,
+    "p_luminance": 0.053,
+    "p_transitivity": 0.27,
+    "p_weight": -0.164,
+    "p_scale_whit": 0.06
+   }
+  },
+  "会": {
+   "pos": "v",
+   "freq": 734888,
+   "source": "r25",
+   "norm": 0.225,
+   "vec": {
+    "p_valence": 0.078,
+    "p_scale": 0.014,
+    "p_rate": 0.022,
+    "p_time": -0.013,
+    "p_strength": -0.014,
+    "p_temp": -0.008,
+    "p_direction": 0.1,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.022,
+    "p_weight": -0.174,
+    "p_scale_whit": -0.017
+   }
+  },
+  "可": {
+   "pos": "f",
+   "freq": 723108,
+   "source": "r25",
+   "norm": 0.32,
+   "vec": {
+    "p_valence": 0.183,
+    "p_scale": 0.015,
+    "p_rate": -0.027,
+    "p_time": -0.009,
+    "p_strength": -0.074,
+    "p_temp": -0.055,
+    "p_direction": -0.041,
+    "p_luminance": -0.009,
+    "p_transitivity": -0.088,
+    "p_weight": -0.224,
+    "p_scale_whit": -0.056
+   }
+  },
+  "也": {
+   "pos": "f",
+   "freq": 710259,
+   "source": "r25",
+   "norm": 0.246,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.016,
+    "p_rate": -0.085,
+    "p_time": -0.023,
+    "p_strength": -0.067,
+    "p_temp": -0.05,
+    "p_direction": 0.014,
+    "p_luminance": -0.08,
+    "p_transitivity": -0.008,
+    "p_weight": -0.197,
+    "p_scale_whit": -0.02
+   }
+  },
+  "你": {
+   "pos": "f",
+   "freq": 705205,
+   "source": "r25",
+   "norm": 0.211,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.022,
+    "p_rate": -0.073,
+    "p_time": 0.027,
+    "p_strength": -0.004,
+    "p_temp": 0.123,
+    "p_direction": 0.084,
+    "p_luminance": 0.023,
+    "p_transitivity": -0.077,
+    "p_weight": -0.095,
+    "p_scale_whit": 0.018
+   }
+  },
+  "对": {
+   "pos": "f",
+   "freq": 703632,
+   "source": "r25",
+   "norm": 0.288,
+   "vec": {
+    "p_valence": 0.176,
+    "p_scale": 0.015,
+    "p_rate": -0.058,
+    "p_time": 0.004,
+    "p_strength": 0.061,
+    "p_temp": -0.057,
+    "p_direction": 0.03,
+    "p_luminance": -0.034,
+    "p_transitivity": -0.085,
+    "p_weight": -0.179,
+    "p_scale_whit": -0.053
+   }
+  },
+  "能": {
+   "pos": "v",
+   "freq": 665358,
+   "source": "r25",
+   "norm": 0.291,
+   "vec": {
+    "p_valence": 0.203,
+    "p_scale": 0.05,
+    "p_rate": -0.063,
+    "p_time": -0.016,
+    "p_strength": 0.126,
+    "p_temp": -0.045,
+    "p_direction": -0.028,
+    "p_luminance": 0.025,
+    "p_transitivity": -0.03,
+    "p_weight": -0.129,
+    "p_scale_whit": -0.029
+   }
+  },
+  "而": {
+   "pos": "f",
+   "freq": 649239,
+   "source": "r25",
+   "norm": 0.236,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.004,
+    "p_rate": -0.037,
+    "p_time": -0.014,
+    "p_strength": -0.076,
+    "p_temp": -0.06,
+    "p_direction": -0.013,
+    "p_luminance": -0.117,
+    "p_transitivity": -0.033,
+    "p_weight": -0.174,
+    "p_scale_whit": 0.002
+   }
+  },
+  "子": {
+   "pos": "n",
+   "freq": 640640,
+   "source": "r25",
+   "norm": 0.169,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.09,
+    "p_rate": -0.04,
+    "p_time": -0.006,
+    "p_strength": -0.004,
+    "p_temp": -0.067,
+    "p_direction": 0.007,
+    "p_luminance": -0.1,
+    "p_transitivity": -0.013,
+    "p_weight": -0.065,
+    "p_scale_whit": -0.092
+   }
+  },
+  "那": {
+   "pos": "f",
+   "freq": 638538,
+   "source": "r25",
+   "norm": 0.183,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.001,
+    "p_rate": -0.03,
+    "p_time": -0.003,
+    "p_strength": 0.048,
+    "p_temp": -0.028,
+    "p_direction": 0.037,
+    "p_luminance": -0.142,
+    "p_transitivity": -0.003,
+    "p_weight": -0.09,
+    "p_scale_whit": -0.003
+   }
+  },
+  "于": {
+   "pos": "f",
+   "freq": 630524,
+   "source": "r25",
+   "norm": 0.15,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.0,
+    "p_rate": -0.042,
+    "p_time": -0.013,
+    "p_strength": -0.026,
+    "p_temp": -0.052,
+    "p_direction": 0.049,
+    "p_luminance": -0.082,
+    "p_transitivity": -0.017,
+    "p_weight": -0.089,
+    "p_scale_whit": -0.001
+   }
+  },
+  "着": {
+   "pos": "f",
+   "freq": 626326,
+   "source": "r25",
+   "norm": 0.144,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.006,
+    "p_rate": -0.027,
+    "p_time": 0.014,
+    "p_strength": 0.018,
+    "p_temp": 0.012,
+    "p_direction": 0.069,
+    "p_luminance": -0.12,
+    "p_transitivity": 0.008,
+    "p_weight": -0.01,
+    "p_scale_whit": -0.008
+   }
+  },
+  "下": {
+   "pos": "n",
+   "freq": 621185,
+   "source": "r25",
+   "norm": 0.61,
+   "vec": {
+    "p_valence": -0.13,
+    "p_scale": -0.518,
+    "p_rate": -0.018,
+    "p_time": 0.002,
+    "p_strength": -0.092,
+    "p_temp": -0.082,
+    "p_direction": -0.06,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.1,
+    "p_weight": 0.236,
+    "p_scale_whit": -0.467
+   }
+  },
+  "自": {
+   "pos": "f",
+   "freq": 611687,
+   "source": "r25",
+   "norm": 0.126,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.004,
+    "p_rate": -0.057,
+    "p_time": -0.009,
+    "p_strength": -0.024,
+    "p_temp": -0.028,
+    "p_direction": 0.029,
+    "p_luminance": -0.039,
+    "p_transitivity": -0.092,
+    "p_weight": -0.019,
+    "p_scale_whit": -0.001
+   }
+  },
+  "之": {
+   "pos": "f",
+   "freq": 609003,
+   "source": "r25",
+   "norm": 0.182,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.012,
+    "p_rate": -0.033,
+    "p_time": -0.014,
+    "p_strength": 0.028,
+    "p_temp": -0.047,
+    "p_direction": 0.042,
+    "p_luminance": -0.13,
+    "p_transitivity": 0.017,
+    "p_weight": -0.099,
+    "p_scale_whit": 0.011
+   }
+  },
+  "年": {
+   "pos": "n",
+   "freq": 601887,
+   "source": "r25",
+   "norm": 0.205,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.032,
+    "p_rate": -0.112,
+    "p_time": -0.064,
+    "p_strength": 0.001,
+    "p_temp": -0.055,
+    "p_direction": -0.025,
+    "p_luminance": 0.011,
+    "p_transitivity": -0.023,
+    "p_weight": 0.141,
+    "p_scale_whit": 0.026
+   }
+  },
+  "过": {
+   "pos": "v",
+   "freq": 589925,
+   "source": "r25",
+   "norm": 0.32,
+   "vec": {
+    "p_valence": -0.189,
+    "p_scale": 0.149,
+    "p_rate": 0.125,
+    "p_time": 0.002,
+    "p_strength": 0.093,
+    "p_temp": 0.012,
+    "p_direction": -0.02,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.0,
+    "p_weight": 0.136,
+    "p_scale_whit": 0.222
+   }
+  },
+  "发": {
+   "pos": "v",
+   "freq": 572904,
+   "source": "r25",
+   "norm": 0.474,
+   "vec": {
+    "p_valence": 0.11,
+    "p_scale": 0.104,
+    "p_rate": 0.312,
+    "p_time": 0.056,
+    "p_strength": 0.036,
+    "p_temp": 0.143,
+    "p_direction": -0.1,
+    "p_luminance": 0.011,
+    "p_transitivity": 0.253,
+    "p_weight": -0.077,
+    "p_scale_whit": 0.061
+   }
+  },
+  "后": {
+   "pos": "n",
+   "freq": 570764,
+   "source": "r25",
+   "norm": 0.169,
+   "vec": {
+    "p_valence": -0.005,
+    "p_scale": -0.011,
+    "p_rate": -0.042,
+    "p_time": 0.014,
+    "p_strength": -0.092,
+    "p_temp": -0.073,
+    "p_direction": -0.035,
+    "p_luminance": -0.085,
+    "p_transitivity": -0.058,
+    "p_weight": 0.028,
+    "p_scale_whit": -0.009
+   }
+  },
+  "作": {
+   "pos": "v",
+   "freq": 542791,
+   "source": "r25",
+   "norm": 0.468,
+   "vec": {
+    "p_valence": -0.029,
+    "p_scale": 0.012,
+    "p_rate": 0.027,
+    "p_time": 0.007,
+    "p_strength": -0.047,
+    "p_temp": -0.027,
+    "p_direction": -0.021,
+    "p_luminance": -0.089,
+    "p_transitivity": 0.45,
+    "p_weight": -0.059,
+    "p_scale_whit": 0.023
+   }
+  },
+  "里": {
+   "pos": "n",
+   "freq": 537795,
+   "source": "r25",
+   "norm": 0.253,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.05,
+    "p_rate": -0.088,
+    "p_time": -0.006,
+    "p_strength": -0.029,
+    "p_temp": -0.038,
+    "p_direction": 0.055,
+    "p_luminance": -0.109,
+    "p_transitivity": -0.05,
+    "p_weight": 0.185,
+    "p_scale_whit": -0.051
+   }
+  },
+  "用": {
+   "pos": "v",
+   "freq": 535480,
+   "source": "r25",
+   "norm": 0.264,
+   "vec": {
+    "p_valence": 0.025,
+    "p_scale": 0.004,
+    "p_rate": -0.03,
+    "p_time": 0.007,
+    "p_strength": -0.021,
+    "p_temp": -0.048,
+    "p_direction": -0.011,
+    "p_luminance": -0.044,
+    "p_transitivity": 0.23,
+    "p_weight": -0.102,
+    "p_scale_whit": -0.006
+   }
+  },
+  "道": {
+   "pos": "n",
+   "freq": 534695,
+   "source": "r25",
+   "norm": 0.402,
+   "vec": {
+    "p_valence": 0.075,
+    "p_scale": 0.017,
+    "p_rate": -0.092,
+    "p_time": -0.129,
+    "p_strength": 0.043,
+    "p_temp": -0.043,
+    "p_direction": -0.055,
+    "p_luminance": -0.147,
+    "p_transitivity": -0.075,
+    "p_weight": 0.311,
+    "p_scale_whit": -0.012
+   }
+  },
+  "行": {
+   "pos": "v",
+   "freq": 531848,
+   "source": "r25",
+   "norm": 0.245,
+   "vec": {
+    "p_valence": 0.133,
+    "p_scale": -0.01,
+    "p_rate": 0.085,
+    "p_time": 0.001,
+    "p_strength": 0.056,
+    "p_temp": -0.038,
+    "p_direction": -0.048,
+    "p_luminance": 0.001,
+    "p_transitivity": 0.135,
+    "p_weight": -0.1,
+    "p_scale_whit": -0.061
+   }
+  },
+  "所": {
+   "pos": "f",
+   "freq": 523028,
+   "source": "r25",
+   "norm": 0.142,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.001,
+    "p_rate": -0.053,
+    "p_time": -0.011,
+    "p_strength": 0.038,
+    "p_temp": -0.06,
+    "p_direction": 0.037,
+    "p_luminance": -0.099,
+    "p_transitivity": -0.022,
+    "p_weight": -0.027,
+    "p_scale_whit": -0.002
+   }
+  },
+  "然": {
+   "pos": "f",
+   "freq": 511026,
+   "source": "r25",
+   "norm": 0.176,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.005,
+    "p_rate": 0.013,
+    "p_time": -0.029,
+    "p_strength": 0.003,
+    "p_temp": -0.02,
+    "p_direction": -0.04,
+    "p_luminance": -0.135,
+    "p_transitivity": 0.003,
+    "p_weight": -0.097,
+    "p_scale_whit": 0.001
+   }
+  },
+  "家": {
+   "pos": "n",
+   "freq": 509790,
+   "source": "r25",
+   "norm": 0.357,
+   "vec": {
+    "p_valence": 0.073,
+    "p_scale": -0.001,
+    "p_rate": -0.1,
+    "p_time": -0.019,
+    "p_strength": 0.038,
+    "p_temp": 0.263,
+    "p_direction": 0.084,
+    "p_luminance": 0.131,
+    "p_transitivity": -0.065,
+    "p_weight": 0.111,
+    "p_scale_whit": -0.03
+   }
+  },
+  "种": {
+   "pos": "f",
+   "freq": 503344,
+   "source": "r25",
+   "norm": 0.16,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": -0.008,
+    "p_rate": -0.06,
+    "p_time": -0.026,
+    "p_strength": 0.009,
+    "p_temp": -0.05,
+    "p_direction": 0.03,
+    "p_luminance": -0.079,
+    "p_transitivity": -0.038,
+    "p_weight": 0.1,
+    "p_scale_whit": -0.013
+   }
+  },
+  "事": {
+   "pos": "n",
+   "freq": 499172,
+   "source": "r25",
+   "norm": 0.143,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.009,
+    "p_rate": 0.008,
+    "p_time": -0.008,
+    "p_strength": -0.001,
+    "p_temp": -0.065,
+    "p_direction": 0.054,
+    "p_luminance": -0.074,
+    "p_transitivity": -0.055,
+    "p_weight": -0.069,
+    "p_scale_whit": 0.008
+   }
+  },
+  "成": {
+   "pos": "v",
+   "freq": 499007,
+   "source": "r25",
+   "norm": 0.347,
+   "vec": {
+    "p_valence": 0.26,
+    "p_scale": 0.052,
+    "p_rate": 0.018,
+    "p_time": -0.004,
+    "p_strength": 0.163,
+    "p_temp": -0.053,
+    "p_direction": 0.132,
+    "p_luminance": -0.004,
+    "p_transitivity": 0.043,
+    "p_weight": 0.033,
+    "p_scale_whit": -0.049
+   }
+  },
+  "方": {
+   "pos": "n",
+   "freq": 492763,
+   "source": "r25",
+   "norm": 0.178,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.006,
+    "p_rate": -0.062,
+    "p_time": -0.006,
+    "p_strength": 0.099,
+    "p_temp": -0.073,
+    "p_direction": -0.023,
+    "p_luminance": -0.06,
+    "p_transitivity": -0.072,
+    "p_weight": 0.058,
+    "p_scale_whit": -0.009
+   }
+  },
+  "多": {
+   "pos": "a",
+   "freq": 481689,
+   "source": "r25",
+   "norm": 0.36,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.307,
+    "p_rate": -0.047,
+    "p_time": -0.026,
+    "p_strength": -0.051,
+    "p_temp": -0.023,
+    "p_direction": 0.012,
+    "p_luminance": -0.034,
+    "p_transitivity": -0.027,
+    "p_weight": 0.165,
+    "p_scale_whit": 0.3
+   }
+  },
+  "经": {
+   "pos": "v",
+   "freq": 481338,
+   "source": "r25",
+   "norm": 0.276,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.015,
+    "p_rate": -0.085,
+    "p_time": -0.101,
+    "p_strength": 0.128,
+    "p_temp": -0.067,
+    "p_direction": 0.042,
+    "p_luminance": -0.077,
+    "p_transitivity": -0.068,
+    "p_weight": 0.158,
+    "p_scale_whit": 0.008
+   }
+  },
+  "么": {
+   "pos": "f",
+   "freq": 477969,
+   "source": "r25",
+   "norm": 0.254,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.035,
+    "p_rate": -0.008,
+    "p_time": -0.019,
+    "p_strength": -0.057,
+    "p_temp": -0.053,
+    "p_direction": 0.01,
+    "p_luminance": -0.147,
+    "p_transitivity": -0.02,
+    "p_weight": -0.187,
+    "p_scale_whit": -0.035
+   }
+  },
+  "去": {
+   "pos": "v",
+   "freq": 476270,
+   "source": "r25",
+   "norm": 0.352,
+   "vec": {
+    "p_valence": -0.03,
+    "p_scale": -0.068,
+    "p_rate": 0.047,
+    "p_time": 0.032,
+    "p_strength": -0.056,
+    "p_temp": -0.063,
+    "p_direction": -0.233,
+    "p_luminance": -0.027,
+    "p_transitivity": 0.107,
+    "p_weight": -0.204,
+    "p_scale_whit": -0.056
+   }
+  },
+  "法": {
+   "pos": "n",
+   "freq": 466816,
+   "source": "r25",
+   "norm": 0.298,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.012,
+    "p_rate": -0.06,
+    "p_time": -0.023,
+    "p_strength": 0.164,
+    "p_temp": -0.085,
+    "p_direction": 0.024,
+    "p_luminance": 0.086,
+    "p_transitivity": -0.045,
+    "p_weight": 0.2,
+    "p_scale_whit": 0.01
+   }
+  },
+  "学": {
+   "pos": "v",
+   "freq": 464261,
+   "source": "r25",
+   "norm": 0.172,
+   "vec": {
+    "p_valence": 0.028,
+    "p_scale": 0.007,
+    "p_rate": -0.06,
+    "p_time": -0.003,
+    "p_strength": -0.092,
+    "p_temp": -0.05,
+    "p_direction": 0.052,
+    "p_luminance": 0.061,
+    "p_transitivity": -0.04,
+    "p_weight": -0.077,
+    "p_scale_whit": -0.004
+   }
+  },
+  "如": {
+   "pos": "f",
+   "freq": 449036,
+   "source": "r25",
+   "norm": 0.245,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.002,
+    "p_rate": 0.007,
+    "p_time": -0.016,
+    "p_strength": -0.117,
+    "p_temp": -0.037,
+    "p_direction": -0.025,
+    "p_luminance": -0.117,
+    "p_transitivity": -0.045,
+    "p_weight": -0.169,
+    "p_scale_whit": -0.003
+   }
+  },
+  "都": {
+   "pos": "f",
+   "freq": 439568,
+   "source": "r25",
+   "norm": 0.18,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.005,
+    "p_rate": -0.06,
+    "p_time": -0.011,
+    "p_strength": -0.041,
+    "p_temp": -0.04,
+    "p_direction": 0.134,
+    "p_luminance": -0.05,
+    "p_transitivity": -0.032,
+    "p_weight": -0.062,
+    "p_scale_whit": 0.001
+   }
+  },
+  "同": {
+   "pos": "f",
+   "freq": 437611,
+   "source": "r25",
+   "norm": 0.277,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.004,
+    "p_rate": -0.092,
+    "p_time": -0.033,
+    "p_strength": -0.059,
+    "p_temp": -0.038,
+    "p_direction": 0.185,
+    "p_luminance": -0.045,
+    "p_transitivity": -0.085,
+    "p_weight": -0.135,
+    "p_scale_whit": -0.004
+   }
+  },
+  "现": {
+   "pos": "v",
+   "freq": 433960,
+   "source": "r25",
+   "norm": 0.346,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.005,
+    "p_rate": 0.133,
+    "p_time": 0.306,
+    "p_strength": -0.004,
+    "p_temp": -0.027,
+    "p_direction": -0.045,
+    "p_luminance": 0.055,
+    "p_transitivity": -0.027,
+    "p_weight": -0.045,
+    "p_scale_whit": 0.001
+   }
+  },
+  "当": {
+   "pos": "f",
+   "freq": 429274,
+   "source": "r25",
+   "norm": 0.273,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.004,
+    "p_rate": 0.197,
+    "p_time": 0.076,
+    "p_strength": -0.081,
+    "p_temp": -0.047,
+    "p_direction": 0.057,
+    "p_luminance": -0.08,
+    "p_transitivity": -0.053,
+    "p_weight": -0.095,
+    "p_scale_whit": 0.001
+   }
+  },
+  "没": {
+   "pos": "f",
+   "freq": 428146,
+   "source": "r25",
+   "norm": 0.502,
+   "vec": {
+    "p_valence": -0.322,
+    "p_scale": -0.27,
+    "p_rate": -0.072,
+    "p_time": -0.011,
+    "p_strength": -0.199,
+    "p_temp": -0.067,
+    "p_direction": -0.051,
+    "p_luminance": -0.057,
+    "p_transitivity": -0.058,
+    "p_weight": -0.13,
+    "p_scale_whit": -0.145
+   }
+  },
+  "动": {
+   "pos": "v",
+   "freq": 426839,
+   "source": "r25",
+   "norm": 0.667,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.02,
+    "p_rate": 0.377,
+    "p_time": 0.074,
+    "p_strength": -0.046,
+    "p_temp": 0.345,
+    "p_direction": -0.081,
+    "p_luminance": 0.081,
+    "p_transitivity": 0.372,
+    "p_weight": -0.155,
+    "p_scale_whit": 0.015
+   }
+  },
+  "面": {
+   "pos": "n",
+   "freq": 425180,
+   "source": "r25",
+   "norm": 0.119,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.001,
+    "p_rate": -0.045,
+    "p_time": -0.013,
+    "p_strength": -0.001,
+    "p_temp": -0.062,
+    "p_direction": -0.021,
+    "p_luminance": -0.007,
+    "p_transitivity": -0.087,
+    "p_weight": -0.015,
+    "p_scale_whit": -0.003
+   }
+  },
+  "起": {
+   "pos": "v",
+   "freq": 424933,
+   "source": "r25",
+   "norm": 0.495,
+   "vec": {
+    "p_valence": 0.156,
+    "p_scale": 0.182,
+    "p_rate": 0.293,
+    "p_time": 0.174,
+    "p_strength": -0.009,
+    "p_temp": 0.053,
+    "p_direction": 0.082,
+    "p_luminance": 0.001,
+    "p_transitivity": 0.198,
+    "p_weight": -0.149,
+    "p_scale_whit": 0.121
+   }
+  },
+  "看": {
+   "pos": "v",
+   "freq": 424616,
+   "source": "r25",
+   "norm": 0.361,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.0,
+    "p_rate": -0.087,
+    "p_time": 0.007,
+    "p_strength": -0.129,
+    "p_temp": -0.053,
+    "p_direction": -0.038,
+    "p_luminance": 0.151,
+    "p_transitivity": -0.157,
+    "p_weight": -0.234,
+    "p_scale_whit": -0.004
+   }
+  },
+  "定": {
+   "pos": "v",
+   "freq": 422538,
+   "source": "r25",
+   "norm": 0.528,
+   "vec": {
+    "p_valence": 0.035,
+    "p_scale": -0.003,
+    "p_rate": -0.157,
+    "p_time": -0.068,
+    "p_strength": 0.381,
+    "p_temp": -0.065,
+    "p_direction": 0.157,
+    "p_luminance": 0.003,
+    "p_transitivity": -0.085,
+    "p_weight": 0.26,
+    "p_scale_whit": -0.017
+   }
+  },
+  "分": {
+   "pos": "v",
+   "freq": 419382,
+   "source": "r25",
+   "norm": 0.336,
+   "vec": {
+    "p_valence": -0.055,
+    "p_scale": -0.041,
+    "p_rate": 0.003,
+    "p_time": -0.011,
+    "p_strength": -0.086,
+    "p_temp": -0.057,
+    "p_direction": -0.293,
+    "p_luminance": 0.041,
+    "p_transitivity": -0.0,
+    "p_weight": -0.1,
+    "p_scale_whit": -0.02
+   }
+  },
+  "还": {
+   "pos": "f",
+   "freq": 415855,
+   "source": "r25",
+   "norm": 0.162,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": -0.03,
+    "p_rate": -0.035,
+    "p_time": -0.013,
+    "p_strength": -0.101,
+    "p_temp": -0.038,
+    "p_direction": 0.075,
+    "p_luminance": -0.059,
+    "p_transitivity": 0.023,
+    "p_weight": -0.054,
+    "p_scale_whit": -0.029
+   }
+  },
+  "部": {
+   "pos": "n",
+   "freq": 403066,
+   "source": "r25",
+   "norm": 0.158,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.007,
+    "p_rate": -0.022,
+    "p_time": 0.004,
+    "p_strength": 0.066,
+    "p_temp": -0.07,
+    "p_direction": 0.049,
+    "p_luminance": -0.094,
+    "p_transitivity": -0.047,
+    "p_weight": 0.041,
+    "p_scale_whit": 0.006
+   }
+  },
+  "其": {
+   "pos": "f",
+   "freq": 403028,
+   "source": "r25",
+   "norm": 0.246,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.01,
+    "p_rate": -0.045,
+    "p_time": -0.018,
+    "p_strength": -0.031,
+    "p_temp": -0.065,
+    "p_direction": 0.029,
+    "p_luminance": -0.169,
+    "p_transitivity": -0.005,
+    "p_weight": -0.154,
+    "p_scale_whit": 0.008
+   }
+  },
+  "些": {
+   "pos": "f",
+   "freq": 400528,
+   "source": "r25",
+   "norm": 0.347,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.095,
+    "p_rate": -0.005,
+    "p_time": -0.004,
+    "p_strength": -0.211,
+    "p_temp": -0.053,
+    "p_direction": 0.012,
+    "p_luminance": -0.154,
+    "p_transitivity": 0.007,
+    "p_weight": -0.202,
+    "p_scale_whit": -0.096
+   }
+  },
+  "主": {
+   "pos": "n",
+   "freq": 399693,
+   "source": "r25",
+   "norm": 0.29,
+   "vec": {
+    "p_valence": 0.025,
+    "p_scale": 0.064,
+    "p_rate": -0.075,
+    "p_time": -0.008,
+    "p_strength": 0.211,
+    "p_temp": -0.02,
+    "p_direction": 0.05,
+    "p_luminance": 0.015,
+    "p_transitivity": 0.022,
+    "p_weight": 0.16,
+    "p_scale_whit": 0.054
+   }
+  },
+  "样": {
+   "pos": "n",
+   "freq": 398149,
+   "source": "r25",
+   "norm": 0.261,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.015,
+    "p_rate": -0.027,
+    "p_time": -0.026,
+    "p_strength": -0.117,
+    "p_temp": -0.063,
+    "p_direction": -0.048,
+    "p_luminance": -0.12,
+    "p_transitivity": -0.023,
+    "p_weight": -0.177,
+    "p_scale_whit": -0.018
+   }
+  },
+  "理": {
+   "pos": "n",
+   "freq": 398087,
+   "source": "r25",
+   "norm": 0.229,
+   "vec": {
+    "p_valence": 0.031,
+    "p_scale": 0.009,
+    "p_rate": -0.093,
+    "p_time": -0.023,
+    "p_strength": 0.126,
+    "p_temp": -0.078,
+    "p_direction": -0.031,
+    "p_luminance": 0.08,
+    "p_transitivity": -0.088,
+    "p_weight": 0.07,
+    "p_scale_whit": -0.004
+   }
+  },
+  "她": {
+   "pos": "f",
+   "freq": 388612,
+   "source": "r25",
+   "norm": 0.221,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.007,
+    "p_rate": -0.067,
+    "p_time": 0.017,
+    "p_strength": -0.086,
+    "p_temp": 0.008,
+    "p_direction": 0.017,
+    "p_luminance": -0.135,
+    "p_transitivity": -0.002,
+    "p_weight": -0.135,
+    "p_scale_whit": 0.005
+   }
+  },
+  "本": {
+   "pos": "n",
+   "freq": 388118,
+   "source": "r25",
+   "norm": 0.316,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.0,
+    "p_rate": -0.083,
+    "p_time": -0.033,
+    "p_strength": 0.228,
+    "p_temp": -0.013,
+    "p_direction": 0.087,
+    "p_luminance": -0.089,
+    "p_transitivity": -0.032,
+    "p_weight": 0.153,
+    "p_scale_whit": -0.004
+   }
+  },
+  "前": {
+   "pos": "n",
+   "freq": 381431,
+   "source": "r25",
+   "norm": 0.209,
+   "vec": {
+    "p_valence": 0.031,
+    "p_scale": 0.012,
+    "p_rate": 0.0,
+    "p_time": -0.011,
+    "p_strength": -0.031,
+    "p_temp": -0.077,
+    "p_direction": -0.015,
+    "p_luminance": -0.044,
+    "p_transitivity": -0.1,
+    "p_weight": -0.154,
+    "p_scale_whit": -0.0
+   }
+  },
+  "但": {
+   "pos": "f",
+   "freq": 374459,
+   "source": "r25",
+   "norm": 0.242,
+   "vec": {
+    "p_valence": -0.137,
+    "p_scale": -0.008,
+    "p_rate": -0.017,
+    "p_time": -0.009,
+    "p_strength": -0.101,
+    "p_temp": -0.02,
+    "p_direction": -0.025,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.053,
+    "p_weight": -0.15,
+    "p_scale_whit": 0.045
+   }
+  },
+  "因": {
+   "pos": "f",
+   "freq": 371612,
+   "source": "r25",
+   "norm": 0.151,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": 0.014,
+    "p_rate": 0.0,
+    "p_time": 0.014,
+    "p_strength": 0.094,
+    "p_temp": -0.062,
+    "p_direction": 0.074,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.035,
+    "p_weight": -0.017,
+    "p_scale_whit": 0.014
+   }
+  },
+  "只": {
+   "pos": "f",
+   "freq": 370059,
+   "source": "r25",
+   "norm": 0.358,
+   "vec": {
+    "p_valence": -0.009,
+    "p_scale": -0.196,
+    "p_rate": -0.065,
+    "p_time": 0.009,
+    "p_strength": -0.149,
+    "p_temp": -0.05,
+    "p_direction": 0.09,
+    "p_luminance": -0.019,
+    "p_transitivity": -0.07,
+    "p_weight": -0.217,
+    "p_scale_whit": -0.193
+   }
+  },
+  "从": {
+   "pos": "f",
+   "freq": 369958,
+   "source": "r25",
+   "norm": 0.223,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.016,
+    "p_rate": 0.012,
+    "p_time": 0.022,
+    "p_strength": -0.104,
+    "p_temp": -0.065,
+    "p_direction": -0.003,
+    "p_luminance": -0.057,
+    "p_transitivity": -0.078,
+    "p_weight": -0.157,
+    "p_scale_whit": -0.017
+   }
+  },
+  "想": {
+   "pos": "v",
+   "freq": 368819,
+   "source": "r25",
+   "norm": 0.254,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.009,
+    "p_rate": -0.04,
+    "p_time": 0.021,
+    "p_strength": -0.149,
+    "p_temp": 0.03,
+    "p_direction": 0.005,
+    "p_luminance": -0.015,
+    "p_transitivity": -0.08,
+    "p_weight": -0.18,
+    "p_scale_whit": 0.003
+   }
+  },
+  "军": {
+   "pos": "n",
+   "freq": 362526,
+   "source": "r25",
+   "norm": 0.426,
+   "vec": {
+    "p_valence": -0.034,
+    "p_scale": 0.01,
+    "p_rate": 0.042,
+    "p_time": 0.006,
+    "p_strength": 0.133,
+    "p_temp": 0.107,
+    "p_direction": 0.04,
+    "p_luminance": 0.14,
+    "p_transitivity": 0.005,
+    "p_weight": 0.358,
+    "p_scale_whit": 0.023
+   }
+  },
+  "者": {
+   "pos": "f",
+   "freq": 360974,
+   "source": "r25",
+   "norm": 0.188,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.0,
+    "p_rate": -0.073,
+    "p_time": -0.018,
+    "p_strength": -0.004,
+    "p_temp": -0.065,
+    "p_direction": 0.012,
+    "p_luminance": -0.142,
+    "p_transitivity": -0.005,
+    "p_weight": -0.072,
+    "p_scale_whit": -0.001
+   }
+  },
+  "意": {
+   "pos": "n",
+   "freq": 360232,
+   "source": "r25",
+   "norm": 0.119,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.01,
+    "p_rate": -0.047,
+    "p_time": 0.001,
+    "p_strength": -0.031,
+    "p_temp": 0.048,
+    "p_direction": -0.018,
+    "p_luminance": -0.087,
+    "p_transitivity": -0.022,
+    "p_weight": -0.002,
+    "p_scale_whit": 0.005
+   }
+  },
+  "无": {
+   "pos": "f",
+   "freq": 359265,
+   "source": "r25",
+   "norm": 0.566,
+   "vec": {
+    "p_valence": -0.079,
+    "p_scale": -0.246,
+    "p_rate": -0.092,
+    "p_time": -0.044,
+    "p_strength": -0.354,
+    "p_temp": -0.093,
+    "p_direction": -0.101,
+    "p_luminance": -0.137,
+    "p_transitivity": -0.04,
+    "p_weight": -0.28,
+    "p_scale_whit": -0.216
+   }
+  },
+  "力": {
+   "pos": "n",
+   "freq": 359136,
+   "source": "r25",
+   "norm": 0.534,
+   "vec": {
+    "p_valence": 0.031,
+    "p_scale": 0.057,
+    "p_rate": 0.085,
+    "p_time": 0.006,
+    "p_strength": 0.284,
+    "p_temp": 0.188,
+    "p_direction": -0.016,
+    "p_luminance": 0.031,
+    "p_transitivity": 0.257,
+    "p_weight": 0.3,
+    "p_scale_whit": 0.045
+   }
+  },
+  "它": {
+   "pos": "f",
+   "freq": 346173,
+   "source": "r25",
+   "norm": 0.283,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.0,
+    "p_rate": -0.023,
+    "p_time": -0.001,
+    "p_strength": -0.086,
+    "p_temp": -0.068,
+    "p_direction": -0.015,
+    "p_luminance": -0.187,
+    "p_transitivity": -0.022,
+    "p_weight": -0.179,
+    "p_scale_whit": -0.003
+   }
+  },
+  "与": {
+   "pos": "f",
+   "freq": 345532,
+   "source": "r25",
+   "norm": 0.275,
+   "vec": {
+    "p_valence": 0.026,
+    "p_scale": -0.003,
+    "p_rate": -0.063,
+    "p_time": -0.011,
+    "p_strength": -0.091,
+    "p_temp": -0.038,
+    "p_direction": 0.142,
+    "p_luminance": -0.12,
+    "p_transitivity": -0.06,
+    "p_weight": -0.152,
+    "p_scale_whit": -0.013
+   }
+  },
+  "长": {
+   "pos": "a",
+   "freq": 342148,
+   "source": "r25",
+   "norm": 0.399,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.184,
+    "p_rate": -0.132,
+    "p_time": -0.309,
+    "p_strength": 0.028,
+    "p_temp": -0.057,
+    "p_direction": -0.07,
+    "p_luminance": -0.01,
+    "p_transitivity": -0.003,
+    "p_weight": 0.061,
+    "p_scale_whit": 0.181
+   }
+  },
+  "把": {
+   "pos": "f",
+   "freq": 340730,
+   "source": "r25",
+   "norm": 0.191,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.005,
+    "p_rate": -0.048,
+    "p_time": 0.002,
+    "p_strength": 0.041,
+    "p_temp": -0.048,
+    "p_direction": 0.044,
+    "p_luminance": -0.009,
+    "p_transitivity": 0.158,
+    "p_weight": -0.055,
+    "p_scale_whit": -0.005
+   }
+  },
+  "机": {
+   "pos": "n",
+   "freq": 339823,
+   "source": "r25",
+   "norm": 0.197,
+   "vec": {
+    "p_valence": -0.01,
+    "p_scale": 0.012,
+    "p_rate": 0.152,
+    "p_time": 0.009,
+    "p_strength": 0.051,
+    "p_temp": -0.075,
+    "p_direction": -0.011,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.073,
+    "p_weight": -0.012,
+    "p_scale_whit": 0.016
+   }
+  },
+  "十": {
+   "pos": "f",
+   "freq": 338954,
+   "source": "r25",
+   "norm": 0.143,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.017,
+    "p_rate": 0.007,
+    "p_time": -0.024,
+    "p_strength": 0.084,
+    "p_temp": -0.053,
+    "p_direction": -0.035,
+    "p_luminance": 0.086,
+    "p_transitivity": -0.002,
+    "p_weight": -0.03,
+    "p_scale_whit": 0.014
+   }
+  },
+  "民": {
+   "pos": "n",
+   "freq": 335796,
+   "source": "r25",
+   "norm": 0.124,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.015,
+    "p_rate": -0.058,
+    "p_time": -0.019,
+    "p_strength": -0.056,
+    "p_temp": -0.038,
+    "p_direction": -0.043,
+    "p_luminance": 0.01,
+    "p_transitivity": -0.022,
+    "p_weight": 0.066,
+    "p_scale_whit": 0.013
+   }
+  },
+  "第": {
+   "pos": "f",
+   "freq": 325780,
+   "source": "r25",
+   "norm": 0.226,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.025,
+    "p_rate": 0.005,
+    "p_time": 0.006,
+    "p_strength": -0.102,
+    "p_temp": -0.068,
+    "p_direction": -0.048,
+    "p_luminance": -0.127,
+    "p_transitivity": -0.03,
+    "p_weight": -0.127,
+    "p_scale_whit": -0.027
+   }
+  },
+  "公": {
+   "pos": "n",
+   "freq": 318626,
+   "source": "r25",
+   "norm": 0.138,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.032,
+    "p_rate": -0.047,
+    "p_time": -0.018,
+    "p_strength": -0.027,
+    "p_temp": -0.065,
+    "p_direction": -0.008,
+    "p_luminance": 0.055,
+    "p_transitivity": -0.08,
+    "p_weight": 0.031,
+    "p_scale_whit": 0.027
+   }
+  },
+  "此": {
+   "pos": "f",
+   "freq": 318534,
+   "source": "r25",
+   "norm": 0.206,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.014,
+    "p_rate": -0.05,
+    "p_time": 0.001,
+    "p_strength": 0.069,
+    "p_temp": -0.042,
+    "p_direction": 0.044,
+    "p_luminance": -0.15,
+    "p_transitivity": -0.008,
+    "p_weight": -0.094,
+    "p_scale_whit": 0.012
+   }
+  },
+  "已": {
+   "pos": "f",
+   "freq": 318143,
+   "source": "r25",
+   "norm": 0.248,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.002,
+    "p_rate": -0.045,
+    "p_time": -0.161,
+    "p_strength": 0.144,
+    "p_temp": -0.065,
+    "p_direction": -0.001,
+    "p_luminance": -0.012,
+    "p_transitivity": -0.092,
+    "p_weight": -0.002,
+    "p_scale_whit": -0.001
+   }
+  },
+  "工": {
+   "pos": "n",
+   "freq": 317532,
+   "source": "r25",
+   "norm": 0.158,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.009,
+    "p_rate": -0.02,
+    "p_time": -0.001,
+    "p_strength": 0.024,
+    "p_temp": -0.077,
+    "p_direction": 0.005,
+    "p_luminance": 0.041,
+    "p_transitivity": 0.113,
+    "p_weight": 0.058,
+    "p_scale_whit": 0.008
+   }
+  },
+  "使": {
+   "pos": "v",
+   "freq": 316273,
+   "source": "r25",
+   "norm": 0.463,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.012,
+    "p_rate": 0.027,
+    "p_time": 0.004,
+    "p_strength": -0.064,
+    "p_temp": -0.048,
+    "p_direction": 0.004,
+    "p_luminance": -0.067,
+    "p_transitivity": 0.433,
+    "p_weight": -0.124,
+    "p_scale_whit": 0.009
+   }
+  },
+  "情": {
+   "pos": "n",
+   "freq": 312900,
+   "source": "r25",
+   "norm": 0.49,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": 0.019,
+    "p_rate": -0.042,
+    "p_time": -0.004,
+    "p_strength": -0.067,
+    "p_temp": 0.468,
+    "p_direction": -0.036,
+    "p_luminance": -0.039,
+    "p_transitivity": -0.033,
+    "p_weight": 0.098,
+    "p_scale_whit": 0.012
+   }
+  },
+  "性": {
+   "pos": "n",
+   "freq": 309844,
+   "source": "r25",
+   "norm": 0.448,
+   "vec": {
+    "p_valence": -0.004,
+    "p_scale": 0.014,
+    "p_rate": -0.02,
+    "p_time": -0.008,
+    "p_strength": -0.024,
+    "p_temp": 0.368,
+    "p_direction": -0.05,
+    "p_luminance": -0.032,
+    "p_transitivity": -0.032,
+    "p_weight": 0.243,
+    "p_scale_whit": 0.015
+   }
+  },
+  "知": {
+   "pos": "v",
+   "freq": 306384,
+   "source": "r25",
+   "norm": 0.236,
+   "vec": {
+    "p_valence": 0.023,
+    "p_scale": 0.012,
+    "p_rate": -0.078,
+    "p_time": 0.006,
+    "p_strength": -0.026,
+    "p_temp": -0.063,
+    "p_direction": -0.013,
+    "p_luminance": 0.186,
+    "p_transitivity": -0.04,
+    "p_weight": -0.087,
+    "p_scale_whit": 0.003
+   }
+  },
+  "全": {
+   "pos": "a",
+   "freq": 305248,
+   "source": "r25",
+   "norm": 0.394,
+   "vec": {
+    "p_valence": 0.03,
+    "p_scale": 0.169,
+    "p_rate": -0.023,
+    "p_time": -0.019,
+    "p_strength": 0.221,
+    "p_temp": -0.023,
+    "p_direction": 0.072,
+    "p_luminance": 0.038,
+    "p_transitivity": -0.052,
+    "p_weight": 0.258,
+    "p_scale_whit": 0.157
+   }
+  },
+  "三": {
+   "pos": "f",
+   "freq": 304272,
+   "source": "r25",
+   "norm": 0.168,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.026,
+    "p_rate": -0.032,
+    "p_time": -0.008,
+    "p_strength": 0.016,
+    "p_temp": -0.068,
+    "p_direction": -0.051,
+    "p_luminance": 0.05,
+    "p_transitivity": -0.038,
+    "p_weight": -0.122,
+    "p_scale_whit": -0.029
+   }
+  },
+  "又": {
+   "pos": "f",
+   "freq": 302933,
+   "source": "r25",
+   "norm": 0.201,
+   "vec": {
+    "p_valence": -0.005,
+    "p_scale": 0.019,
+    "p_rate": 0.018,
+    "p_time": 0.027,
+    "p_strength": -0.047,
+    "p_temp": -0.05,
+    "p_direction": 0.0,
+    "p_luminance": -0.1,
+    "p_transitivity": 0.002,
+    "p_weight": -0.155,
+    "p_scale_whit": 0.021
+   }
+  },
+  "点": {
+   "pos": "n",
+   "freq": 300800,
+   "source": "r25",
+   "norm": 0.307,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.13,
+    "p_rate": 0.042,
+    "p_time": 0.011,
+    "p_strength": -0.149,
+    "p_temp": -0.065,
+    "p_direction": 0.035,
+    "p_luminance": 0.031,
+    "p_transitivity": -0.078,
+    "p_weight": -0.202,
+    "p_scale_whit": -0.132
+   }
+  },
+  "正": {
+   "pos": "a",
+   "freq": 296810,
+   "source": "r25",
+   "norm": 0.437,
+   "vec": {
+    "p_valence": 0.375,
+    "p_scale": 0.045,
+    "p_rate": -0.068,
+    "p_time": -0.021,
+    "p_strength": 0.164,
+    "p_temp": -0.023,
+    "p_direction": -0.038,
+    "p_luminance": 0.118,
+    "p_transitivity": -0.007,
+    "p_weight": -0.012,
+    "p_scale_whit": -0.1
+   }
+  },
+  "业": {
+   "pos": "n",
+   "freq": 296169,
+   "source": "r25",
+   "norm": 0.388,
+   "vec": {
+    "p_valence": -0.015,
+    "p_scale": 0.017,
+    "p_rate": -0.062,
+    "p_time": -0.064,
+    "p_strength": 0.093,
+    "p_temp": -0.055,
+    "p_direction": -0.013,
+    "p_luminance": -0.142,
+    "p_transitivity": -0.013,
+    "p_weight": 0.331,
+    "p_scale_whit": 0.023
+   }
+  },
+  "外": {
+   "pos": "n",
+   "freq": 295645,
+   "source": "r25",
+   "norm": 0.344,
+   "vec": {
+    "p_valence": -0.019,
+    "p_scale": 0.022,
+    "p_rate": -0.018,
+    "p_time": 0.009,
+    "p_strength": -0.134,
+    "p_temp": -0.067,
+    "p_direction": -0.2,
+    "p_luminance": 0.031,
+    "p_transitivity": -0.108,
+    "p_weight": -0.205,
+    "p_scale_whit": 0.029
+   }
+  },
+  "将": {
+   "pos": "f",
+   "freq": 295586,
+   "source": "r25",
+   "norm": 0.231,
+   "vec": {
+    "p_valence": -0.015,
+    "p_scale": 0.007,
+    "p_rate": 0.062,
+    "p_time": 0.014,
+    "p_strength": 0.006,
+    "p_temp": 0.012,
+    "p_direction": 0.104,
+    "p_luminance": -0.084,
+    "p_transitivity": 0.17,
+    "p_weight": -0.047,
+    "p_scale_whit": 0.013
+   }
+  },
+  "两": {
+   "pos": "f",
+   "freq": 294600,
+   "source": "r25",
+   "norm": 0.244,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.093,
+    "p_rate": -0.025,
+    "p_time": -0.018,
+    "p_strength": -0.071,
+    "p_temp": -0.068,
+    "p_direction": -0.055,
+    "p_luminance": 0.018,
+    "p_transitivity": -0.062,
+    "p_weight": -0.182,
+    "p_scale_whit": -0.096
+   }
+  },
+  "高": {
+   "pos": "a",
+   "freq": 293542,
+   "source": "r25",
+   "norm": 0.516,
+   "vec": {
+    "p_valence": 0.043,
+    "p_scale": 0.334,
+    "p_rate": 0.087,
+    "p_time": -0.008,
+    "p_strength": 0.256,
+    "p_temp": 0.147,
+    "p_direction": -0.06,
+    "p_luminance": 0.046,
+    "p_transitivity": -0.038,
+    "p_weight": 0.226,
+    "p_scale_whit": 0.317
+   }
+  },
+  "间": {
+   "pos": "n",
+   "freq": 292227,
+   "source": "r25",
+   "norm": 0.211,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.006,
+    "p_rate": -0.002,
+    "p_time": -0.001,
+    "p_strength": -0.099,
+    "p_temp": -0.04,
+    "p_direction": -0.08,
+    "p_luminance": -0.094,
+    "p_transitivity": -0.058,
+    "p_weight": -0.12,
+    "p_scale_whit": -0.008
+   }
+  },
+  "由": {
+   "pos": "f",
+   "freq": 292199,
+   "source": "r25",
+   "norm": 0.151,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.007,
+    "p_rate": -0.007,
+    "p_time": 0.002,
+    "p_strength": 0.013,
+    "p_temp": -0.068,
+    "p_direction": 0.029,
+    "p_luminance": -0.069,
+    "p_transitivity": -0.012,
+    "p_weight": -0.11,
+    "p_scale_whit": 0.004
+   }
+  },
+  "问": {
+   "pos": "v",
+   "freq": 288237,
+   "source": "r25",
+   "norm": 0.284,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.004,
+    "p_rate": -0.05,
+    "p_time": 0.017,
+    "p_strength": -0.106,
+    "p_temp": -0.023,
+    "p_direction": -0.003,
+    "p_luminance": 0.08,
+    "p_transitivity": -0.055,
+    "p_weight": -0.239,
+    "p_scale_whit": 0.003
+   }
+  },
+  "很": {
+   "pos": "f",
+   "freq": 284252,
+   "source": "r25",
+   "norm": 0.356,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.157,
+    "p_rate": 0.013,
+    "p_time": -0.029,
+    "p_strength": 0.206,
+    "p_temp": 0.183,
+    "p_direction": -0.003,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.022,
+    "p_weight": 0.15,
+    "p_scale_whit": 0.152
+   }
+  },
+  "最": {
+   "pos": "f",
+   "freq": 283689,
+   "source": "r25",
+   "norm": 0.32,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.147,
+    "p_rate": 0.0,
+    "p_time": -0.008,
+    "p_strength": 0.219,
+    "p_temp": 0.07,
+    "p_direction": 0.004,
+    "p_luminance": 0.011,
+    "p_transitivity": -0.04,
+    "p_weight": 0.161,
+    "p_scale_whit": 0.146
+   }
+  },
+  "并": {
+   "pos": "f",
+   "freq": 281616,
+   "source": "r25",
+   "norm": 0.242,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.0,
+    "p_rate": -0.028,
+    "p_time": -0.011,
+    "p_strength": -0.046,
+    "p_temp": -0.057,
+    "p_direction": 0.205,
+    "p_luminance": -0.064,
+    "p_transitivity": -0.052,
+    "p_weight": -0.06,
+    "p_scale_whit": -0.002
+   }
+  },
+  "物": {
+   "pos": "n",
+   "freq": 281146,
+   "source": "r25",
+   "norm": 0.396,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": 0.005,
+    "p_rate": -0.075,
+    "p_time": -0.013,
+    "p_strength": 0.166,
+    "p_temp": -0.087,
+    "p_direction": -0.05,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.088,
+    "p_weight": 0.323,
+    "p_scale_whit": 0.005
+   }
+  },
+  "应": {
+   "pos": "v",
+   "freq": 280384,
+   "source": "r25",
+   "norm": 0.129,
+   "vec": {
+    "p_valence": 0.04,
+    "p_scale": 0.014,
+    "p_rate": -0.025,
+    "p_time": -0.003,
+    "p_strength": -0.006,
+    "p_temp": -0.048,
+    "p_direction": 0.022,
+    "p_luminance": -0.059,
+    "p_transitivity": -0.073,
+    "p_weight": -0.052,
+    "p_scale_whit": -0.002
+   }
+  },
+  "战": {
+   "pos": "v",
+   "freq": 278776,
+   "source": "r25",
+   "norm": 1.028,
+   "vec": {
+    "p_valence": -0.229,
+    "p_scale": 0.02,
+    "p_rate": 0.377,
+    "p_time": 0.016,
+    "p_strength": 0.139,
+    "p_temp": 0.703,
+    "p_direction": 0.017,
+    "p_luminance": 0.22,
+    "p_transitivity": 0.443,
+    "p_weight": 0.32,
+    "p_scale_whit": 0.109
+   }
+  },
+  "向": {
+   "pos": "f",
+   "freq": 276986,
+   "source": "r25",
+   "norm": 0.286,
+   "vec": {
+    "p_valence": 0.038,
+    "p_scale": 0.02,
+    "p_rate": -0.015,
+    "p_time": 0.014,
+    "p_strength": -0.129,
+    "p_temp": -0.047,
+    "p_direction": 0.084,
+    "p_luminance": -0.1,
+    "p_transitivity": 0.012,
+    "p_weight": -0.209,
+    "p_scale_whit": 0.005
+   }
+  },
+  "头": {
+   "pos": "n",
+   "freq": 274911,
+   "source": "r25",
+   "norm": 0.143,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.064,
+    "p_rate": 0.008,
+    "p_time": 0.021,
+    "p_strength": 0.039,
+    "p_temp": -0.042,
+    "p_direction": 0.024,
+    "p_luminance": 0.035,
+    "p_transitivity": -0.082,
+    "p_weight": 0.065,
+    "p_scale_whit": 0.062
+   }
+  },
+  "文": {
+   "pos": "n",
+   "freq": 274222,
+   "source": "r25",
+   "norm": 0.154,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.002,
+    "p_rate": -0.083,
+    "p_time": 0.002,
+    "p_strength": -0.017,
+    "p_temp": -0.038,
+    "p_direction": -0.015,
+    "p_luminance": 0.021,
+    "p_transitivity": 0.005,
+    "p_weight": -0.119,
+    "p_scale_whit": -0.003
+   }
+  },
+  "体": {
+   "pos": "n",
+   "freq": 273792,
+   "source": "r25",
+   "norm": 0.386,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": 0.014,
+    "p_rate": -0.077,
+    "p_time": -0.016,
+    "p_strength": 0.163,
+    "p_temp": -0.027,
+    "p_direction": -0.011,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.098,
+    "p_weight": 0.323,
+    "p_scale_whit": 0.014
+   }
+  },
+  "政": {
+   "pos": "n",
+   "freq": 269878,
+   "source": "r25",
+   "norm": 0.182,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": 0.014,
+    "p_rate": -0.017,
+    "p_time": -0.018,
+    "p_strength": -0.021,
+    "p_temp": -0.057,
+    "p_direction": 0.024,
+    "p_luminance": 0.001,
+    "p_transitivity": -0.032,
+    "p_weight": 0.165,
+    "p_scale_whit": 0.014
+   }
+  },
+  "相": {
+   "pos": "f",
+   "freq": 269125,
+   "source": "r25",
+   "norm": 0.15,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.004,
+    "p_rate": -0.057,
+    "p_time": -0.028,
+    "p_strength": 0.024,
+    "p_temp": -0.04,
+    "p_direction": -0.011,
+    "p_luminance": -0.065,
+    "p_transitivity": -0.073,
+    "p_weight": 0.08,
+    "p_scale_whit": 0.001
+   }
+  },
+  "见": {
+   "pos": "v",
+   "freq": 269080,
+   "source": "r25",
+   "norm": 0.285,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": -0.003,
+    "p_rate": -0.018,
+    "p_time": 0.007,
+    "p_strength": -0.094,
+    "p_temp": -0.047,
+    "p_direction": -0.013,
+    "p_luminance": 0.161,
+    "p_transitivity": -0.083,
+    "p_weight": -0.19,
+    "p_scale_whit": -0.009
+   }
+  },
+  "被": {
+   "pos": "f",
+   "freq": 268905,
+   "source": "r25",
+   "norm": 0.311,
+   "vec": {
+    "p_valence": -0.139,
+    "p_scale": -0.008,
+    "p_rate": -0.003,
+    "p_time": -0.011,
+    "p_strength": -0.161,
+    "p_temp": -0.077,
+    "p_direction": -0.003,
+    "p_luminance": -0.059,
+    "p_transitivity": -0.205,
+    "p_weight": -0.015,
+    "p_scale_whit": 0.046
+   }
+  },
+  "利": {
+   "pos": "n",
+   "freq": 268813,
+   "source": "r25",
+   "norm": 0.382,
+   "vec": {
+    "p_valence": 0.291,
+    "p_scale": 0.065,
+    "p_rate": -0.065,
+    "p_time": -0.003,
+    "p_strength": 0.094,
+    "p_temp": -0.032,
+    "p_direction": -0.033,
+    "p_luminance": 0.175,
+    "p_transitivity": -0.087,
+    "p_weight": -0.059,
+    "p_scale_whit": -0.048
+   }
+  },
+  "什": {
+   "pos": "f",
+   "freq": 267869,
+   "source": "r25",
+   "norm": 0.347,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.011,
+    "p_rate": -0.007,
+    "p_time": 0.006,
+    "p_strength": -0.164,
+    "p_temp": -0.06,
+    "p_direction": -0.015,
+    "p_luminance": -0.144,
+    "p_transitivity": -0.075,
+    "p_weight": -0.252,
+    "p_scale_whit": -0.013
+   }
+  },
+  "二": {
+   "pos": "f",
+   "freq": 267506,
+   "source": "r25",
+   "norm": 0.207,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.075,
+    "p_rate": 0.02,
+    "p_time": -0.019,
+    "p_strength": 0.001,
+    "p_temp": -0.078,
+    "p_direction": -0.033,
+    "p_luminance": 0.015,
+    "p_transitivity": -0.052,
+    "p_weight": -0.162,
+    "p_scale_whit": -0.077
+   }
+  },
+  "等": {
+   "pos": "f",
+   "freq": 266296,
+   "source": "r25",
+   "norm": 0.248,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.005,
+    "p_rate": -0.123,
+    "p_time": -0.041,
+    "p_strength": -0.111,
+    "p_temp": -0.07,
+    "p_direction": -0.018,
+    "p_luminance": -0.085,
+    "p_transitivity": -0.078,
+    "p_weight": -0.117,
+    "p_scale_whit": -0.007
+   }
+  },
+  "产": {
+   "pos": "v",
+   "freq": 265164,
+   "source": "r25",
+   "norm": 0.415,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": 0.027,
+    "p_rate": 0.052,
+    "p_time": 0.009,
+    "p_strength": 0.026,
+    "p_temp": -0.035,
+    "p_direction": -0.008,
+    "p_luminance": -0.037,
+    "p_transitivity": 0.388,
+    "p_weight": 0.12,
+    "p_scale_whit": 0.021
+   }
+  },
+  "或": {
+   "pos": "f",
+   "freq": 260786,
+   "source": "r25",
+   "norm": 0.331,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.003,
+    "p_rate": -0.035,
+    "p_time": -0.011,
+    "p_strength": -0.182,
+    "p_temp": -0.07,
+    "p_direction": -0.105,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.048,
+    "p_weight": -0.237,
+    "p_scale_whit": -0.004
+   }
+  },
+  "己": {
+   "pos": "f",
+   "freq": 250894,
+   "source": "r25",
+   "norm": 0.184,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.014,
+    "p_rate": -0.092,
+    "p_time": -0.013,
+    "p_strength": 0.068,
+    "p_temp": -0.007,
+    "p_direction": 0.06,
+    "p_luminance": 0.025,
+    "p_transitivity": -0.125,
+    "p_weight": 0.025,
+    "p_scale_whit": 0.012
+   }
+  },
+  "制": {
+   "pos": "v",
+   "freq": 250754,
+   "source": "r25",
+   "norm": 0.225,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": 0.002,
+    "p_rate": -0.04,
+    "p_time": -0.019,
+    "p_strength": 0.101,
+    "p_temp": -0.067,
+    "p_direction": 0.1,
+    "p_luminance": -0.072,
+    "p_transitivity": 0.052,
+    "p_weight": 0.126,
+    "p_scale_whit": 0.003
+   }
+  },
+  "身": {
+   "pos": "n",
+   "freq": 249725,
+   "source": "r25",
+   "norm": 0.388,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.005,
+    "p_rate": -0.067,
+    "p_time": -0.001,
+    "p_strength": 0.191,
+    "p_temp": 0.015,
+    "p_direction": 0.002,
+    "p_luminance": -0.012,
+    "p_transitivity": -0.115,
+    "p_weight": 0.31,
+    "p_scale_whit": 0.005
+   }
+  },
+  "果": {
+   "pos": "n",
+   "freq": 246831,
+   "source": "r25",
+   "norm": 0.182,
+   "vec": {
+    "p_valence": 0.041,
+    "p_scale": 0.015,
+    "p_rate": 0.025,
+    "p_time": 0.004,
+    "p_strength": 0.149,
+    "p_temp": -0.058,
+    "p_direction": 0.019,
+    "p_luminance": 0.035,
+    "p_transitivity": -0.038,
+    "p_weight": 0.043,
+    "p_scale_whit": -0.001
+   }
+  },
+  "西": {
+   "pos": "n",
+   "freq": 243619,
+   "source": "r25",
+   "norm": 0.146,
+   "vec": {
+    "p_valence": -0.009,
+    "p_scale": -0.02,
+    "p_rate": -0.063,
+    "p_time": 0.017,
+    "p_strength": -0.009,
+    "p_temp": -0.075,
+    "p_direction": -0.051,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.017,
+    "p_weight": -0.072,
+    "p_scale_whit": -0.016
+   }
+  },
+  "斯": {
+   "pos": "f",
+   "freq": 240900,
+   "source": "r25",
+   "norm": 0.165,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.008,
+    "p_rate": -0.007,
+    "p_time": -0.004,
+    "p_strength": 0.006,
+    "p_temp": -0.05,
+    "p_direction": 0.007,
+    "p_luminance": -0.147,
+    "p_transitivity": -0.025,
+    "p_weight": -0.049,
+    "p_scale_whit": -0.009
+   }
+  },
+  "话": {
+   "pos": "n",
+   "freq": 240067,
+   "source": "r25",
+   "norm": 0.288,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.004,
+    "p_rate": -0.02,
+    "p_time": 0.014,
+    "p_strength": -0.107,
+    "p_temp": 0.052,
+    "p_direction": -0.036,
+    "p_luminance": 0.035,
+    "p_transitivity": 0.028,
+    "p_weight": -0.255,
+    "p_scale_whit": 0.003
+   }
+  },
+  "合": {
+   "pos": "v",
+   "freq": 239277,
+   "source": "r25",
+   "norm": 0.361,
+   "vec": {
+    "p_valence": 0.126,
+    "p_scale": 0.009,
+    "p_rate": -0.047,
+    "p_time": -0.006,
+    "p_strength": 0.041,
+    "p_temp": 0.063,
+    "p_direction": 0.322,
+    "p_luminance": -0.022,
+    "p_transitivity": -0.048,
+    "p_weight": 0.01,
+    "p_scale_whit": -0.041
+   }
+  },
+  "回": {
+   "pos": "v",
+   "freq": 239243,
+   "source": "r25",
+   "norm": 0.202,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.018,
+    "p_rate": 0.058,
+    "p_time": -0.006,
+    "p_strength": -0.014,
+    "p_temp": -0.057,
+    "p_direction": 0.17,
+    "p_luminance": -0.065,
+    "p_transitivity": -0.007,
+    "p_weight": -0.014,
+    "p_scale_whit": -0.02
+   }
+  },
+  "特": {
+   "pos": "a",
+   "freq": 239091,
+   "source": "r25",
+   "norm": 0.134,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.025,
+    "p_rate": 0.052,
+    "p_time": 0.017,
+    "p_strength": -0.017,
+    "p_temp": -0.032,
+    "p_direction": -0.038,
+    "p_luminance": -0.084,
+    "p_transitivity": -0.038,
+    "p_weight": -0.057,
+    "p_scale_whit": 0.023
+   }
+  },
+  "代": {
+   "pos": "v",
+   "freq": 231734,
+   "source": "r25",
+   "norm": 0.191,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.002,
+    "p_rate": -0.053,
+    "p_time": -0.019,
+    "p_strength": -0.087,
+    "p_temp": -0.077,
+    "p_direction": -0.045,
+    "p_luminance": -0.125,
+    "p_transitivity": -0.045,
+    "p_weight": 0.013,
+    "p_scale_whit": 0.0
+   }
+  },
+  "内": {
+   "pos": "n",
+   "freq": 231331,
+   "source": "r25",
+   "norm": 0.291,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.016,
+    "p_rate": -0.06,
+    "p_time": -0.008,
+    "p_strength": 0.029,
+    "p_temp": -0.02,
+    "p_direction": 0.144,
+    "p_luminance": -0.059,
+    "p_transitivity": -0.095,
+    "p_weight": 0.215,
+    "p_scale_whit": -0.018
+   }
+  },
+  "信": {
+   "pos": "n",
+   "freq": 230248,
+   "source": "r25",
+   "norm": 0.177,
+   "vec": {
+    "p_valence": 0.075,
+    "p_scale": 0.014,
+    "p_rate": -0.067,
+    "p_time": -0.003,
+    "p_strength": 0.123,
+    "p_temp": 0.003,
+    "p_direction": -0.008,
+    "p_luminance": 0.05,
+    "p_transitivity": -0.058,
+    "p_weight": 0.005,
+    "p_scale_whit": -0.015
+   }
+  },
+  "表": {
+   "pos": "n",
+   "freq": 226768,
+   "source": "r25",
+   "norm": 0.256,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.019,
+    "p_rate": -0.007,
+    "p_time": -0.004,
+    "p_strength": -0.064,
+    "p_temp": -0.068,
+    "p_direction": -0.063,
+    "p_luminance": 0.028,
+    "p_transitivity": -0.047,
+    "p_weight": -0.222,
+    "p_scale_whit": 0.017
+   }
+  },
+  "化": {
+   "pos": "v",
+   "freq": 224729,
+   "source": "r25",
+   "norm": 0.304,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.007,
+    "p_rate": 0.073,
+    "p_time": 0.036,
+    "p_strength": -0.152,
+    "p_temp": -0.033,
+    "p_direction": -0.043,
+    "p_luminance": -0.147,
+    "p_transitivity": 0.185,
+    "p_weight": -0.062,
+    "p_scale_whit": 0.004
+   }
+  },
+  "老": {
+   "pos": "a",
+   "freq": 223050,
+   "source": "r25",
+   "norm": 0.643,
+   "vec": {
+    "p_valence": -0.044,
+    "p_scale": 0.032,
+    "p_rate": -0.163,
+    "p_time": -0.541,
+    "p_strength": 0.116,
+    "p_temp": -0.045,
+    "p_direction": -0.051,
+    "p_luminance": 0.058,
+    "p_transitivity": -0.047,
+    "p_weight": 0.26,
+    "p_scale_whit": 0.049
+   }
+  },
+  "世": {
+   "pos": "n",
+   "freq": 214990,
+   "source": "r25",
+   "norm": 0.263,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.029,
+    "p_rate": -0.03,
+    "p_time": -0.061,
+    "p_strength": 0.036,
+    "p_temp": -0.045,
+    "p_direction": -0.031,
+    "p_luminance": -0.112,
+    "p_transitivity": -0.078,
+    "p_weight": 0.201,
+    "p_scale_whit": 0.028
+   }
+  },
+  "位": {
+   "pos": "n",
+   "freq": 214983,
+   "source": "r25",
+   "norm": 0.168,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.013,
+    "p_rate": -0.055,
+    "p_time": -0.001,
+    "p_strength": 0.049,
+    "p_temp": -0.07,
+    "p_direction": -0.038,
+    "p_luminance": -0.11,
+    "p_transitivity": -0.032,
+    "p_weight": 0.056,
+    "p_scale_whit": -0.016
+   }
+  },
+  "次": {
+   "pos": "n",
+   "freq": 214857,
+   "source": "r25",
+   "norm": 0.275,
+   "vec": {
+    "p_valence": -0.115,
+    "p_scale": -0.145,
+    "p_rate": 0.11,
+    "p_time": -0.004,
+    "p_strength": -0.094,
+    "p_temp": -0.063,
+    "p_direction": -0.063,
+    "p_luminance": -0.015,
+    "p_transitivity": -0.052,
+    "p_weight": -0.097,
+    "p_scale_whit": -0.1
+   }
+  },
+  "度": {
+   "pos": "n",
+   "freq": 214376,
+   "source": "r25",
+   "norm": 0.197,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.056,
+    "p_rate": -0.023,
+    "p_time": -0.028,
+    "p_strength": -0.042,
+    "p_temp": -0.023,
+    "p_direction": -0.05,
+    "p_luminance": -0.087,
+    "p_transitivity": -0.085,
+    "p_weight": 0.121,
+    "p_scale_whit": -0.06
+   }
+  },
+  "任": {
+   "pos": "n",
+   "freq": 212485,
+   "source": "r25",
+   "norm": 0.148,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.015,
+    "p_rate": -0.023,
+    "p_time": -0.001,
+    "p_strength": -0.082,
+    "p_temp": -0.047,
+    "p_direction": 0.01,
+    "p_luminance": -0.089,
+    "p_transitivity": -0.065,
+    "p_weight": -0.0,
+    "p_scale_whit": 0.014
+   }
+  },
+  "常": {
+   "pos": "a",
+   "freq": 212309,
+   "source": "r25",
+   "norm": 0.494,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.009,
+    "p_rate": -0.142,
+    "p_time": -0.419,
+    "p_strength": 0.186,
+    "p_temp": -0.068,
+    "p_direction": -0.043,
+    "p_luminance": -0.019,
+    "p_transitivity": -0.05,
+    "p_weight": 0.061,
+    "p_scale_whit": 0.003
+   }
+  },
+  "先": {
+   "pos": "a",
+   "freq": 210628,
+   "source": "r25",
+   "norm": 0.316,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.01,
+    "p_rate": 0.198,
+    "p_time": 0.062,
+    "p_strength": -0.074,
+    "p_temp": -0.072,
+    "p_direction": -0.045,
+    "p_luminance": -0.002,
+    "p_transitivity": -0.092,
+    "p_weight": -0.187,
+    "p_scale_whit": 0.003
+   }
+  },
+  "通": {
+   "pos": "v",
+   "freq": 209046,
+   "source": "r25",
+   "norm": 0.21,
+   "vec": {
+    "p_valence": 0.126,
+    "p_scale": 0.019,
+    "p_rate": -0.018,
+    "p_time": -0.011,
+    "p_strength": 0.038,
+    "p_temp": -0.012,
+    "p_direction": -0.006,
+    "p_luminance": 0.041,
+    "p_transitivity": -0.068,
+    "p_weight": -0.139,
+    "p_scale_whit": -0.031
+   }
+  },
+  "教": {
+   "pos": "v",
+   "freq": 208875,
+   "source": "r25",
+   "norm": 0.137,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": 0.01,
+    "p_rate": -0.052,
+    "p_time": -0.003,
+    "p_strength": 0.016,
+    "p_temp": -0.018,
+    "p_direction": -0.006,
+    "p_luminance": 0.081,
+    "p_transitivity": 0.092,
+    "p_weight": -0.0,
+    "p_scale_whit": 0.004
+   }
+  },
+  "儿": {
+   "pos": "n",
+   "freq": 207827,
+   "source": "r25",
+   "norm": 0.214,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.138,
+    "p_rate": -0.007,
+    "p_time": 0.004,
+    "p_strength": -0.096,
+    "p_temp": 0.023,
+    "p_direction": 0.0,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.053,
+    "p_weight": -0.107,
+    "p_scale_whit": -0.138
+   }
+  },
+  "原": {
+   "pos": "n",
+   "freq": 207579,
+   "source": "r25",
+   "norm": 0.29,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.009,
+    "p_rate": -0.075,
+    "p_time": -0.201,
+    "p_strength": 0.096,
+    "p_temp": -0.06,
+    "p_direction": -0.003,
+    "p_luminance": -0.08,
+    "p_transitivity": -0.07,
+    "p_weight": 0.116,
+    "p_scale_whit": 0.006
+   }
+  },
+  "东": {
+   "pos": "n",
+   "freq": 206238,
+   "source": "r25",
+   "norm": 0.177,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": -0.011,
+    "p_rate": -0.065,
+    "p_time": 0.024,
+    "p_strength": -0.014,
+    "p_temp": -0.032,
+    "p_direction": -0.048,
+    "p_luminance": -0.01,
+    "p_transitivity": -0.043,
+    "p_weight": -0.144,
+    "p_scale_whit": -0.019
+   }
+  },
+  "声": {
+   "pos": "n",
+   "freq": 206083,
+   "source": "r25",
+   "norm": 0.217,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.01,
+    "p_rate": -0.007,
+    "p_time": 0.022,
+    "p_strength": -0.059,
+    "p_temp": 0.093,
+    "p_direction": -0.058,
+    "p_luminance": 0.053,
+    "p_transitivity": -0.037,
+    "p_weight": -0.164,
+    "p_scale_whit": 0.008
+   }
+  },
+  "提": {
+   "pos": "v",
+   "freq": 205159,
+   "source": "r25",
+   "norm": 0.432,
+   "vec": {
+    "p_valence": 0.063,
+    "p_scale": 0.182,
+    "p_rate": 0.125,
+    "p_time": 0.021,
+    "p_strength": 0.023,
+    "p_temp": 0.012,
+    "p_direction": 0.095,
+    "p_luminance": -0.059,
+    "p_transitivity": 0.328,
+    "p_weight": -0.114,
+    "p_scale_whit": 0.157
+   }
+  },
+  "立": {
+   "pos": "v",
+   "freq": 204985,
+   "source": "r25",
+   "norm": 0.307,
+   "vec": {
+    "p_valence": 0.045,
+    "p_scale": 0.07,
+    "p_rate": -0.033,
+    "p_time": 0.002,
+    "p_strength": 0.268,
+    "p_temp": -0.045,
+    "p_direction": 0.05,
+    "p_luminance": -0.025,
+    "p_transitivity": 0.018,
+    "p_weight": 0.095,
+    "p_scale_whit": 0.053
+   }
+  },
+  "及": {
+   "pos": "f",
+   "freq": 202671,
+   "source": "r25",
+   "norm": 0.268,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.014,
+    "p_rate": 0.145,
+    "p_time": 0.006,
+    "p_strength": -0.026,
+    "p_temp": -0.043,
+    "p_direction": 0.169,
+    "p_luminance": -0.109,
+    "p_transitivity": -0.018,
+    "p_weight": -0.085,
+    "p_scale_whit": 0.011
+   }
+  },
+  "比": {
+   "pos": "f",
+   "freq": 200645,
+   "source": "r25",
+   "norm": 0.235,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.018,
+    "p_rate": -0.008,
+    "p_time": -0.013,
+    "p_strength": -0.119,
+    "p_temp": -0.042,
+    "p_direction": -0.035,
+    "p_luminance": -0.039,
+    "p_transitivity": -0.083,
+    "p_weight": -0.17,
+    "p_scale_whit": -0.02
+   }
+  },
+  "员": {
+   "pos": "n",
+   "freq": 200217,
+   "source": "r25",
+   "norm": 0.199,
+   "vec": {
+    "p_valence": -0.009,
+    "p_scale": 0.005,
+    "p_rate": -0.067,
+    "p_time": -0.011,
+    "p_strength": -0.131,
+    "p_temp": -0.068,
+    "p_direction": -0.003,
+    "p_luminance": -0.019,
+    "p_transitivity": -0.033,
+    "p_weight": -0.109,
+    "p_scale_whit": 0.009
+   }
+  },
+  "解": {
+   "pos": "v",
+   "freq": 200090,
+   "source": "r25",
+   "norm": 0.231,
+   "vec": {
+    "p_valence": 0.153,
+    "p_scale": 0.002,
+    "p_rate": 0.023,
+    "p_time": 0.012,
+    "p_strength": -0.014,
+    "p_temp": -0.053,
+    "p_direction": -0.108,
+    "p_luminance": 0.085,
+    "p_transitivity": 0.005,
+    "p_weight": -0.087,
+    "p_scale_whit": -0.058
+   }
+  },
+  "名": {
+   "pos": "n",
+   "freq": 198481,
+   "source": "r25",
+   "norm": 0.215,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.014,
+    "p_rate": -0.087,
+    "p_time": -0.019,
+    "p_strength": -0.052,
+    "p_temp": -0.067,
+    "p_direction": -0.026,
+    "p_luminance": -0.012,
+    "p_transitivity": -0.047,
+    "p_weight": -0.167,
+    "p_scale_whit": 0.009
+   }
+  },
+  "论": {
+   "pos": "v",
+   "freq": 197165,
+   "source": "r25",
+   "norm": 0.087,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.002,
+    "p_rate": -0.053,
+    "p_time": -0.016,
+    "p_strength": 0.039,
+    "p_temp": 0.037,
+    "p_direction": 0.01,
+    "p_luminance": -0.004,
+    "p_transitivity": -0.037,
+    "p_weight": -0.004,
+    "p_scale_whit": -0.001
+   }
+  },
+  "处": {
+   "pos": "n",
+   "freq": 194237,
+   "source": "r25",
+   "norm": 0.166,
+   "vec": {
+    "p_valence": -0.042,
+    "p_scale": -0.021,
+    "p_rate": -0.025,
+    "p_time": -0.023,
+    "p_strength": 0.031,
+    "p_temp": -0.018,
+    "p_direction": 0.062,
+    "p_luminance": -0.122,
+    "p_transitivity": 0.007,
+    "p_weight": 0.065,
+    "p_scale_whit": -0.005
+   }
+  },
+  "走": {
+   "pos": "v",
+   "freq": 193619,
+   "source": "r25",
+   "norm": 0.34,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": -0.001,
+    "p_rate": 0.167,
+    "p_time": 0.027,
+    "p_strength": -0.086,
+    "p_temp": -0.032,
+    "p_direction": -0.151,
+    "p_luminance": 0.108,
+    "p_transitivity": 0.138,
+    "p_weight": -0.157,
+    "p_scale_whit": -0.005
+   }
+  },
+  "义": {
+   "pos": "n",
+   "freq": 193507,
+   "source": "r25",
+   "norm": 0.258,
+   "vec": {
+    "p_valence": 0.163,
+    "p_scale": 0.02,
+    "p_rate": -0.092,
+    "p_time": -0.018,
+    "p_strength": 0.068,
+    "p_temp": 0.032,
+    "p_direction": -0.03,
+    "p_luminance": 0.001,
+    "p_transitivity": -0.07,
+    "p_weight": 0.14,
+    "p_scale_whit": -0.043
+   }
+  },
+  "各": {
+   "pos": "f",
+   "freq": 193435,
+   "source": "r25",
+   "norm": 0.326,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.001,
+    "p_rate": -0.047,
+    "p_time": -0.024,
+    "p_strength": -0.174,
+    "p_temp": -0.072,
+    "p_direction": -0.153,
+    "p_luminance": -0.109,
+    "p_transitivity": -0.028,
+    "p_weight": -0.179,
+    "p_scale_whit": -0.003
+   }
+  },
+  "入": {
+   "pos": "v",
+   "freq": 192433,
+   "source": "r25",
+   "norm": 0.371,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.02,
+    "p_rate": 0.063,
+    "p_time": 0.042,
+    "p_strength": -0.006,
+    "p_temp": -0.028,
+    "p_direction": 0.31,
+    "p_luminance": -0.012,
+    "p_transitivity": 0.122,
+    "p_weight": 0.138,
+    "p_scale_whit": 0.015
+   }
+  },
+  "几": {
+   "pos": "f",
+   "freq": 192355,
+   "source": "r25",
+   "norm": 0.384,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.126,
+    "p_rate": 0.022,
+    "p_time": -0.004,
+    "p_strength": -0.244,
+    "p_temp": -0.053,
+    "p_direction": -0.003,
+    "p_luminance": -0.102,
+    "p_transitivity": -0.072,
+    "p_weight": -0.23,
+    "p_scale_whit": -0.13
+   }
+  },
+  "认": {
+   "pos": "v",
+   "freq": 191866,
+   "source": "r25",
+   "norm": 0.146,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.004,
+    "p_rate": -0.043,
+    "p_time": 0.002,
+    "p_strength": -0.022,
+    "p_temp": -0.032,
+    "p_direction": 0.042,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.102,
+    "p_weight": -0.054,
+    "p_scale_whit": -0.001
+   }
+  },
+  "条": {
+   "pos": "n",
+   "freq": 191280,
+   "source": "r25",
+   "norm": 0.269,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.02,
+    "p_rate": -0.032,
+    "p_time": -0.004,
+    "p_strength": -0.081,
+    "p_temp": -0.068,
+    "p_direction": -0.03,
+    "p_luminance": -0.069,
+    "p_transitivity": -0.077,
+    "p_weight": -0.22,
+    "p_scale_whit": -0.022
+   }
+  },
+  "平": {
+   "pos": "a",
+   "freq": 191267,
+   "source": "r25",
+   "norm": 0.261,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": -0.133,
+    "p_rate": -0.125,
+    "p_time": -0.031,
+    "p_strength": -0.019,
+    "p_temp": -0.077,
+    "p_direction": -0.078,
+    "p_luminance": 0.058,
+    "p_transitivity": -0.06,
+    "p_weight": -0.12,
+    "p_scale_whit": -0.139
+   }
+  },
+  "系": {
+   "pos": "v",
+   "freq": 190769,
+   "source": "r25",
+   "norm": 0.185,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.002,
+    "p_rate": -0.058,
+    "p_time": -0.009,
+    "p_strength": 0.039,
+    "p_temp": -0.067,
+    "p_direction": 0.055,
+    "p_luminance": -0.105,
+    "p_transitivity": -0.072,
+    "p_weight": 0.073,
+    "p_scale_whit": 0.001
+   }
+  },
+  "气": {
+   "pos": "n",
+   "freq": 190687,
+   "source": "r25",
+   "norm": 0.373,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.0,
+    "p_rate": 0.023,
+    "p_time": -0.044,
+    "p_strength": -0.169,
+    "p_temp": 0.183,
+    "p_direction": -0.063,
+    "p_luminance": -0.135,
+    "p_transitivity": -0.042,
+    "p_weight": -0.224,
+    "p_scale_whit": -0.004
+   }
+  },
+  "题": {
+   "pos": "n",
+   "freq": 189921,
+   "source": "r25",
+   "norm": 0.226,
+   "vec": {
+    "p_valence": -0.064,
+    "p_scale": 0.005,
+    "p_rate": -0.048,
+    "p_time": 0.009,
+    "p_strength": -0.007,
+    "p_temp": -0.068,
+    "p_direction": 0.052,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.05,
+    "p_weight": -0.182,
+    "p_scale_whit": 0.03
+   }
+  },
+  "活": {
+   "pos": "a",
+   "freq": 189876,
+   "source": "r25",
+   "norm": 0.476,
+   "vec": {
+    "p_valence": 0.166,
+    "p_scale": 0.014,
+    "p_rate": 0.077,
+    "p_time": 0.034,
+    "p_strength": 0.101,
+    "p_temp": 0.415,
+    "p_direction": -0.053,
+    "p_luminance": 0.053,
+    "p_transitivity": 0.06,
+    "p_weight": 0.01,
+    "p_scale_whit": -0.051
+   }
+  },
+  "尔": {
+   "pos": "f",
+   "freq": 189785,
+   "source": "r25",
+   "norm": 0.14,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.01,
+    "p_rate": -0.02,
+    "p_time": -0.011,
+    "p_strength": 0.053,
+    "p_temp": -0.012,
+    "p_direction": 0.055,
+    "p_luminance": -0.075,
+    "p_transitivity": -0.018,
+    "p_weight": -0.084,
+    "p_scale_whit": -0.012
+   }
+  },
+  "更": {
+   "pos": "f",
+   "freq": 187378,
+   "source": "r25",
+   "norm": 0.329,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": 0.282,
+    "p_rate": 0.067,
+    "p_time": 0.079,
+    "p_strength": -0.074,
+    "p_temp": -0.028,
+    "p_direction": 0.015,
+    "p_luminance": -0.057,
+    "p_transitivity": 0.052,
+    "p_weight": -0.072,
+    "p_scale_whit": 0.276
+   }
+  },
+  "别": {
+   "pos": "v",
+   "freq": 186634,
+   "source": "r25",
+   "norm": 0.174,
+   "vec": {
+    "p_valence": -0.074,
+    "p_scale": -0.003,
+    "p_rate": 0.043,
+    "p_time": 0.031,
+    "p_strength": -0.039,
+    "p_temp": -0.018,
+    "p_direction": -0.071,
+    "p_luminance": -0.082,
+    "p_transitivity": -0.035,
+    "p_weight": -0.085,
+    "p_scale_whit": 0.026
+   }
+  },
+  "女": {
+   "pos": "n",
+   "freq": 185188,
+   "source": "r25",
+   "norm": 0.201,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.006,
+    "p_rate": -0.085,
+    "p_time": 0.002,
+    "p_strength": -0.111,
+    "p_temp": -0.038,
+    "p_direction": -0.041,
+    "p_luminance": 0.056,
+    "p_transitivity": -0.013,
+    "p_weight": -0.12,
+    "p_scale_whit": -0.008
+   }
+  },
+  "变": {
+   "pos": "v",
+   "freq": 185121,
+   "source": "r25",
+   "norm": 0.476,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.004,
+    "p_rate": 0.292,
+    "p_time": 0.194,
+    "p_strength": -0.186,
+    "p_temp": 0.0,
+    "p_direction": -0.091,
+    "p_luminance": -0.01,
+    "p_transitivity": 0.205,
+    "p_weight": -0.137,
+    "p_scale_whit": 0.002
+   }
+  },
+  "四": {
+   "pos": "f",
+   "freq": 184874,
+   "source": "r25",
+   "norm": 0.136,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.018,
+    "p_rate": -0.013,
+    "p_time": -0.014,
+    "p_strength": 0.024,
+    "p_temp": -0.075,
+    "p_direction": -0.033,
+    "p_luminance": 0.011,
+    "p_transitivity": -0.04,
+    "p_weight": -0.094,
+    "p_scale_whit": -0.021
+   }
+  },
+  "神": {
+   "pos": "n",
+   "freq": 184554,
+   "source": "r25",
+   "norm": 0.444,
+   "vec": {
+    "p_valence": 0.116,
+    "p_scale": 0.105,
+    "p_rate": -0.028,
+    "p_time": -0.024,
+    "p_strength": 0.168,
+    "p_temp": 0.098,
+    "p_direction": -0.036,
+    "p_luminance": -0.017,
+    "p_transitivity": -0.013,
+    "p_weight": 0.363,
+    "p_scale_whit": 0.06
+   }
+  },
+  "总": {
+   "pos": "a",
+   "freq": 184470,
+   "source": "r25",
+   "norm": 0.291,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.11,
+    "p_rate": -0.037,
+    "p_time": -0.018,
+    "p_strength": 0.093,
+    "p_temp": -0.053,
+    "p_direction": 0.127,
+    "p_luminance": -0.084,
+    "p_transitivity": -0.078,
+    "p_weight": 0.173,
+    "p_scale_whit": 0.108
+   }
+  },
+  "何": {
+   "pos": "n",
+   "freq": 184335,
+   "source": "r25",
+   "norm": 0.36,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.003,
+    "p_rate": -0.032,
+    "p_time": -0.009,
+    "p_strength": -0.181,
+    "p_temp": -0.057,
+    "p_direction": 0.002,
+    "p_luminance": -0.107,
+    "p_transitivity": -0.13,
+    "p_weight": -0.254,
+    "p_scale_whit": -0.005
+   }
+  },
+  "电": {
+   "pos": "n",
+   "freq": 183834,
+   "source": "r25",
+   "norm": 0.417,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.005,
+    "p_rate": 0.3,
+    "p_time": 0.017,
+    "p_strength": -0.041,
+    "p_temp": 0.168,
+    "p_direction": -0.068,
+    "p_luminance": 0.191,
+    "p_transitivity": -0.005,
+    "p_weight": -0.109,
+    "p_scale_whit": 0.003
+   }
+  },
+  "数": {
+   "pos": "n",
+   "freq": 183312,
+   "source": "r25",
+   "norm": 0.136,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.05,
+    "p_rate": -0.005,
+    "p_time": -0.009,
+    "p_strength": -0.074,
+    "p_temp": -0.087,
+    "p_direction": -0.043,
+    "p_luminance": 0.001,
+    "p_transitivity": -0.033,
+    "p_weight": -0.004,
+    "p_scale_whit": -0.053
+   }
+  },
+  "安": {
+   "pos": "a",
+   "freq": 183210,
+   "source": "r25",
+   "norm": 0.236,
+   "vec": {
+    "p_valence": 0.185,
+    "p_scale": -0.008,
+    "p_rate": -0.095,
+    "p_time": -0.009,
+    "p_strength": 0.066,
+    "p_temp": -0.037,
+    "p_direction": 0.019,
+    "p_luminance": 0.021,
+    "p_transitivity": -0.048,
+    "p_weight": -0.06,
+    "p_scale_whit": -0.08
+   }
+  },
+  "少": {
+   "pos": "a",
+   "freq": 183018,
+   "source": "r25",
+   "norm": 0.751,
+   "vec": {
+    "p_valence": -0.08,
+    "p_scale": -0.628,
+    "p_rate": -0.048,
+    "p_time": -0.023,
+    "p_strength": -0.237,
+    "p_temp": -0.075,
+    "p_direction": -0.1,
+    "p_luminance": 0.035,
+    "p_transitivity": -0.055,
+    "p_weight": -0.29,
+    "p_scale_whit": -0.597
+   }
+  },
+  "报": {
+   "pos": "v",
+   "freq": 182411,
+   "source": "r25",
+   "norm": 0.198,
+   "vec": {
+    "p_valence": -0.024,
+    "p_scale": -0.005,
+    "p_rate": 0.147,
+    "p_time": 0.049,
+    "p_strength": -0.059,
+    "p_temp": -0.043,
+    "p_direction": 0.012,
+    "p_luminance": 0.006,
+    "p_transitivity": -0.042,
+    "p_weight": -0.087,
+    "p_scale_whit": 0.004
+   }
+  },
+  "才": {
+   "pos": "f",
+   "freq": 181725,
+   "source": "r25",
+   "norm": 0.164,
+   "vec": {
+    "p_valence": 0.111,
+    "p_scale": 0.017,
+    "p_rate": -0.032,
+    "p_time": 0.019,
+    "p_strength": 0.046,
+    "p_temp": -0.043,
+    "p_direction": 0.014,
+    "p_luminance": 0.025,
+    "p_transitivity": -0.08,
+    "p_weight": -0.039,
+    "p_scale_whit": -0.026
+   }
+  },
+  "结": {
+   "pos": "v",
+   "freq": 181674,
+   "source": "r25",
+   "norm": 0.489,
+   "vec": {
+    "p_valence": -0.08,
+    "p_scale": 0.002,
+    "p_rate": -0.045,
+    "p_time": -0.023,
+    "p_strength": 0.209,
+    "p_temp": -0.015,
+    "p_direction": 0.32,
+    "p_luminance": -0.055,
+    "p_transitivity": -0.057,
+    "p_weight": 0.278,
+    "p_scale_whit": 0.033
+   }
+  },
+  "反": {
+   "pos": "v",
+   "freq": 181385,
+   "source": "r25",
+   "norm": 0.379,
+   "vec": {
+    "p_valence": -0.314,
+    "p_scale": -0.021,
+    "p_rate": -0.01,
+    "p_time": 0.009,
+    "p_strength": -0.079,
+    "p_temp": 0.007,
+    "p_direction": -0.138,
+    "p_luminance": -0.01,
+    "p_transitivity": 0.137,
+    "p_weight": -0.027,
+    "p_scale_whit": 0.1
+   }
+  },
+  "受": {
+   "pos": "v",
+   "freq": 180928,
+   "source": "r25",
+   "norm": 0.301,
+   "vec": {
+    "p_valence": -0.06,
+    "p_scale": -0.038,
+    "p_rate": -0.002,
+    "p_time": -0.001,
+    "p_strength": -0.142,
+    "p_temp": -0.035,
+    "p_direction": 0.059,
+    "p_luminance": -0.12,
+    "p_transitivity": -0.208,
+    "p_weight": 0.055,
+    "p_scale_whit": -0.015
+   }
+  },
+  "目": {
+   "pos": "n",
+   "freq": 180827,
+   "source": "r25",
+   "norm": 0.183,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.003,
+    "p_rate": -0.042,
+    "p_time": 0.002,
+    "p_strength": -0.027,
+    "p_temp": -0.06,
+    "p_direction": -0.036,
+    "p_luminance": 0.126,
+    "p_transitivity": -0.095,
+    "p_weight": -0.03,
+    "p_scale_whit": -0.006
+   }
+  },
+  "太": {
+   "pos": "f",
+   "freq": 180490,
+   "source": "r25",
+   "norm": 0.52,
+   "vec": {
+    "p_valence": -0.02,
+    "p_scale": 0.232,
+    "p_rate": 0.073,
+    "p_time": -0.018,
+    "p_strength": 0.201,
+    "p_temp": 0.225,
+    "p_direction": -0.041,
+    "p_luminance": 0.02,
+    "p_transitivity": -0.06,
+    "p_weight": 0.336,
+    "p_scale_whit": 0.24
+   }
+  },
+  "量": {
+   "pos": "n",
+   "freq": 180008,
+   "source": "r25",
+   "norm": 0.263,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.053,
+    "p_rate": -0.032,
+    "p_time": -0.008,
+    "p_strength": -0.012,
+    "p_temp": -0.082,
+    "p_direction": -0.05,
+    "p_luminance": 0.035,
+    "p_transitivity": -0.097,
+    "p_weight": 0.213,
+    "p_scale_whit": -0.056
+   }
+  },
+  "再": {
+   "pos": "f",
+   "freq": 179607,
+   "source": "r25",
+   "norm": 0.176,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.052,
+    "p_rate": 0.075,
+    "p_time": 0.096,
+    "p_strength": -0.071,
+    "p_temp": -0.057,
+    "p_direction": -0.003,
+    "p_luminance": -0.042,
+    "p_transitivity": -0.027,
+    "p_weight": -0.054,
+    "p_scale_whit": 0.051
+   }
+  },
+  "感": {
+   "pos": "v",
+   "freq": 178383,
+   "source": "r25",
+   "norm": 0.339,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.009,
+    "p_rate": -0.038,
+    "p_time": 0.016,
+    "p_strength": -0.116,
+    "p_temp": 0.292,
+    "p_direction": -0.021,
+    "p_luminance": -0.095,
+    "p_transitivity": -0.068,
+    "p_weight": 0.008,
+    "p_scale_whit": 0.004
+   }
+  },
+  "建": {
+   "pos": "v",
+   "freq": 178289,
+   "source": "r25",
+   "norm": 0.425,
+   "vec": {
+    "p_valence": 0.061,
+    "p_scale": 0.049,
+    "p_rate": 0.002,
+    "p_time": 0.064,
+    "p_strength": 0.198,
+    "p_temp": -0.045,
+    "p_direction": 0.11,
+    "p_luminance": -0.007,
+    "p_transitivity": 0.282,
+    "p_weight": 0.195,
+    "p_scale_whit": 0.025
+   }
+  },
+  "务": {
+   "pos": "n",
+   "freq": 176085,
+   "source": "r25",
+   "norm": 0.183,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.009,
+    "p_rate": -0.02,
+    "p_time": -0.011,
+    "p_strength": 0.003,
+    "p_temp": -0.06,
+    "p_direction": 0.059,
+    "p_luminance": -0.084,
+    "p_transitivity": 0.1,
+    "p_weight": 0.095,
+    "p_scale_whit": 0.007
+   }
+  },
+  "做": {
+   "pos": "v",
+   "freq": 175580,
+   "source": "r25",
+   "norm": 0.505,
+   "vec": {
+    "p_valence": 0.061,
+    "p_scale": 0.014,
+    "p_rate": 0.092,
+    "p_time": 0.022,
+    "p_strength": 0.049,
+    "p_temp": 0.045,
+    "p_direction": -0.008,
+    "p_luminance": -0.012,
+    "p_transitivity": 0.487,
+    "p_weight": 0.028,
+    "p_scale_whit": -0.01
+   }
+  },
+  "接": {
+   "pos": "v",
+   "freq": 175473,
+   "source": "r25",
+   "norm": 0.345,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.007,
+    "p_rate": 0.08,
+    "p_time": 0.021,
+    "p_strength": -0.011,
+    "p_temp": 0.027,
+    "p_direction": 0.294,
+    "p_luminance": -0.072,
+    "p_transitivity": -0.14,
+    "p_weight": -0.0,
+    "p_scale_whit": 0.004
+   }
+  },
+  "必": {
+   "pos": "f",
+   "freq": 174963,
+   "source": "r25",
+   "norm": 0.434,
+   "vec": {
+    "p_valence": -0.03,
+    "p_scale": 0.03,
+    "p_rate": 0.045,
+    "p_time": -0.013,
+    "p_strength": 0.368,
+    "p_temp": 0.047,
+    "p_direction": 0.059,
+    "p_luminance": 0.04,
+    "p_transitivity": -0.038,
+    "p_weight": 0.201,
+    "p_scale_whit": 0.042
+   }
+  },
+  "场": {
+   "pos": "n",
+   "freq": 173632,
+   "source": "r25",
+   "norm": 0.214,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.004,
+    "p_rate": -0.055,
+    "p_time": 0.012,
+    "p_strength": 0.014,
+    "p_temp": 0.038,
+    "p_direction": 0.002,
+    "p_luminance": -0.087,
+    "p_transitivity": -0.085,
+    "p_weight": 0.161,
+    "p_scale_whit": 0.0
+   }
+  },
+  "件": {
+   "pos": "f",
+   "freq": 172895,
+   "source": "r25",
+   "norm": 0.156,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.016,
+    "p_rate": -0.057,
+    "p_time": -0.008,
+    "p_strength": 0.028,
+    "p_temp": -0.07,
+    "p_direction": 0.06,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.053,
+    "p_weight": -0.077,
+    "p_scale_whit": -0.017
+   }
+  },
+  "计": {
+   "pos": "v",
+   "freq": 171949,
+   "source": "r25",
+   "norm": 0.115,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.01,
+    "p_rate": 0.003,
+    "p_time": 0.002,
+    "p_strength": -0.016,
+    "p_temp": -0.067,
+    "p_direction": 0.054,
+    "p_luminance": -0.032,
+    "p_transitivity": -0.058,
+    "p_weight": 0.033,
+    "p_scale_whit": 0.008
+   }
+  },
+  "管": {
+   "pos": "v",
+   "freq": 170746,
+   "source": "r25",
+   "norm": 0.244,
+   "vec": {
+    "p_valence": -0.005,
+    "p_scale": 0.009,
+    "p_rate": -0.05,
+    "p_time": -0.013,
+    "p_strength": 0.074,
+    "p_temp": -0.047,
+    "p_direction": 0.125,
+    "p_luminance": 0.01,
+    "p_transitivity": 0.168,
+    "p_weight": 0.071,
+    "p_scale_whit": 0.011
+   }
+  },
+  "期": {
+   "pos": "n",
+   "freq": 169806,
+   "source": "r25",
+   "norm": 0.167,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.008,
+    "p_rate": 0.012,
+    "p_time": -0.013,
+    "p_strength": -0.104,
+    "p_temp": -0.072,
+    "p_direction": -0.02,
+    "p_luminance": -0.055,
+    "p_transitivity": -0.063,
+    "p_weight": -0.064,
+    "p_scale_whit": -0.011
+   }
+  },
+  "市": {
+   "pos": "n",
+   "freq": 169522,
+   "source": "r25",
+   "norm": 0.136,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.012,
+    "p_rate": -0.048,
+    "p_time": 0.002,
+    "p_strength": -0.069,
+    "p_temp": -0.048,
+    "p_direction": 0.049,
+    "p_luminance": 0.041,
+    "p_transitivity": -0.047,
+    "p_weight": -0.052,
+    "p_scale_whit": 0.009
+   }
+  },
+  "直": {
+   "pos": "a",
+   "freq": 169439,
+   "source": "r25",
+   "norm": 0.239,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": 0.01,
+    "p_rate": 0.053,
+    "p_time": -0.019,
+    "p_strength": 0.171,
+    "p_temp": -0.025,
+    "p_direction": -0.02,
+    "p_luminance": 0.15,
+    "p_transitivity": -0.022,
+    "p_weight": -0.015,
+    "p_scale_whit": 0.002
+   }
+  },
+  "德": {
+   "pos": "n",
+   "freq": 168917,
+   "source": "r25",
+   "norm": 0.361,
+   "vec": {
+    "p_valence": 0.213,
+    "p_scale": 0.025,
+    "p_rate": -0.095,
+    "p_time": -0.051,
+    "p_strength": 0.106,
+    "p_temp": -0.027,
+    "p_direction": 0.002,
+    "p_luminance": -0.015,
+    "p_transitivity": -0.063,
+    "p_weight": 0.238,
+    "p_scale_whit": -0.058
+   }
+  },
+  "资": {
+   "pos": "n",
+   "freq": 168890,
+   "source": "r25",
+   "norm": 0.211,
+   "vec": {
+    "p_valence": 0.036,
+    "p_scale": 0.034,
+    "p_rate": -0.045,
+    "p_time": 0.002,
+    "p_strength": 0.056,
+    "p_temp": -0.052,
+    "p_direction": 0.055,
+    "p_luminance": -0.0,
+    "p_transitivity": -0.04,
+    "p_weight": 0.171,
+    "p_scale_whit": 0.019
+   }
+  },
+  "命": {
+   "pos": "n",
+   "freq": 168358,
+   "source": "r25",
+   "norm": 0.468,
+   "vec": {
+    "p_valence": -0.037,
+    "p_scale": 0.01,
+    "p_rate": -0.058,
+    "p_time": -0.091,
+    "p_strength": 0.109,
+    "p_temp": 0.053,
+    "p_direction": -0.02,
+    "p_luminance": -0.11,
+    "p_transitivity": -0.093,
+    "p_weight": 0.411,
+    "p_scale_whit": 0.025
+   }
+  },
+  "指": {
+   "pos": "v",
+   "freq": 166865,
+   "source": "r25",
+   "norm": 0.21,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.003,
+    "p_rate": -0.002,
+    "p_time": 0.009,
+    "p_strength": -0.031,
+    "p_temp": -0.052,
+    "p_direction": 0.035,
+    "p_luminance": -0.047,
+    "p_transitivity": 0.107,
+    "p_weight": -0.16,
+    "p_scale_whit": -0.006
+   }
+  },
+  "克": {
+   "pos": "v",
+   "freq": 166044,
+   "source": "r25",
+   "norm": 0.348,
+   "vec": {
+    "p_valence": -0.119,
+    "p_scale": -0.018,
+    "p_rate": 0.0,
+    "p_time": 0.007,
+    "p_strength": 0.093,
+    "p_temp": 0.012,
+    "p_direction": 0.047,
+    "p_luminance": -0.084,
+    "p_transitivity": 0.14,
+    "p_weight": 0.263,
+    "p_scale_whit": 0.028
+   }
+  },
+  "许": {
+   "pos": "v",
+   "freq": 166034,
+   "source": "r25",
+   "norm": 0.161,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": 0.012,
+    "p_rate": -0.01,
+    "p_time": 0.004,
+    "p_strength": -0.042,
+    "p_temp": -0.042,
+    "p_direction": 0.01,
+    "p_luminance": -0.094,
+    "p_transitivity": -0.047,
+    "p_weight": -0.104,
+    "p_scale_whit": 0.004
+   }
+  },
+  "统": {
+   "pos": "v",
+   "freq": 165820,
+   "source": "r25",
+   "norm": 0.349,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.032,
+    "p_rate": -0.055,
+    "p_time": -0.019,
+    "p_strength": 0.083,
+    "p_temp": -0.058,
+    "p_direction": 0.25,
+    "p_luminance": -0.054,
+    "p_transitivity": -0.047,
+    "p_weight": 0.198,
+    "p_scale_whit": 0.025
+   }
+  },
+  "区": {
+   "pos": "n",
+   "freq": 164775,
+   "source": "r25",
+   "norm": 0.133,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.005,
+    "p_rate": -0.05,
+    "p_time": -0.001,
+    "p_strength": -0.037,
+    "p_temp": -0.073,
+    "p_direction": -0.018,
+    "p_luminance": -0.032,
+    "p_transitivity": -0.075,
+    "p_weight": -0.039,
+    "p_scale_whit": -0.005
+   }
+  },
+  "保": {
+   "pos": "v",
+   "freq": 164424,
+   "source": "r25",
+   "norm": 0.258,
+   "vec": {
+    "p_valence": 0.098,
+    "p_scale": 0.01,
+    "p_rate": -0.085,
+    "p_time": 0.006,
+    "p_strength": 0.133,
+    "p_temp": -0.033,
+    "p_direction": 0.129,
+    "p_luminance": -0.014,
+    "p_transitivity": -0.098,
+    "p_weight": 0.065,
+    "p_scale_whit": -0.028
+   }
+  },
+  "至": {
+   "pos": "f",
+   "freq": 163582,
+   "source": "r25",
+   "norm": 0.33,
+   "vec": {
+    "p_valence": 0.063,
+    "p_scale": 0.149,
+    "p_rate": 0.005,
+    "p_time": -0.016,
+    "p_strength": 0.073,
+    "p_temp": -0.025,
+    "p_direction": 0.194,
+    "p_luminance": -0.109,
+    "p_transitivity": -0.033,
+    "p_weight": 0.161,
+    "p_scale_whit": 0.124
+   }
+  },
+  "队": {
+   "pos": "n",
+   "freq": 162938,
+   "source": "r25",
+   "norm": 0.187,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": -0.005,
+    "p_rate": -0.06,
+    "p_time": -0.004,
+    "p_strength": 0.006,
+    "p_temp": -0.038,
+    "p_direction": 0.142,
+    "p_luminance": 0.08,
+    "p_transitivity": -0.05,
+    "p_weight": -0.024,
+    "p_scale_whit": -0.009
+   }
+  },
+  "形": {
+   "pos": "n",
+   "freq": 162049,
+   "source": "r25",
+   "norm": 0.208,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.013,
+    "p_rate": -0.085,
+    "p_time": -0.024,
+    "p_strength": 0.083,
+    "p_temp": -0.085,
+    "p_direction": -0.061,
+    "p_luminance": -0.017,
+    "p_transitivity": -0.108,
+    "p_weight": 0.073,
+    "p_scale_whit": -0.016
+   }
+  },
+  "社": {
+   "pos": "n",
+   "freq": 159527,
+   "source": "r25",
+   "norm": 0.122,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": 0.009,
+    "p_rate": -0.043,
+    "p_time": -0.003,
+    "p_strength": -0.014,
+    "p_temp": -0.008,
+    "p_direction": 0.074,
+    "p_luminance": -0.072,
+    "p_transitivity": -0.035,
+    "p_weight": -0.029,
+    "p_scale_whit": 0.009
+   }
+  },
+  "便": {
+   "pos": "a",
+   "freq": 159479,
+   "source": "r25",
+   "norm": 0.115,
+   "vec": {
+    "p_valence": 0.043,
+    "p_scale": -0.023,
+    "p_rate": -0.008,
+    "p_time": -0.006,
+    "p_strength": -0.051,
+    "p_temp": -0.055,
+    "p_direction": -0.03,
+    "p_luminance": -0.027,
+    "p_transitivity": -0.043,
+    "p_weight": 0.04,
+    "p_scale_whit": -0.04
+   }
+  },
+  "决": {
+   "pos": "v",
+   "freq": 157959,
+   "source": "r25",
+   "norm": 0.513,
+   "vec": {
+    "p_valence": -0.03,
+    "p_scale": 0.019,
+    "p_rate": 0.272,
+    "p_time": 0.006,
+    "p_strength": 0.291,
+    "p_temp": 0.157,
+    "p_direction": 0.089,
+    "p_luminance": 0.013,
+    "p_transitivity": 0.065,
+    "p_weight": 0.258,
+    "p_scale_whit": 0.03
+   }
+  },
+  "治": {
+   "pos": "v",
+   "freq": 156904,
+   "source": "r25",
+   "norm": 0.328,
+   "vec": {
+    "p_valence": 0.141,
+    "p_scale": 0.009,
+    "p_rate": -0.037,
+    "p_time": -0.008,
+    "p_strength": 0.086,
+    "p_temp": -0.05,
+    "p_direction": 0.11,
+    "p_luminance": -0.0,
+    "p_transitivity": 0.248,
+    "p_weight": 0.048,
+    "p_scale_whit": -0.046
+   }
+  },
+  "展": {
+   "pos": "v",
+   "freq": 156759,
+   "source": "r25",
+   "norm": 0.339,
+   "vec": {
+    "p_valence": 0.128,
+    "p_scale": 0.097,
+    "p_rate": 0.108,
+    "p_time": 0.039,
+    "p_strength": -0.072,
+    "p_temp": -0.003,
+    "p_direction": -0.183,
+    "p_luminance": 0.026,
+    "p_transitivity": 0.117,
+    "p_weight": -0.15,
+    "p_scale_whit": 0.047
+   }
+  },
+  "马": {
+   "pos": "n",
+   "freq": 155772,
+   "source": "r25",
+   "norm": 0.183,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": -0.005,
+    "p_rate": 0.073,
+    "p_time": -0.001,
+    "p_strength": -0.067,
+    "p_temp": -0.037,
+    "p_direction": -0.043,
+    "p_luminance": 0.13,
+    "p_transitivity": -0.042,
+    "p_weight": -0.04,
+    "p_scale_whit": -0.011
+   }
+  },
+  "科": {
+   "pos": "n",
+   "freq": 155750,
+   "source": "r25",
+   "norm": 0.117,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.01,
+    "p_rate": -0.017,
+    "p_time": -0.001,
+    "p_strength": -0.029,
+    "p_temp": -0.078,
+    "p_direction": -0.025,
+    "p_luminance": -0.042,
+    "p_transitivity": -0.057,
+    "p_weight": -0.025,
+    "p_scale_whit": -0.013
+   }
+  },
+  "司": {
+   "pos": "v",
+   "freq": 155229,
+   "source": "r25",
+   "norm": 0.133,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.001,
+    "p_rate": -0.037,
+    "p_time": 0.007,
+    "p_strength": -0.004,
+    "p_temp": -0.072,
+    "p_direction": 0.047,
+    "p_luminance": -0.092,
+    "p_transitivity": -0.018,
+    "p_weight": -0.009,
+    "p_scale_whit": -0.002
+   }
+  },
+  "五": {
+   "pos": "f",
+   "freq": 154316,
+   "source": "r25",
+   "norm": 0.166,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.001,
+    "p_rate": -0.03,
+    "p_time": -0.006,
+    "p_strength": 0.034,
+    "p_temp": -0.078,
+    "p_direction": -0.051,
+    "p_luminance": 0.016,
+    "p_transitivity": -0.043,
+    "p_weight": -0.12,
+    "p_scale_whit": -0.005
+   }
+  },
+  "基": {
+   "pos": "n",
+   "freq": 153462,
+   "source": "r25",
+   "norm": 0.305,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.023,
+    "p_rate": -0.073,
+    "p_time": 0.001,
+    "p_strength": 0.163,
+    "p_temp": 0.0,
+    "p_direction": -0.013,
+    "p_luminance": -0.072,
+    "p_transitivity": -0.055,
+    "p_weight": 0.228,
+    "p_scale_whit": -0.024
+   }
+  },
+  "眼": {
+   "pos": "n",
+   "freq": 152079,
+   "source": "r25",
+   "norm": 0.233,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.005,
+    "p_rate": -0.047,
+    "p_time": 0.021,
+    "p_strength": -0.059,
+    "p_temp": -0.047,
+    "p_direction": -0.035,
+    "p_luminance": 0.185,
+    "p_transitivity": -0.06,
+    "p_weight": -0.085,
+    "p_scale_whit": -0.007
+   }
+  },
+  "书": {
+   "pos": "n",
+   "freq": 151357,
+   "source": "r25",
+   "norm": 0.207,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.013,
+    "p_rate": -0.082,
+    "p_time": -0.016,
+    "p_strength": 0.026,
+    "p_temp": -0.07,
+    "p_direction": -0.005,
+    "p_luminance": 0.143,
+    "p_transitivity": -0.008,
+    "p_weight": 0.098,
+    "p_scale_whit": -0.016
+   }
+  },
+  "非": {
+   "pos": "f",
+   "freq": 149915,
+   "source": "r25",
+   "norm": 0.307,
+   "vec": {
+    "p_valence": -0.204,
+    "p_scale": -0.005,
+    "p_rate": -0.028,
+    "p_time": -0.008,
+    "p_strength": -0.101,
+    "p_temp": -0.063,
+    "p_direction": -0.1,
+    "p_luminance": -0.084,
+    "p_transitivity": -0.058,
+    "p_weight": -0.132,
+    "p_scale_whit": 0.074
+   }
+  },
+  "则": {
+   "pos": "f",
+   "freq": 149042,
+   "source": "r25",
+   "norm": 0.183,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.006,
+    "p_rate": 0.003,
+    "p_time": -0.014,
+    "p_strength": -0.021,
+    "p_temp": -0.067,
+    "p_direction": 0.037,
+    "p_luminance": -0.109,
+    "p_transitivity": -0.0,
+    "p_weight": -0.124,
+    "p_scale_whit": -0.01
+   }
+  },
+  "听": {
+   "pos": "v",
+   "freq": 148988,
+   "source": "r25",
+   "norm": 0.277,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.0,
+    "p_rate": -0.062,
+    "p_time": 0.024,
+    "p_strength": -0.054,
+    "p_temp": -0.027,
+    "p_direction": -0.02,
+    "p_luminance": 0.126,
+    "p_transitivity": -0.158,
+    "p_weight": -0.165,
+    "p_scale_whit": -0.004
+   }
+  },
+  "白": {
+   "pos": "a",
+   "freq": 148728,
+   "source": "r25",
+   "norm": 0.489,
+   "vec": {
+    "p_valence": 0.04,
+    "p_scale": -0.003,
+    "p_rate": -0.08,
+    "p_time": -0.004,
+    "p_strength": -0.074,
+    "p_temp": -0.07,
+    "p_direction": -0.058,
+    "p_luminance": 0.401,
+    "p_transitivity": -0.06,
+    "p_weight": -0.229,
+    "p_scale_whit": -0.019
+   }
+  },
+  "却": {
+   "pos": "f",
+   "freq": 148679,
+   "source": "r25",
+   "norm": 0.164,
+   "vec": {
+    "p_valence": -0.109,
+    "p_scale": -0.038,
+    "p_rate": 0.08,
+    "p_time": 0.007,
+    "p_strength": -0.057,
+    "p_temp": -0.027,
+    "p_direction": -0.026,
+    "p_luminance": -0.022,
+    "p_transitivity": 0.012,
+    "p_weight": -0.045,
+    "p_scale_whit": 0.004
+   }
+  },
+  "界": {
+   "pos": "n",
+   "freq": 148438,
+   "source": "r25",
+   "norm": 0.272,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.013,
+    "p_rate": -0.043,
+    "p_time": 0.012,
+    "p_strength": 0.078,
+    "p_temp": -0.07,
+    "p_direction": -0.043,
+    "p_luminance": -0.117,
+    "p_transitivity": -0.093,
+    "p_weight": 0.191,
+    "p_scale_whit": -0.016
+   }
+  },
+  "达": {
+   "pos": "v",
+   "freq": 147907,
+   "source": "r25",
+   "norm": 0.253,
+   "vec": {
+    "p_valence": 0.16,
+    "p_scale": 0.139,
+    "p_rate": 0.052,
+    "p_time": -0.006,
+    "p_strength": 0.116,
+    "p_temp": -0.018,
+    "p_direction": 0.042,
+    "p_luminance": -0.014,
+    "p_transitivity": -0.027,
+    "p_weight": 0.011,
+    "p_scale_whit": 0.077
+   }
+  },
+  "即": {
+   "pos": "f",
+   "freq": 146459,
+   "source": "r25",
+   "norm": 0.746,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.015,
+    "p_rate": 0.695,
+    "p_time": 0.214,
+    "p_strength": -0.021,
+    "p_temp": 0.013,
+    "p_direction": 0.054,
+    "p_luminance": -0.012,
+    "p_transitivity": -0.033,
+    "p_weight": -0.149,
+    "p_scale_whit": -0.018
+   }
+  },
+  "像": {
+   "pos": "v",
+   "freq": 145291,
+   "source": "r25",
+   "norm": 0.281,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.018,
+    "p_rate": -0.078,
+    "p_time": -0.004,
+    "p_strength": -0.156,
+    "p_temp": -0.05,
+    "p_direction": -0.033,
+    "p_luminance": -0.039,
+    "p_transitivity": -0.087,
+    "p_weight": -0.189,
+    "p_scale_whit": -0.021
+   }
+  },
+  "且": {
+   "pos": "f",
+   "freq": 144597,
+   "source": "r25",
+   "norm": 0.152,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.01,
+    "p_rate": -0.038,
+    "p_time": -0.023,
+    "p_strength": -0.032,
+    "p_temp": -0.055,
+    "p_direction": 0.085,
+    "p_luminance": -0.074,
+    "p_transitivity": -0.037,
+    "p_weight": -0.055,
+    "p_scale_whit": -0.011
+   }
+  },
+  "难": {
+   "pos": "a",
+   "freq": 144597,
+   "source": "r25",
+   "norm": 0.511,
+   "vec": {
+    "p_valence": -0.417,
+    "p_scale": 0.1,
+    "p_rate": -0.05,
+    "p_time": -0.014,
+    "p_strength": -0.014,
+    "p_temp": -0.042,
+    "p_direction": -0.013,
+    "p_luminance": 0.058,
+    "p_transitivity": -0.063,
+    "p_weight": 0.255,
+    "p_scale_whit": 0.262
+   }
+  },
+  "权": {
+   "pos": "n",
+   "freq": 144506,
+   "source": "r25",
+   "norm": 0.358,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.06,
+    "p_rate": -0.038,
+    "p_time": -0.004,
+    "p_strength": 0.169,
+    "p_temp": -0.03,
+    "p_direction": 0.08,
+    "p_luminance": 0.06,
+    "p_transitivity": 0.072,
+    "p_weight": 0.28,
+    "p_scale_whit": 0.057
+   }
+  },
+  "思": {
+   "pos": "v",
+   "freq": 144503,
+   "source": "r25",
+   "norm": 0.13,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.007,
+    "p_rate": -0.065,
+    "p_time": 0.006,
+    "p_strength": -0.084,
+    "p_temp": -0.027,
+    "p_direction": 0.014,
+    "p_luminance": -0.009,
+    "p_transitivity": -0.042,
+    "p_weight": 0.051,
+    "p_scale_whit": 0.003
+   }
+  },
+  "王": {
+   "pos": "n",
+   "freq": 143948,
+   "source": "r25",
+   "norm": 0.226,
+   "vec": {
+    "p_valence": 0.033,
+    "p_scale": 0.047,
+    "p_rate": -0.055,
+    "p_time": -0.003,
+    "p_strength": 0.121,
+    "p_temp": -0.038,
+    "p_direction": 0.03,
+    "p_luminance": 0.066,
+    "p_transitivity": -0.048,
+    "p_weight": 0.145,
+    "p_scale_whit": 0.034
+   }
+  },
+  "象": {
+   "pos": "n",
+   "freq": 143453,
+   "source": "r25",
+   "norm": 0.184,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.014,
+    "p_rate": -0.052,
+    "p_time": -0.028,
+    "p_strength": -0.047,
+    "p_temp": -0.053,
+    "p_direction": -0.051,
+    "p_luminance": -0.077,
+    "p_transitivity": -0.038,
+    "p_weight": 0.123,
+    "p_scale_whit": 0.01
+   }
+  },
+  "完": {
+   "pos": "a",
+   "freq": 143120,
+   "source": "r25",
+   "norm": 0.274,
+   "vec": {
+    "p_valence": 0.108,
+    "p_scale": 0.015,
+    "p_rate": -0.018,
+    "p_time": 0.007,
+    "p_strength": 0.198,
+    "p_temp": -0.062,
+    "p_direction": 0.102,
+    "p_luminance": 0.045,
+    "p_transitivity": -0.063,
+    "p_weight": 0.058,
+    "p_scale_whit": -0.027
+   }
+  },
+  "设": {
+   "pos": "v",
+   "freq": 142742,
+   "source": "r25",
+   "norm": 0.144,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.007,
+    "p_rate": -0.035,
+    "p_time": 0.017,
+    "p_strength": -0.006,
+    "p_temp": -0.07,
+    "p_direction": 0.024,
+    "p_luminance": -0.087,
+    "p_transitivity": 0.035,
+    "p_weight": -0.07,
+    "p_scale_whit": 0.005
+   }
+  },
+  "式": {
+   "pos": "n",
+   "freq": 142292,
+   "source": "r25",
+   "norm": 0.165,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.006,
+    "p_rate": -0.038,
+    "p_time": -0.034,
+    "p_strength": -0.019,
+    "p_temp": -0.075,
+    "p_direction": -0.02,
+    "p_luminance": -0.13,
+    "p_transitivity": -0.028,
+    "p_weight": -0.022,
+    "p_scale_whit": -0.009
+   }
+  },
+  "色": {
+   "pos": "n",
+   "freq": 142231,
+   "source": "r25",
+   "norm": 0.332,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.005,
+    "p_rate": -0.055,
+    "p_time": -0.014,
+    "p_strength": -0.089,
+    "p_temp": 0.297,
+    "p_direction": -0.051,
+    "p_luminance": -0.059,
+    "p_transitivity": -0.063,
+    "p_weight": 0.026,
+    "p_scale_whit": -0.006
+   }
+  },
+  "记": {
+   "pos": "v",
+   "freq": 139501,
+   "source": "r25",
+   "norm": 0.127,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.003,
+    "p_rate": -0.052,
+    "p_time": -0.009,
+    "p_strength": 0.006,
+    "p_temp": -0.055,
+    "p_direction": 0.052,
+    "p_luminance": -0.009,
+    "p_transitivity": -0.055,
+    "p_weight": 0.066,
+    "p_scale_whit": -0.004
+   }
+  },
+  "南": {
+   "pos": "n",
+   "freq": 139078,
+   "source": "r25",
+   "norm": 0.168,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": -0.048,
+    "p_rate": -0.07,
+    "p_time": 0.027,
+    "p_strength": -0.056,
+    "p_temp": 0.07,
+    "p_direction": -0.07,
+    "p_luminance": -0.02,
+    "p_transitivity": -0.017,
+    "p_weight": -0.08,
+    "p_scale_whit": -0.053
+   }
+  },
+  "品": {
+   "pos": "n",
+   "freq": 138528,
+   "source": "r25",
+   "norm": 0.176,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.009,
+    "p_rate": -0.077,
+    "p_time": -0.019,
+    "p_strength": 0.041,
+    "p_temp": -0.033,
+    "p_direction": 0.022,
+    "p_luminance": -0.042,
+    "p_transitivity": -0.077,
+    "p_weight": 0.115,
+    "p_scale_whit": 0.001
+   }
+  },
+  "住": {
+   "pos": "v",
+   "freq": 138503,
+   "source": "r25",
+   "norm": 0.295,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": -0.005,
+    "p_rate": -0.118,
+    "p_time": -0.009,
+    "p_strength": 0.056,
+    "p_temp": -0.045,
+    "p_direction": 0.074,
+    "p_luminance": 0.053,
+    "p_transitivity": -0.142,
+    "p_weight": 0.198,
+    "p_scale_whit": -0.009
+   }
+  },
+  "告": {
+   "pos": "v",
+   "freq": 138285,
+   "source": "r25",
+   "norm": 0.301,
+   "vec": {
+    "p_valence": -0.15,
+    "p_scale": 0.019,
+    "p_rate": 0.068,
+    "p_time": 0.014,
+    "p_strength": -0.062,
+    "p_temp": 0.043,
+    "p_direction": -0.001,
+    "p_luminance": 0.041,
+    "p_transitivity": 0.232,
+    "p_weight": -0.04,
+    "p_scale_whit": 0.077
+   }
+  },
+  "类": {
+   "pos": "n",
+   "freq": 138280,
+   "source": "r25",
+   "norm": 0.14,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.001,
+    "p_rate": -0.09,
+    "p_time": -0.024,
+    "p_strength": -0.006,
+    "p_temp": -0.083,
+    "p_direction": -0.001,
+    "p_luminance": -0.055,
+    "p_transitivity": -0.023,
+    "p_weight": -0.02,
+    "p_scale_whit": -0.004
+   }
+  },
+  "求": {
+   "pos": "v",
+   "freq": 138216,
+   "source": "r25",
+   "norm": 0.189,
+   "vec": {
+    "p_valence": -0.009,
+    "p_scale": 0.022,
+    "p_rate": -0.022,
+    "p_time": -0.004,
+    "p_strength": -0.129,
+    "p_temp": 0.04,
+    "p_direction": 0.085,
+    "p_luminance": -0.015,
+    "p_transitivity": -0.025,
+    "p_weight": -0.09,
+    "p_scale_whit": 0.025
+   }
+  },
+  "据": {
+   "pos": "n",
+   "freq": 137990,
+   "source": "r25",
+   "norm": 0.347,
+   "vec": {
+    "p_valence": -0.004,
+    "p_scale": 0.004,
+    "p_rate": -0.073,
+    "p_time": -0.011,
+    "p_strength": 0.249,
+    "p_temp": -0.057,
+    "p_direction": 0.139,
+    "p_luminance": -0.049,
+    "p_transitivity": 0.007,
+    "p_weight": 0.166,
+    "p_scale_whit": 0.005
+   }
+  },
+  "程": {
+   "pos": "n",
+   "freq": 136962,
+   "source": "r25",
+   "norm": 0.153,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.007,
+    "p_rate": 0.03,
+    "p_time": 0.006,
+    "p_strength": -0.009,
+    "p_temp": -0.067,
+    "p_direction": 0.01,
+    "p_luminance": -0.119,
+    "p_transitivity": -0.055,
+    "p_weight": -0.027,
+    "p_scale_whit": 0.004
+   }
+  },
+  "北": {
+   "pos": "n",
+   "freq": 136939,
+   "source": "r25",
+   "norm": 0.157,
+   "vec": {
+    "p_valence": -0.015,
+    "p_scale": -0.006,
+    "p_rate": -0.093,
+    "p_time": 0.012,
+    "p_strength": -0.029,
+    "p_temp": -0.078,
+    "p_direction": -0.065,
+    "p_luminance": -0.027,
+    "p_transitivity": -0.053,
+    "p_weight": -0.029,
+    "p_scale_whit": -0.0
+   }
+  },
+  "边": {
+   "pos": "n",
+   "freq": 136277,
+   "source": "r25",
+   "norm": 0.26,
+   "vec": {
+    "p_valence": -0.009,
+    "p_scale": -0.05,
+    "p_rate": -0.025,
+    "p_time": 0.006,
+    "p_strength": -0.119,
+    "p_temp": -0.042,
+    "p_direction": -0.05,
+    "p_luminance": -0.069,
+    "p_transitivity": -0.095,
+    "p_weight": -0.18,
+    "p_scale_whit": -0.046
+   }
+  },
+  "张": {
+   "pos": "v",
+   "freq": 136087,
+   "source": "r25",
+   "norm": 0.17,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.057,
+    "p_rate": -0.005,
+    "p_time": 0.006,
+    "p_strength": 0.124,
+    "p_temp": 0.003,
+    "p_direction": 0.039,
+    "p_luminance": -0.069,
+    "p_transitivity": 0.007,
+    "p_weight": -0.062,
+    "p_scale_whit": 0.055
+   }
+  },
+  "该": {
+   "pos": "f",
+   "freq": 136053,
+   "source": "r25",
+   "norm": 0.196,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.009,
+    "p_rate": -0.04,
+    "p_time": 0.001,
+    "p_strength": 0.009,
+    "p_temp": -0.055,
+    "p_direction": 0.015,
+    "p_luminance": -0.135,
+    "p_transitivity": -0.017,
+    "p_weight": -0.122,
+    "p_scale_whit": 0.006
+   }
+  },
+  "交": {
+   "pos": "v",
+   "freq": 135727,
+   "source": "r25",
+   "norm": 0.184,
+   "vec": {
+    "p_valence": -0.004,
+    "p_scale": 0.01,
+    "p_rate": 0.092,
+    "p_time": 0.001,
+    "p_strength": -0.059,
+    "p_temp": 0.043,
+    "p_direction": 0.105,
+    "p_luminance": -0.09,
+    "p_transitivity": 0.022,
+    "p_weight": -0.012,
+    "p_scale_whit": 0.012
+   }
+  },
+  "规": {
+   "pos": "n",
+   "freq": 134528,
+   "source": "r25",
+   "norm": 0.217,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.004,
+    "p_rate": -0.085,
+    "p_time": -0.023,
+    "p_strength": 0.108,
+    "p_temp": -0.082,
+    "p_direction": 0.074,
+    "p_luminance": 0.01,
+    "p_transitivity": -0.077,
+    "p_weight": 0.096,
+    "p_scale_whit": -0.001
+   }
+  },
+  "万": {
+   "pos": "f",
+   "freq": 134220,
+   "source": "r25",
+   "norm": 0.394,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.222,
+    "p_rate": 0.058,
+    "p_time": -0.021,
+    "p_strength": 0.151,
+    "p_temp": 0.005,
+    "p_direction": -0.048,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.022,
+    "p_weight": 0.271,
+    "p_scale_whit": 0.216
+   }
+  },
+  "取": {
+   "pos": "v",
+   "freq": 134102,
+   "source": "r25",
+   "norm": 0.32,
+   "vec": {
+    "p_valence": 0.048,
+    "p_scale": 0.035,
+    "p_rate": -0.002,
+    "p_time": 0.021,
+    "p_strength": -0.039,
+    "p_temp": -0.037,
+    "p_direction": 0.219,
+    "p_luminance": -0.002,
+    "p_transitivity": 0.217,
+    "p_weight": -0.03,
+    "p_scale_whit": 0.017
+   }
+  },
+  "格": {
+   "pos": "n",
+   "freq": 133986,
+   "source": "r25",
+   "norm": 0.253,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.007,
+    "p_rate": -0.07,
+    "p_time": -0.014,
+    "p_strength": 0.129,
+    "p_temp": -0.058,
+    "p_direction": 0.004,
+    "p_luminance": -0.11,
+    "p_transitivity": -0.038,
+    "p_weight": 0.158,
+    "p_scale_whit": 0.004
+   }
+  },
+  "望": {
+   "pos": "v",
+   "freq": 133145,
+   "source": "r25",
+   "norm": 0.215,
+   "vec": {
+    "p_valence": 0.075,
+    "p_scale": 0.049,
+    "p_rate": -0.055,
+    "p_time": 0.007,
+    "p_strength": -0.104,
+    "p_temp": -0.025,
+    "p_direction": -0.008,
+    "p_luminance": 0.038,
+    "p_transitivity": -0.075,
+    "p_weight": -0.129,
+    "p_scale_whit": 0.02
+   }
+  },
+  "觉": {
+   "pos": "v",
+   "freq": 132041,
+   "source": "r25",
+   "norm": 0.159,
+   "vec": {
+    "p_valence": 0.066,
+    "p_scale": 0.014,
+    "p_rate": -0.052,
+    "p_time": 0.006,
+    "p_strength": -0.074,
+    "p_temp": 0.013,
+    "p_direction": -0.048,
+    "p_luminance": 0.088,
+    "p_transitivity": -0.048,
+    "p_weight": -0.005,
+    "p_scale_whit": -0.012
+   }
+  },
+  "术": {
+   "pos": "n",
+   "freq": 131634,
+   "source": "r25",
+   "norm": 0.146,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.004,
+    "p_rate": 0.025,
+    "p_time": -0.004,
+    "p_strength": -0.052,
+    "p_temp": -0.067,
+    "p_direction": -0.023,
+    "p_luminance": -0.104,
+    "p_transitivity": -0.012,
+    "p_weight": -0.045,
+    "p_scale_whit": 0.0
+   }
+  },
+  "领": {
+   "pos": "v",
+   "freq": 130993,
+   "source": "r25",
+   "norm": 0.141,
+   "vec": {
+    "p_valence": 0.03,
+    "p_scale": 0.04,
+    "p_rate": -0.027,
+    "p_time": 0.006,
+    "p_strength": 0.031,
+    "p_temp": -0.033,
+    "p_direction": 0.074,
+    "p_luminance": -0.01,
+    "p_transitivity": 0.093,
+    "p_weight": -0.02,
+    "p_scale_whit": 0.029
+   }
+  },
+  "共": {
+   "pos": "a",
+   "freq": 128824,
+   "source": "r25",
+   "norm": 0.275,
+   "vec": {
+    "p_valence": 0.033,
+    "p_scale": 0.019,
+    "p_rate": -0.037,
+    "p_time": -0.016,
+    "p_strength": -0.101,
+    "p_temp": 0.063,
+    "p_direction": 0.222,
+    "p_luminance": -0.054,
+    "p_transitivity": -0.075,
+    "p_weight": 0.02,
+    "p_scale_whit": 0.006
+   }
+  },
+  "确": {
+   "pos": "a",
+   "freq": 128417,
+   "source": "r25",
+   "norm": 0.41,
+   "vec": {
+    "p_valence": 0.07,
+    "p_scale": 0.007,
+    "p_rate": -0.063,
+    "p_time": -0.016,
+    "p_strength": 0.383,
+    "p_temp": -0.047,
+    "p_direction": 0.019,
+    "p_luminance": 0.051,
+    "p_transitivity": -0.04,
+    "p_weight": 0.076,
+    "p_scale_whit": -0.02
+   }
+  },
+  "传": {
+   "pos": "v",
+   "freq": 128186,
+   "source": "r25",
+   "norm": 0.223,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.01,
+    "p_rate": 0.178,
+    "p_time": -0.008,
+    "p_strength": -0.032,
+    "p_temp": -0.023,
+    "p_direction": -0.026,
+    "p_luminance": -0.025,
+    "p_transitivity": 0.057,
+    "p_weight": -0.109,
+    "p_scale_whit": 0.009
+   }
+  },
+  "师": {
+   "pos": "n",
+   "freq": 128086,
+   "source": "r25",
+   "norm": 0.172,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.024,
+    "p_rate": -0.07,
+    "p_time": -0.008,
+    "p_strength": 0.081,
+    "p_temp": -0.047,
+    "p_direction": 0.085,
+    "p_luminance": 0.04,
+    "p_transitivity": 0.035,
+    "p_weight": 0.07,
+    "p_scale_whit": 0.016
+   }
+  },
+  "观": {
+   "pos": "v",
+   "freq": 127796,
+   "source": "r25",
+   "norm": 0.161,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.0,
+    "p_rate": -0.093,
+    "p_time": -0.008,
+    "p_strength": -0.059,
+    "p_temp": -0.06,
+    "p_direction": -0.038,
+    "p_luminance": 0.016,
+    "p_transitivity": -0.072,
+    "p_weight": -0.055,
+    "p_scale_whit": -0.004
+   }
+  },
+  "今": {
+   "pos": "n",
+   "freq": 126624,
+   "source": "r25",
+   "norm": 0.46,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": -0.001,
+    "p_rate": 0.208,
+    "p_time": 0.362,
+    "p_strength": -0.006,
+    "p_temp": 0.002,
+    "p_direction": 0.025,
+    "p_luminance": 0.11,
+    "p_transitivity": -0.028,
+    "p_weight": -0.154,
+    "p_scale_whit": -0.005
+   }
+  },
+  "切": {
+   "pos": "f",
+   "freq": 126391,
+   "source": "r25",
+   "norm": 0.465,
+   "vec": {
+    "p_valence": -0.054,
+    "p_scale": -0.04,
+    "p_rate": 0.332,
+    "p_time": 0.016,
+    "p_strength": 0.033,
+    "p_temp": 0.082,
+    "p_direction": -0.045,
+    "p_luminance": -0.014,
+    "p_transitivity": 0.302,
+    "p_weight": 0.026,
+    "p_scale_whit": -0.019
+   }
+  },
+  "院": {
+   "pos": "n",
+   "freq": 126115,
+   "source": "r25",
+   "norm": 0.126,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": -0.005,
+    "p_rate": -0.057,
+    "p_time": -0.003,
+    "p_strength": 0.026,
+    "p_temp": -0.068,
+    "p_direction": 0.039,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.048,
+    "p_weight": 0.051,
+    "p_scale_whit": -0.004
+   }
+  },
+  "让": {
+   "pos": "v",
+   "freq": 125660,
+   "source": "r25",
+   "norm": 0.223,
+   "vec": {
+    "p_valence": 0.045,
+    "p_scale": -0.046,
+    "p_rate": -0.052,
+    "p_time": 0.001,
+    "p_strength": -0.116,
+    "p_temp": -0.008,
+    "p_direction": -0.046,
+    "p_luminance": 0.023,
+    "p_transitivity": -0.033,
+    "p_weight": -0.16,
+    "p_scale_whit": -0.064
+   }
+  },
+  "识": {
+   "pos": "v",
+   "freq": 125220,
+   "source": "r25",
+   "norm": 0.13,
+   "vec": {
+    "p_valence": 0.02,
+    "p_scale": 0.009,
+    "p_rate": -0.063,
+    "p_time": -0.006,
+    "p_strength": -0.039,
+    "p_temp": -0.058,
+    "p_direction": -0.028,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.017,
+    "p_weight": 0.075,
+    "p_scale_whit": 0.001
+   }
+  },
+  "候": {
+   "pos": "n",
+   "freq": 124865,
+   "source": "r25",
+   "norm": 0.155,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.008,
+    "p_rate": -0.042,
+    "p_time": 0.009,
+    "p_strength": -0.051,
+    "p_temp": -0.03,
+    "p_direction": 0.02,
+    "p_luminance": -0.055,
+    "p_transitivity": -0.062,
+    "p_weight": -0.107,
+    "p_scale_whit": -0.011
+   }
+  },
+  "带": {
+   "pos": "v",
+   "freq": 124619,
+   "source": "r25",
+   "norm": 0.226,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": -0.003,
+    "p_rate": -0.017,
+    "p_time": -0.004,
+    "p_strength": 0.036,
+    "p_temp": -0.033,
+    "p_direction": 0.065,
+    "p_luminance": -0.077,
+    "p_transitivity": 0.163,
+    "p_weight": 0.106,
+    "p_scale_whit": -0.002
+   }
+  },
+  "导": {
+   "pos": "v",
+   "freq": 124463,
+   "source": "r25",
+   "norm": 0.198,
+   "vec": {
+    "p_valence": 0.033,
+    "p_scale": 0.015,
+    "p_rate": 0.045,
+    "p_time": 0.011,
+    "p_strength": -0.081,
+    "p_temp": -0.045,
+    "p_direction": 0.03,
+    "p_luminance": 0.033,
+    "p_transitivity": 0.148,
+    "p_weight": -0.057,
+    "p_scale_whit": 0.002
+   }
+  },
+  "争": {
+   "pos": "v",
+   "freq": 124420,
+   "source": "r25",
+   "norm": 0.817,
+   "vec": {
+    "p_valence": -0.265,
+    "p_scale": 0.017,
+    "p_rate": 0.162,
+    "p_time": -0.004,
+    "p_strength": 0.033,
+    "p_temp": 0.627,
+    "p_direction": 0.022,
+    "p_luminance": 0.148,
+    "p_transitivity": 0.387,
+    "p_weight": 0.075,
+    "p_scale_whit": 0.12
+   }
+  },
+  "运": {
+   "pos": "v",
+   "freq": 123903,
+   "source": "r25",
+   "norm": 0.232,
+   "vec": {
+    "p_valence": 0.136,
+    "p_scale": 0.025,
+    "p_rate": 0.003,
+    "p_time": 0.009,
+    "p_strength": -0.054,
+    "p_temp": -0.02,
+    "p_direction": -0.013,
+    "p_luminance": -0.069,
+    "p_transitivity": -0.14,
+    "p_weight": -0.082,
+    "p_scale_whit": -0.028
+   }
+  },
+  "笑": {
+   "pos": "v",
+   "freq": 122902,
+   "source": "r25",
+   "norm": 0.765,
+   "vec": {
+    "p_valence": 0.365,
+    "p_scale": 0.014,
+    "p_rate": -0.057,
+    "p_time": 0.021,
+    "p_strength": -0.106,
+    "p_temp": 0.5,
+    "p_direction": -0.028,
+    "p_luminance": 0.273,
+    "p_transitivity": -0.01,
+    "p_weight": -0.335,
+    "p_scale_whit": -0.128
+   }
+  },
+  "飞": {
+   "pos": "v",
+   "freq": 122290,
+   "source": "r25",
+   "norm": 0.761,
+   "vec": {
+    "p_valence": 0.051,
+    "p_scale": 0.16,
+    "p_rate": 0.542,
+    "p_time": 0.017,
+    "p_strength": -0.136,
+    "p_temp": 0.06,
+    "p_direction": -0.173,
+    "p_luminance": 0.16,
+    "p_transitivity": 0.035,
+    "p_weight": -0.422,
+    "p_scale_whit": 0.14
+   }
+  },
+  "步": {
+   "pos": "n",
+   "freq": 121267,
+   "source": "r25",
+   "norm": 0.127,
+   "vec": {
+    "p_valence": -0.004,
+    "p_scale": -0.021,
+    "p_rate": 0.08,
+    "p_time": 0.004,
+    "p_strength": -0.034,
+    "p_temp": -0.055,
+    "p_direction": -0.035,
+    "p_luminance": -0.027,
+    "p_transitivity": -0.032,
+    "p_weight": -0.045,
+    "p_scale_whit": -0.02
+   }
+  },
+  "改": {
+   "pos": "v",
+   "freq": 121023,
+   "source": "r25",
+   "norm": 0.613,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": -0.003,
+    "p_rate": 0.223,
+    "p_time": 0.261,
+    "p_strength": -0.121,
+    "p_temp": -0.053,
+    "p_direction": -0.036,
+    "p_luminance": -0.007,
+    "p_transitivity": 0.482,
+    "p_weight": -0.082,
+    "p_scale_whit": -0.008
+   }
+  },
+  "根": {
+   "pos": "n",
+   "freq": 120778,
+   "source": "r25",
+   "norm": 0.601,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.055,
+    "p_rate": -0.108,
+    "p_time": -0.073,
+    "p_strength": 0.341,
+    "p_temp": -0.032,
+    "p_direction": 0.095,
+    "p_luminance": 0.006,
+    "p_transitivity": -0.08,
+    "p_weight": 0.456,
+    "p_scale_whit": -0.057
+   }
+  },
+  "干": {
+   "pos": "v",
+   "freq": 120564,
+   "source": "r25",
+   "norm": 0.198,
+   "vec": {
+    "p_valence": -0.035,
+    "p_scale": -0.03,
+    "p_rate": -0.023,
+    "p_time": 0.009,
+    "p_strength": 0.034,
+    "p_temp": 0.07,
+    "p_direction": -0.058,
+    "p_luminance": 0.028,
+    "p_transitivity": 0.162,
+    "p_weight": -0.007,
+    "p_scale_whit": -0.016
+   }
+  },
+  "言": {
+   "pos": "n",
+   "freq": 120308,
+   "source": "r25",
+   "norm": 0.207,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.012,
+    "p_rate": -0.007,
+    "p_time": 0.004,
+    "p_strength": -0.062,
+    "p_temp": 0.01,
+    "p_direction": 0.005,
+    "p_luminance": 0.04,
+    "p_transitivity": 0.078,
+    "p_weight": -0.175,
+    "p_scale_whit": 0.009
+   }
+  },
+  "联": {
+   "pos": "v",
+   "freq": 120301,
+   "source": "r25",
+   "norm": 0.301,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": 0.014,
+    "p_rate": -0.023,
+    "p_time": -0.001,
+    "p_strength": -0.002,
+    "p_temp": -0.012,
+    "p_direction": 0.277,
+    "p_luminance": -0.08,
+    "p_transitivity": -0.06,
+    "p_weight": -0.049,
+    "p_scale_whit": 0.005
+   }
+  },
+  "持": {
+   "pos": "v",
+   "freq": 119990,
+   "source": "r25",
+   "norm": 0.321,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.007,
+    "p_rate": -0.122,
+    "p_time": -0.036,
+    "p_strength": 0.204,
+    "p_temp": -0.048,
+    "p_direction": 0.097,
+    "p_luminance": -0.082,
+    "p_transitivity": -0.112,
+    "p_weight": 0.12,
+    "p_scale_whit": 0.004
+   }
+  },
+  "组": {
+   "pos": "v",
+   "freq": 119734,
+   "source": "r25",
+   "norm": 0.172,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.004,
+    "p_rate": -0.035,
+    "p_time": 0.004,
+    "p_strength": -0.004,
+    "p_temp": -0.053,
+    "p_direction": 0.147,
+    "p_luminance": -0.022,
+    "p_transitivity": -0.053,
+    "p_weight": 0.02,
+    "p_scale_whit": 0.0
+   }
+  },
+  "每": {
+   "pos": "f",
+   "freq": 119594,
+   "source": "r25",
+   "norm": 0.146,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.008,
+    "p_rate": -0.002,
+    "p_time": -0.019,
+    "p_strength": -0.099,
+    "p_temp": -0.047,
+    "p_direction": -0.028,
+    "p_luminance": -0.025,
+    "p_transitivity": -0.035,
+    "p_weight": -0.079,
+    "p_scale_whit": -0.011
+   }
+  },
+  "济": {
+   "pos": "v",
+   "freq": 119161,
+   "source": "r25",
+   "norm": 0.147,
+   "vec": {
+    "p_valence": 0.088,
+    "p_scale": 0.002,
+    "p_rate": -0.002,
+    "p_time": 0.001,
+    "p_strength": -0.016,
+    "p_temp": -0.01,
+    "p_direction": 0.032,
+    "p_luminance": -0.105,
+    "p_transitivity": 0.02,
+    "p_weight": 0.03,
+    "p_scale_whit": -0.032
+   }
+  },
+  "亲": {
+   "pos": "a",
+   "freq": 118451,
+   "source": "r25",
+   "norm": 0.506,
+   "vec": {
+    "p_valence": 0.148,
+    "p_scale": 0.017,
+    "p_rate": -0.048,
+    "p_time": 0.006,
+    "p_strength": 0.036,
+    "p_temp": 0.457,
+    "p_direction": 0.122,
+    "p_luminance": 0.051,
+    "p_transitivity": -0.052,
+    "p_weight": 0.041,
+    "p_scale_whit": -0.041
+   }
+  },
+  "极": {
+   "pos": "a",
+   "freq": 117736,
+   "source": "r25",
+   "norm": 0.616,
+   "vec": {
+    "p_valence": -0.027,
+    "p_scale": 0.167,
+    "p_rate": 0.158,
+    "p_time": -0.008,
+    "p_strength": 0.303,
+    "p_temp": 0.293,
+    "p_direction": 0.032,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.035,
+    "p_weight": 0.38,
+    "p_scale_whit": 0.177
+   }
+  },
+  "林": {
+   "pos": "n",
+   "freq": 117675,
+   "source": "r25",
+   "norm": 0.142,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.01,
+    "p_rate": -0.075,
+    "p_time": 0.004,
+    "p_strength": 0.034,
+    "p_temp": -0.048,
+    "p_direction": 0.044,
+    "p_luminance": -0.052,
+    "p_transitivity": -0.048,
+    "p_weight": 0.063,
+    "p_scale_whit": 0.007
+   }
+  },
+  "服": {
+   "pos": "v",
+   "freq": 116961,
+   "source": "r25",
+   "norm": 0.125,
+   "vec": {
+    "p_valence": 0.025,
+    "p_scale": -0.016,
+    "p_rate": -0.057,
+    "p_time": -0.001,
+    "p_strength": -0.012,
+    "p_temp": -0.04,
+    "p_direction": 0.029,
+    "p_luminance": -0.065,
+    "p_transitivity": -0.053,
+    "p_weight": -0.044,
+    "p_scale_whit": -0.026
+   }
+  },
+  "办": {
+   "pos": "v",
+   "freq": 116904,
+   "source": "r25",
+   "norm": 0.363,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.01,
+    "p_rate": 0.058,
+    "p_time": 0.016,
+    "p_strength": 0.003,
+    "p_temp": 0.005,
+    "p_direction": 0.054,
+    "p_luminance": -0.047,
+    "p_transitivity": 0.35,
+    "p_weight": -0.01,
+    "p_scale_whit": 0.005
+   }
+  },
+  "议": {
+   "pos": "v",
+   "freq": 116810,
+   "source": "r25",
+   "norm": 0.201,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.009,
+    "p_rate": 0.003,
+    "p_time": 0.011,
+    "p_strength": -0.066,
+    "p_temp": 0.145,
+    "p_direction": 0.02,
+    "p_luminance": 0.026,
+    "p_transitivity": -0.02,
+    "p_weight": -0.115,
+    "p_scale_whit": 0.006
+   }
+  },
+  "往": {
+   "pos": "f",
+   "freq": 116539,
+   "source": "r25",
+   "norm": 0.152,
+   "vec": {
+    "p_valence": 0.028,
+    "p_scale": -0.001,
+    "p_rate": 0.032,
+    "p_time": 0.011,
+    "p_strength": -0.009,
+    "p_temp": -0.05,
+    "p_direction": 0.059,
+    "p_luminance": -0.015,
+    "p_transitivity": 0.088,
+    "p_weight": -0.085,
+    "p_scale_whit": -0.012
+   }
+  },
+  "元": {
+   "pos": "n",
+   "freq": 116488,
+   "source": "r25",
+   "norm": 0.177,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.009,
+    "p_rate": -0.035,
+    "p_time": -0.016,
+    "p_strength": -0.019,
+    "p_temp": -0.073,
+    "p_direction": -0.031,
+    "p_luminance": -0.117,
+    "p_transitivity": 0.01,
+    "p_weight": 0.096,
+    "p_scale_whit": 0.005
+   }
+  },
+  "英": {
+   "pos": "a",
+   "freq": 116193,
+   "source": "r25",
+   "norm": 0.166,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.009,
+    "p_rate": -0.06,
+    "p_time": 0.016,
+    "p_strength": 0.018,
+    "p_temp": -0.057,
+    "p_direction": -0.001,
+    "p_luminance": -0.004,
+    "p_transitivity": -0.01,
+    "p_weight": -0.14,
+    "p_scale_whit": 0.002
+   }
+  },
+  "士": {
+   "pos": "n",
+   "freq": 115704,
+   "source": "r25",
+   "norm": 0.146,
+   "vec": {
+    "p_valence": 0.028,
+    "p_scale": -0.005,
+    "p_rate": -0.09,
+    "p_time": -0.079,
+    "p_strength": 0.013,
+    "p_temp": -0.057,
+    "p_direction": -0.008,
+    "p_luminance": -0.029,
+    "p_transitivity": -0.018,
+    "p_weight": 0.04,
+    "p_scale_whit": -0.016
+   }
+  },
+  "证": {
+   "pos": "v",
+   "freq": 115610,
+   "source": "r25",
+   "norm": 0.238,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": 0.004,
+    "p_rate": -0.05,
+    "p_time": -0.001,
+    "p_strength": 0.211,
+    "p_temp": -0.062,
+    "p_direction": 0.017,
+    "p_luminance": -0.035,
+    "p_transitivity": -0.008,
+    "p_weight": 0.065,
+    "p_scale_whit": 0.002
+   }
+  },
+  "近": {
+   "pos": "a",
+   "freq": 115441,
+   "source": "r25",
+   "norm": 0.353,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": -0.043,
+    "p_rate": -0.002,
+    "p_time": 0.226,
+    "p_strength": -0.079,
+    "p_temp": 0.048,
+    "p_direction": 0.16,
+    "p_luminance": 0.055,
+    "p_transitivity": -0.102,
+    "p_weight": -0.155,
+    "p_scale_whit": -0.048
+   }
+  },
+  "转": {
+   "pos": "v",
+   "freq": 115087,
+   "source": "r25",
+   "norm": 0.407,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": -0.003,
+    "p_rate": 0.27,
+    "p_time": 0.101,
+    "p_strength": -0.097,
+    "p_temp": -0.042,
+    "p_direction": -0.03,
+    "p_luminance": -0.054,
+    "p_transitivity": 0.215,
+    "p_weight": -0.147,
+    "p_scale_whit": -0.006
+   }
+  },
+  "夫": {
+   "pos": "n",
+   "freq": 114784,
+   "source": "r25",
+   "norm": 0.178,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.032,
+    "p_rate": -0.077,
+    "p_time": -0.033,
+    "p_strength": 0.121,
+    "p_temp": -0.038,
+    "p_direction": 0.015,
+    "p_luminance": -0.035,
+    "p_transitivity": -0.033,
+    "p_weight": 0.071,
+    "p_scale_whit": 0.031
+   }
+  },
+  "令": {
+   "pos": "v",
+   "freq": 114570,
+   "source": "r25",
+   "norm": 0.162,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.01,
+    "p_rate": 0.097,
+    "p_time": 0.007,
+    "p_strength": 0.049,
+    "p_temp": -0.047,
+    "p_direction": 0.064,
+    "p_luminance": -0.03,
+    "p_transitivity": 0.047,
+    "p_weight": -0.07,
+    "p_scale_whit": 0.006
+   }
+  },
+  "准": {
+   "pos": "a",
+   "freq": 113877,
+   "source": "r25",
+   "norm": 0.134,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.005,
+    "p_rate": 0.005,
+    "p_time": 0.011,
+    "p_strength": 0.066,
+    "p_temp": -0.063,
+    "p_direction": 0.005,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.07,
+    "p_weight": -0.057,
+    "p_scale_whit": -0.0
+   }
+  },
+  "布": {
+   "pos": "v",
+   "freq": 113652,
+   "source": "r25",
+   "norm": 0.121,
+   "vec": {
+    "p_valence": 0.005,
+    "p_scale": -0.006,
+    "p_rate": -0.057,
+    "p_time": -0.003,
+    "p_strength": 0.023,
+    "p_temp": -0.055,
+    "p_direction": -0.036,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.057,
+    "p_weight": 0.04,
+    "p_scale_whit": -0.008
+   }
+  },
+  "始": {
+   "pos": "v",
+   "freq": 112987,
+   "source": "r25",
+   "norm": 0.24,
+   "vec": {
+    "p_valence": 0.046,
+    "p_scale": -0.015,
+    "p_rate": 0.063,
+    "p_time": 0.192,
+    "p_strength": -0.086,
+    "p_temp": -0.023,
+    "p_direction": 0.014,
+    "p_luminance": 0.006,
+    "p_transitivity": 0.033,
+    "p_weight": -0.072,
+    "p_scale_whit": -0.033
+   }
+  },
+  "怎": {
+   "pos": "f",
+   "freq": 112294,
+   "source": "r25",
+   "norm": 0.223,
+   "vec": {
+    "p_valence": -0.012,
+    "p_scale": -0.003,
+    "p_rate": 0.063,
+    "p_time": 0.001,
+    "p_strength": -0.149,
+    "p_temp": -0.035,
+    "p_direction": -0.033,
+    "p_luminance": -0.054,
+    "p_transitivity": -0.058,
+    "p_weight": -0.122,
+    "p_scale_whit": 0.002
+   }
+  },
+  "呢": {
+   "pos": "f",
+   "freq": 112185,
+   "source": "r25",
+   "norm": 0.326,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.011,
+    "p_rate": -0.085,
+    "p_time": 0.014,
+    "p_strength": -0.119,
+    "p_temp": 0.087,
+    "p_direction": 0.024,
+    "p_luminance": -0.095,
+    "p_transitivity": 0.005,
+    "p_weight": -0.26,
+    "p_scale_whit": -0.014
+   }
+  },
+  "存": {
+   "pos": "v",
+   "freq": 110970,
+   "source": "r25",
+   "norm": 0.376,
+   "vec": {
+    "p_valence": 0.03,
+    "p_scale": -0.001,
+    "p_rate": -0.117,
+    "p_time": -0.024,
+    "p_strength": 0.118,
+    "p_temp": -0.065,
+    "p_direction": 0.164,
+    "p_luminance": -0.04,
+    "p_transitivity": -0.115,
+    "p_weight": 0.258,
+    "p_scale_whit": -0.013
+   }
+  },
+  "未": {
+   "pos": "f",
+   "freq": 110491,
+   "source": "r25",
+   "norm": 0.337,
+   "vec": {
+    "p_valence": -0.175,
+    "p_scale": -0.048,
+    "p_rate": -0.068,
+    "p_time": 0.041,
+    "p_strength": -0.206,
+    "p_temp": -0.068,
+    "p_direction": -0.071,
+    "p_luminance": -0.069,
+    "p_transitivity": -0.047,
+    "p_weight": -0.125,
+    "p_scale_whit": 0.02
+   }
+  },
+  "远": {
+   "pos": "a",
+   "freq": 110455,
+   "source": "r25",
+   "norm": 0.383,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": 0.069,
+    "p_rate": -0.123,
+    "p_time": -0.079,
+    "p_strength": -0.131,
+    "p_temp": -0.085,
+    "p_direction": -0.258,
+    "p_luminance": -0.0,
+    "p_transitivity": -0.033,
+    "p_weight": -0.169,
+    "p_scale_whit": 0.069
+   }
+  },
+  "叫": {
+   "pos": "v",
+   "freq": 110131,
+   "source": "r25",
+   "norm": 0.532,
+   "vec": {
+    "p_valence": -0.027,
+    "p_scale": 0.024,
+    "p_rate": 0.167,
+    "p_time": 0.024,
+    "p_strength": -0.047,
+    "p_temp": 0.352,
+    "p_direction": -0.028,
+    "p_luminance": -0.005,
+    "p_transitivity": 0.332,
+    "p_weight": -0.13,
+    "p_scale_whit": 0.034
+   }
+  },
+  "台": {
+   "pos": "n",
+   "freq": 109362,
+   "source": "r25",
+   "norm": 0.142,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": 0.01,
+    "p_rate": -0.04,
+    "p_time": 0.009,
+    "p_strength": -0.031,
+    "p_temp": -0.058,
+    "p_direction": -0.036,
+    "p_luminance": -0.017,
+    "p_transitivity": -0.095,
+    "p_weight": -0.059,
+    "p_scale_whit": 0.01
+   }
+  },
+  "单": {
+   "pos": "a",
+   "freq": 109359,
+   "source": "r25",
+   "norm": 0.376,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.21,
+    "p_rate": -0.053,
+    "p_time": -0.014,
+    "p_strength": -0.134,
+    "p_temp": -0.072,
+    "p_direction": 0.065,
+    "p_luminance": 0.033,
+    "p_transitivity": -0.098,
+    "p_weight": -0.237,
+    "p_scale_whit": -0.21
+   }
+  },
+  "具": {
+   "pos": "n",
+   "freq": 108811,
+   "source": "r25",
+   "norm": 0.384,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.027,
+    "p_rate": -0.052,
+    "p_time": 0.007,
+    "p_strength": 0.231,
+    "p_temp": -0.06,
+    "p_direction": 0.067,
+    "p_luminance": -0.072,
+    "p_transitivity": -0.042,
+    "p_weight": 0.275,
+    "p_scale_whit": 0.024
+   }
+  },
+  "罗": {
+   "pos": "f",
+   "freq": 108376,
+   "source": "r25",
+   "norm": 0.163,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": 0.005,
+    "p_rate": -0.052,
+    "p_time": 0.009,
+    "p_strength": 0.019,
+    "p_temp": -0.043,
+    "p_direction": 0.072,
+    "p_luminance": -0.124,
+    "p_transitivity": -0.03,
+    "p_weight": 0.006,
+    "p_scale_whit": 0.006
+   }
+  },
+  "字": {
+   "pos": "n",
+   "freq": 108218,
+   "source": "r25",
+   "norm": 0.126,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.013,
+    "p_rate": -0.075,
+    "p_time": 0.001,
+    "p_strength": -0.001,
+    "p_temp": -0.058,
+    "p_direction": -0.021,
+    "p_luminance": 0.053,
+    "p_transitivity": -0.008,
+    "p_weight": -0.059,
+    "p_scale_whit": -0.016
+   }
+  },
+  "爱": {
+   "pos": "v",
+   "freq": 108167,
+   "source": "r25",
+   "norm": 0.775,
+   "vec": {
+    "p_valence": 0.37,
+    "p_scale": 0.015,
+    "p_rate": -0.087,
+    "p_time": -0.001,
+    "p_strength": -0.056,
+    "p_temp": 0.635,
+    "p_direction": 0.004,
+    "p_luminance": 0.13,
+    "p_transitivity": -0.027,
+    "p_weight": 0.18,
+    "p_scale_whit": -0.128
+   }
+  },
+  "击": {
+   "pos": "v",
+   "freq": 107513,
+   "source": "r25",
+   "norm": 0.941,
+   "vec": {
+    "p_valence": -0.1,
+    "p_scale": 0.01,
+    "p_rate": 0.483,
+    "p_time": 0.026,
+    "p_strength": 0.148,
+    "p_temp": 0.383,
+    "p_direction": 0.077,
+    "p_luminance": 0.07,
+    "p_transitivity": 0.647,
+    "p_weight": 0.21,
+    "p_scale_whit": 0.049
+   }
+  },
+  "流": {
+   "pos": "v",
+   "freq": 107397,
+   "source": "r25",
+   "norm": 0.471,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": -0.008,
+    "p_rate": 0.32,
+    "p_time": 0.017,
+    "p_strength": -0.136,
+    "p_temp": 0.057,
+    "p_direction": -0.141,
+    "p_luminance": -0.009,
+    "p_transitivity": -0.003,
+    "p_weight": -0.279,
+    "p_scale_whit": -0.014
+   }
+  },
+  "备": {
+   "pos": "v",
+   "freq": 107114,
+   "source": "r25",
+   "norm": 0.167,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.004,
+    "p_rate": -0.057,
+    "p_time": -0.001,
+    "p_strength": 0.069,
+    "p_temp": -0.07,
+    "p_direction": 0.082,
+    "p_luminance": -0.029,
+    "p_transitivity": -0.085,
+    "p_weight": -0.002,
+    "p_scale_whit": -0.001
+   }
+  },
+  "兵": {
+   "pos": "n",
+   "freq": 106982,
+   "source": "r25",
+   "norm": 0.267,
+   "vec": {
+    "p_valence": -0.014,
+    "p_scale": -0.003,
+    "p_rate": 0.048,
+    "p_time": -0.019,
+    "p_strength": 0.091,
+    "p_temp": 0.077,
+    "p_direction": -0.011,
+    "p_luminance": 0.12,
+    "p_transitivity": 0.087,
+    "p_weight": 0.18,
+    "p_scale_whit": 0.002
+   }
+  },
+  "连": {
+   "pos": "v",
+   "freq": 106814,
+   "source": "r25",
+   "norm": 0.241,
+   "vec": {
+    "p_valence": -0.002,
+    "p_scale": -0.001,
+    "p_rate": 0.027,
+    "p_time": -0.008,
+    "p_strength": 0.028,
+    "p_temp": -0.007,
+    "p_direction": 0.227,
+    "p_luminance": -0.042,
+    "p_transitivity": -0.057,
+    "p_weight": -0.009,
+    "p_scale_whit": -0.001
+   }
+  },
+  "调": {
+   "pos": "v",
+   "freq": 106379,
+   "source": "r25",
+   "norm": 0.125,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.004,
+    "p_rate": 0.015,
+    "p_time": 0.006,
+    "p_strength": -0.061,
+    "p_temp": 0.05,
+    "p_direction": 0.002,
+    "p_luminance": -0.079,
+    "p_transitivity": -0.0,
+    "p_weight": -0.052,
+    "p_scale_whit": -0.003
+   }
+  },
+  "深": {
+   "pos": "a",
+   "freq": 105924,
+   "source": "r25",
+   "norm": 0.61,
+   "vec": {
+    "p_valence": -0.017,
+    "p_scale": 0.055,
+    "p_rate": -0.098,
+    "p_time": -0.039,
+    "p_strength": 0.281,
+    "p_temp": 0.085,
+    "p_direction": -0.013,
+    "p_luminance": -0.132,
+    "p_transitivity": -0.003,
+    "p_weight": 0.503,
+    "p_scale_whit": 0.062
+   }
+  },
+  "商": {
+   "pos": "n",
+   "freq": 105406,
+   "source": "r25",
+   "norm": 0.116,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": -0.005,
+    "p_rate": -0.023,
+    "p_time": 0.002,
+    "p_strength": -0.012,
+    "p_temp": -0.057,
+    "p_direction": -0.021,
+    "p_luminance": 0.033,
+    "p_transitivity": -0.062,
+    "p_weight": -0.064,
+    "p_scale_whit": -0.009
+   }
+  },
+  "算": {
+   "pos": "v",
+   "freq": 105293,
+   "source": "r25",
+   "norm": 0.075,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.005,
+    "p_rate": 0.032,
+    "p_time": -0.004,
+    "p_strength": -0.012,
+    "p_temp": -0.06,
+    "p_direction": -0.005,
+    "p_luminance": 0.021,
+    "p_transitivity": -0.007,
+    "p_weight": 0.018,
+    "p_scale_whit": 0.004
+   }
+  },
+  "质": {
+   "pos": "n",
+   "freq": 104560,
+   "source": "r25",
+   "norm": 0.374,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.009,
+    "p_rate": -0.048,
+    "p_time": -0.003,
+    "p_strength": 0.169,
+    "p_temp": -0.062,
+    "p_direction": -0.06,
+    "p_luminance": -0.099,
+    "p_transitivity": -0.058,
+    "p_weight": 0.296,
+    "p_scale_whit": 0.005
+   }
+  },
+  "团": {
+   "pos": "n",
+   "freq": 104151,
+   "source": "r25",
+   "norm": 0.29,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.005,
+    "p_rate": -0.042,
+    "p_time": 0.001,
+    "p_strength": 0.104,
+    "p_temp": 0.048,
+    "p_direction": 0.225,
+    "p_luminance": 0.021,
+    "p_transitivity": -0.065,
+    "p_weight": 0.115,
+    "p_scale_whit": -0.0
+   }
+  },
+  "集": {
+   "pos": "v",
+   "freq": 104019,
+   "source": "r25",
+   "norm": 0.437,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": 0.039,
+    "p_rate": -0.015,
+    "p_time": -0.019,
+    "p_strength": 0.113,
+    "p_temp": -0.053,
+    "p_direction": 0.322,
+    "p_luminance": -0.055,
+    "p_transitivity": 0.048,
+    "p_weight": 0.253,
+    "p_scale_whit": 0.035
+   }
+  },
+  "百": {
+   "pos": "f",
+   "freq": 103938,
+   "source": "r25",
+   "norm": 0.262,
+   "vec": {
+    "p_valence": 0.011,
+    "p_scale": 0.115,
+    "p_rate": 0.02,
+    "p_time": -0.053,
+    "p_strength": 0.163,
+    "p_temp": -0.012,
+    "p_direction": -0.048,
+    "p_luminance": 0.008,
+    "p_transitivity": -0.018,
+    "p_weight": 0.15,
+    "p_scale_whit": 0.111
+   }
+  },
+  "需": {
+   "pos": "v",
+   "freq": 103832,
+   "source": "r25",
+   "norm": 0.165,
+   "vec": {
+    "p_valence": -0.045,
+    "p_scale": 0.022,
+    "p_rate": -0.022,
+    "p_time": 0.004,
+    "p_strength": -0.031,
+    "p_temp": -0.028,
+    "p_direction": 0.032,
+    "p_luminance": 0.048,
+    "p_transitivity": -0.133,
+    "p_weight": 0.038,
+    "p_scale_whit": 0.04
+   }
+  },
+  "价": {
+   "pos": "n",
+   "freq": 103634,
+   "source": "r25",
+   "norm": 0.139,
+   "vec": {
+    "p_valence": -0.0,
+    "p_scale": -0.013,
+    "p_rate": -0.042,
+    "p_time": 0.004,
+    "p_strength": -0.031,
+    "p_temp": -0.05,
+    "p_direction": -0.03,
+    "p_luminance": 0.101,
+    "p_transitivity": -0.052,
+    "p_weight": -0.012,
+    "p_scale_whit": -0.013
+   }
+  },
+  "花": {
+   "pos": "n",
+   "freq": 103367,
+   "source": "r25",
+   "norm": 0.416,
+   "vec": {
+    "p_valence": 0.131,
+    "p_scale": 0.007,
+    "p_rate": -0.048,
+    "p_time": 0.007,
+    "p_strength": -0.131,
+    "p_temp": 0.192,
+    "p_direction": -0.063,
+    "p_luminance": 0.175,
+    "p_transitivity": -0.05,
+    "p_weight": -0.25,
+    "p_scale_whit": -0.044
+   }
+  },
+  "党": {
+   "pos": "n",
+   "freq": 103165,
+   "source": "r25",
+   "norm": 0.186,
+   "vec": {
+    "p_valence": -0.012,
+    "p_scale": 0.012,
+    "p_rate": -0.042,
+    "p_time": -0.019,
+    "p_strength": 0.024,
+    "p_temp": -0.033,
+    "p_direction": 0.055,
+    "p_luminance": -0.012,
+    "p_transitivity": -0.037,
+    "p_weight": 0.161,
+    "p_scale_whit": 0.017
+   }
+  },
+  "华": {
+   "pos": "a",
+   "freq": 103158,
+   "source": "r25",
+   "norm": 0.141,
+   "vec": {
+    "p_valence": 0.021,
+    "p_scale": 0.027,
+    "p_rate": -0.05,
+    "p_time": 0.004,
+    "p_strength": -0.006,
+    "p_temp": 0.1,
+    "p_direction": 0.007,
+    "p_luminance": -0.064,
+    "p_transitivity": -0.023,
+    "p_weight": 0.038,
+    "p_scale_whit": 0.019
+   }
+  },
+  "城": {
+   "pos": "n",
+   "freq": 102833,
+   "source": "r25",
+   "norm": 0.306,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.014,
+    "p_rate": -0.075,
+    "p_time": -0.001,
+    "p_strength": 0.091,
+    "p_temp": -0.065,
+    "p_direction": 0.039,
+    "p_luminance": 0.053,
+    "p_transitivity": -0.105,
+    "p_weight": 0.245,
+    "p_scale_whit": 0.011
+   }
+  },
+  "级": {
+   "pos": "n",
+   "freq": 102018,
+   "source": "r25",
+   "norm": 0.153,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.01,
+    "p_rate": 0.027,
+    "p_time": -0.008,
+    "p_strength": 0.014,
+    "p_temp": -0.058,
+    "p_direction": -0.03,
+    "p_luminance": -0.024,
+    "p_transitivity": -0.043,
+    "p_weight": 0.125,
+    "p_scale_whit": 0.007
+   }
+  },
+  "府": {
+   "pos": "n",
+   "freq": 100771,
+   "source": "r25",
+   "norm": 0.239,
+   "vec": {
+    "p_valence": 0.015,
+    "p_scale": 0.004,
+    "p_rate": -0.06,
+    "p_time": -0.019,
+    "p_strength": 0.104,
+    "p_temp": -0.068,
+    "p_direction": 0.07,
+    "p_luminance": -0.035,
+    "p_transitivity": -0.043,
+    "p_weight": 0.171,
+    "p_scale_whit": -0.002
+   }
+  },
+  "离": {
+   "pos": "v",
+   "freq": 100744,
+   "source": "r25",
+   "norm": 0.603,
+   "vec": {
+    "p_valence": -0.087,
+    "p_scale": -0.005,
+    "p_rate": 0.062,
+    "p_time": 0.017,
+    "p_strength": -0.106,
+    "p_temp": -0.062,
+    "p_direction": -0.57,
+    "p_luminance": -0.005,
+    "p_transitivity": -0.0,
+    "p_weight": -0.114,
+    "p_scale_whit": 0.029
+   }
+  },
+  "况": {
+   "pos": "n",
+   "freq": 100680,
+   "source": "r25",
+   "norm": 0.127,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.005,
+    "p_rate": -0.018,
+    "p_time": -0.013,
+    "p_strength": -0.047,
+    "p_temp": -0.053,
+    "p_direction": -0.028,
+    "p_luminance": -0.084,
+    "p_transitivity": -0.053,
+    "p_weight": -0.007,
+    "p_scale_whit": 0.005
+   }
+  },
+  "亚": {
+   "pos": "a",
+   "freq": 100251,
+   "source": "r25",
+   "norm": 0.162,
+   "vec": {
+    "p_valence": -0.012,
+    "p_scale": -0.038,
+    "p_rate": -0.025,
+    "p_time": -0.001,
+    "p_strength": -0.072,
+    "p_temp": -0.058,
+    "p_direction": -0.006,
+    "p_luminance": -0.112,
+    "p_transitivity": -0.005,
+    "p_weight": -0.052,
+    "p_scale_whit": -0.033
+   }
+  },
+  "请": {
+   "pos": "v",
+   "freq": 100226,
+   "source": "r25",
+   "norm": 0.309,
+   "vec": {
+    "p_valence": 0.05,
+    "p_scale": -0.005,
+    "p_rate": -0.07,
+    "p_time": 0.019,
+    "p_strength": -0.156,
+    "p_temp": 0.053,
+    "p_direction": -0.008,
+    "p_luminance": 0.025,
+    "p_transitivity": -0.008,
+    "p_weight": -0.245,
+    "p_scale_whit": -0.024
+   }
+  },
+  "技": {
+   "pos": "n",
+   "freq": 99790,
+   "source": "r25",
+   "norm": 0.114,
+   "vec": {
+    "p_valence": 0.018,
+    "p_scale": 0.009,
+    "p_rate": -0.012,
+    "p_time": 0.009,
+    "p_strength": 0.021,
+    "p_temp": -0.067,
+    "p_direction": -0.008,
+    "p_luminance": 0.053,
+    "p_transitivity": -0.038,
+    "p_weight": -0.055,
+    "p_scale_whit": 0.002
+   }
+  },
+  "际": {
+   "pos": "n",
+   "freq": 99412,
+   "source": "r25",
+   "norm": 0.142,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.012,
+    "p_rate": 0.015,
+    "p_time": 0.009,
+    "p_strength": -0.042,
+    "p_temp": -0.043,
+    "p_direction": 0.007,
+    "p_luminance": -0.112,
+    "p_transitivity": -0.058,
+    "p_weight": -0.007,
+    "p_scale_whit": 0.011
+   }
+  },
+  "约": {
+   "pos": "v",
+   "freq": 99148,
+   "source": "r25",
+   "norm": 0.231,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.041,
+    "p_rate": -0.003,
+    "p_time": -0.003,
+    "p_strength": -0.159,
+    "p_temp": -0.055,
+    "p_direction": 0.102,
+    "p_luminance": -0.019,
+    "p_transitivity": -0.052,
+    "p_weight": -0.1,
+    "p_scale_whit": -0.043
+   }
+  },
+  "示": {
+   "pos": "v",
+   "freq": 98963,
+   "source": "r25",
+   "norm": 0.196,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.012,
+    "p_rate": -0.013,
+    "p_time": 0.007,
+    "p_strength": -0.076,
+    "p_temp": -0.058,
+    "p_direction": -0.025,
+    "p_luminance": 0.071,
+    "p_transitivity": 0.04,
+    "p_weight": -0.147,
+    "p_scale_whit": 0.009
+   }
+  },
+  "复": {
+   "pos": "v",
+   "freq": 98822,
+   "source": "r25",
+   "norm": 0.25,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.019,
+    "p_rate": 0.047,
+    "p_time": -0.004,
+    "p_strength": 0.036,
+    "p_temp": -0.063,
+    "p_direction": 0.14,
+    "p_luminance": -0.112,
+    "p_transitivity": 0.005,
+    "p_weight": 0.15,
+    "p_scale_whit": 0.014
+   }
+  },
+  "病": {
+   "pos": "n",
+   "freq": 98692,
+   "source": "r25",
+   "norm": 0.511,
+   "vec": {
+    "p_valence": -0.445,
+    "p_scale": 0.012,
+    "p_rate": 0.033,
+    "p_time": -0.004,
+    "p_strength": -0.021,
+    "p_temp": -0.043,
+    "p_direction": 0.03,
+    "p_luminance": 0.12,
+    "p_transitivity": 0.037,
+    "p_weight": 0.206,
+    "p_scale_whit": 0.185
+   }
+  },
+  "息": {
+   "pos": "n",
+   "freq": 98447,
+   "source": "r25",
+   "norm": 0.157,
+   "vec": {
+    "p_valence": 0.01,
+    "p_scale": -0.051,
+    "p_rate": -0.028,
+    "p_time": -0.006,
+    "p_strength": -0.096,
+    "p_temp": -0.02,
+    "p_direction": -0.018,
+    "p_luminance": -0.102,
+    "p_transitivity": -0.02,
+    "p_weight": 0.02,
+    "p_scale_whit": -0.055
+   }
+  },
+  "究": {
+   "pos": "f",
+   "freq": 98377,
+   "source": "r25",
+   "norm": 0.406,
+   "vec": {
+    "p_valence": -0.017,
+    "p_scale": 0.039,
+    "p_rate": -0.023,
+    "p_time": -0.021,
+    "p_strength": 0.089,
+    "p_temp": 0.003,
+    "p_direction": 0.085,
+    "p_luminance": -0.095,
+    "p_transitivity": -0.065,
+    "p_weight": 0.365,
+    "p_scale_whit": 0.045
+   }
+  },
+  "线": {
+   "pos": "n",
+   "freq": 98261,
+   "source": "r25",
+   "norm": 0.36,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": -0.031,
+    "p_rate": -0.047,
+    "p_time": -0.003,
+    "p_strength": -0.147,
+    "p_temp": -0.075,
+    "p_direction": -0.05,
+    "p_luminance": 0.071,
+    "p_transitivity": -0.125,
+    "p_weight": -0.275,
+    "p_scale_whit": -0.033
+   }
+  },
+  "似": {
+   "pos": "v",
+   "freq": 98057,
+   "source": "r25",
+   "norm": 0.313,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": -0.011,
+    "p_rate": -0.055,
+    "p_time": -0.016,
+    "p_strength": -0.211,
+    "p_temp": -0.055,
+    "p_direction": -0.006,
+    "p_luminance": -0.064,
+    "p_transitivity": -0.035,
+    "p_weight": -0.205,
+    "p_scale_whit": -0.014
+   }
+  },
+  "官": {
+   "pos": "n",
+   "freq": 97897,
+   "source": "r25",
+   "norm": 0.179,
+   "vec": {
+    "p_valence": -0.007,
+    "p_scale": 0.037,
+    "p_rate": -0.058,
+    "p_time": -0.033,
+    "p_strength": 0.014,
+    "p_temp": -0.077,
+    "p_direction": 0.017,
+    "p_luminance": 0.06,
+    "p_transitivity": -0.07,
+    "p_weight": 0.106,
+    "p_scale_whit": 0.04
+   }
+  },
+  "断": {
+   "pos": "v",
+   "freq": 97235,
+   "source": "r25",
+   "norm": 0.781,
+   "vec": {
+    "p_valence": -0.255,
+    "p_scale": -0.056,
+    "p_rate": 0.547,
+    "p_time": 0.014,
+    "p_strength": -0.089,
+    "p_temp": -0.037,
+    "p_direction": -0.43,
+    "p_luminance": 0.008,
+    "p_transitivity": 0.185,
+    "p_weight": 0.12,
+    "p_scale_whit": 0.043
+   }
+  },
+  "精": {
+   "pos": "a",
+   "freq": 97135,
+   "source": "r25",
+   "norm": 0.358,
+   "vec": {
+    "p_valence": 0.09,
+    "p_scale": -0.031,
+    "p_rate": -0.007,
+    "p_time": -0.006,
+    "p_strength": 0.186,
+    "p_temp": 0.045,
+    "p_direction": 0.079,
+    "p_luminance": -0.05,
+    "p_transitivity": -0.005,
+    "p_weight": 0.271,
+    "p_scale_whit": -0.066
+   }
+  },
+  "支": {
+   "pos": "v",
+   "freq": 96814,
+   "source": "r25",
+   "norm": 0.14,
+   "vec": {
+    "p_valence": -0.027,
+    "p_scale": 0.004,
+    "p_rate": 0.008,
+    "p_time": -0.008,
+    "p_strength": -0.006,
+    "p_temp": -0.06,
+    "p_direction": -0.061,
+    "p_luminance": -0.084,
+    "p_transitivity": -0.0,
+    "p_weight": -0.065,
+    "p_scale_whit": 0.014
+   }
+  },
+  "视": {
+   "pos": "v",
+   "freq": 96326,
+   "source": "r25",
+   "norm": 0.293,
+   "vec": {
+    "p_valence": 0.008,
+    "p_scale": 0.004,
+    "p_rate": -0.048,
+    "p_time": 0.014,
+    "p_strength": -0.076,
+    "p_temp": -0.06,
+    "p_direction": -0.05,
+    "p_luminance": 0.215,
+    "p_transitivity": -0.077,
+    "p_weight": -0.14,
+    "p_scale_whit": 0.0
+   }
+  },
+  "消": {
+   "pos": "v",
+   "freq": 96263,
+   "source": "r25",
+   "norm": 0.679,
+   "vec": {
+    "p_valence": -0.3,
+    "p_scale": -0.31,
+    "p_rate": 0.055,
+    "p_time": 0.011,
+    "p_strength": -0.197,
+    "p_temp": -0.057,
+    "p_direction": -0.435,
+    "p_luminance": -0.057,
+    "p_transitivity": 0.13,
+    "p_weight": -0.144,
+    "p_scale_whit": -0.193
+   }
+  },
+  "越": {
+   "pos": "v",
+   "freq": 95657,
+   "source": "r25",
+   "norm": 0.197,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.129,
+    "p_rate": 0.085,
+    "p_time": -0.006,
+    "p_strength": -0.011,
+    "p_temp": -0.01,
+    "p_direction": 0.002,
+    "p_luminance": -0.084,
+    "p_transitivity": 0.032,
+    "p_weight": -0.084,
+    "p_scale_whit": 0.128
+   }
+  },
+  "器": {
+   "pos": "n",
+   "freq": 95444,
+   "source": "r25",
+   "norm": 0.261,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": -0.006,
+    "p_rate": -0.068,
+    "p_time": -0.006,
+    "p_strength": 0.054,
+    "p_temp": -0.077,
+    "p_direction": -0.025,
+    "p_luminance": -0.077,
+    "p_transitivity": -0.095,
+    "p_weight": 0.198,
+    "p_scale_whit": -0.007
+   }
+  },
+  "容": {
+   "pos": "v",
+   "freq": 95407,
+   "source": "r25",
+   "norm": 0.204,
+   "vec": {
+    "p_valence": 0.036,
+    "p_scale": 0.035,
+    "p_rate": -0.07,
+    "p_time": -0.004,
+    "p_strength": -0.004,
+    "p_temp": 0.028,
+    "p_direction": 0.032,
+    "p_luminance": -0.072,
+    "p_transitivity": -0.133,
+    "p_weight": 0.096,
+    "p_scale_whit": 0.021
+   }
+  },
+  "照": {
+   "pos": "v",
+   "freq": 95020,
+   "source": "r25",
+   "norm": 0.375,
+   "vec": {
+    "p_valence": 0.058,
+    "p_scale": 0.02,
+    "p_rate": -0.027,
+    "p_time": -0.008,
+    "p_strength": -0.006,
+    "p_temp": 0.067,
+    "p_direction": 0.007,
+    "p_luminance": 0.35,
+    "p_transitivity": -0.025,
+    "p_weight": -0.092,
+    "p_scale_whit": -0.002
+   }
+  },
+  "须": {
+   "pos": "f",
+   "freq": 94903,
+   "source": "r25",
+   "norm": 0.187,
+   "vec": {
+    "p_valence": -0.037,
+    "p_scale": 0.002,
+    "p_rate": 0.052,
+    "p_time": 0.001,
+    "p_strength": 0.074,
+    "p_temp": -0.03,
+    "p_direction": 0.089,
+    "p_luminance": -0.075,
+    "p_transitivity": -0.057,
+    "p_weight": 0.088,
+    "p_scale_whit": 0.016
+   }
+  },
+  "九": {
+   "pos": "f",
+   "freq": 94580,
+   "source": "r25",
+   "norm": 0.288,
+   "vec": {
+    "p_valence": 0.013,
+    "p_scale": 0.142,
+    "p_rate": -0.008,
+    "p_time": -0.028,
+    "p_strength": 0.168,
+    "p_temp": -0.045,
+    "p_direction": -0.01,
+    "p_luminance": 0.008,
+    "p_transitivity": -0.02,
+    "p_weight": 0.176,
+    "p_scale_whit": 0.137
+   }
+  },
+  "研": {
+   "pos": "v",
+   "freq": 93761,
+   "source": "r25",
+   "norm": 0.166,
+   "vec": {
+    "p_valence": 0.016,
+    "p_scale": 0.007,
+    "p_rate": -0.03,
+    "p_time": 0.021,
+    "p_strength": -0.069,
+    "p_temp": -0.038,
+    "p_direction": 0.047,
+    "p_luminance": -0.012,
+    "p_transitivity": -0.005,
+    "p_weight": 0.131,
+    "p_scale_whit": 0.001
+   }
+  },
+  "写": {
+   "pos": "v",
+   "freq": 93710,
+   "source": "r25",
+   "norm": 0.51,
+   "vec": {
+    "p_valence": 0.003,
+    "p_scale": 0.007,
+    "p_rate": 0.003,
+    "p_time": 0.034,
+    "p_strength": -0.042,
+    "p_temp": -0.027,
+    "p_direction": 0.024,
+    "p_luminance": 0.105,
+    "p_transitivity": 0.493,
+    "p_weight": -0.035,
+    "p_scale_whit": 0.006
+   }
+  },
+  "称": {
+   "pos": "v",
+   "freq": 93638,
+   "source": "r25",
+   "norm": 0.14,
+   "vec": {
+    "p_valence": 0.025,
+    "p_scale": 0.0,
+    "p_rate": -0.058,
+    "p_time": -0.009,
+    "p_strength": 0.004,
+    "p_temp": -0.063,
+    "p_direction": 0.024,
+    "p_luminance": -0.067,
+    "p_transitivity": -0.047,
+    "p_weight": -0.065,
+    "p_scale_whit": -0.009
+   }
+  },
+  "企": {
+   "pos": "n",
+   "freq": 93453,
+   "source": "r25",
+   "norm": 0.105,
+   "vec": {
+    "p_valence": 0.001,
+    "p_scale": 0.004,
+    "p_rate": -0.017,
+    "p_time": 0.002,
+    "p_strength": -0.029,
+    "p_temp": -0.065,
+    "p_direction": 0.062,
+    "p_luminance": -0.03,
+    "p_transitivity": -0.032,
+    "p_weight": 0.001,
+    "p_scale_whit": 0.003
+   }
+  },
+  "八": {
+   "pos": "f",
+   "freq": 92700,
+   "source": "r25",
+   "norm": 0.108,
+   "vec": {
+    "p_valence": 0.006,
+    "p_scale": 0.02,
+    "p_rate": 0.0,
+    "p_time": -0.018,
+    "p_strength": 0.029,
+    "p_temp": -0.063,
+    "p_direction": -0.06,
+    "p_luminance": 0.033,
+    "p_transitivity": -0.037,
+    "p_weight": 0.008,
+    "p_scale_whit": 0.018
+   }
+  }
+ }
+}
